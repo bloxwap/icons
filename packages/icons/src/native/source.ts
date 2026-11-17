@@ -1,4 +1,20 @@
-import {ICON_STROKE_WIDTH, toDataUri, type IconDefinition, type IconPaint} from '../core/index.js';
+import {ICON_STROKE_WIDTH, toSvg, type IconDefinition, type IconPaint} from '../core/index.js';
+
+// Android Expo Image's data-URL loader expects base64, not percent-encoded SVG.
+// Keep the browser serializer unchanged and avoid relying on Buffer/btoa in Hermes.
+function toDataUri(definition: IconDefinition, paint: IconPaint) {
+  const bytes = encodeURIComponent(toSvg(definition, paint)).replace(/%([0-9A-F]{2})/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+  let encoded = "";
+  for (let i = 0; i < bytes.length; i += 3) {
+    const a = bytes.charCodeAt(i), b = bytes.charCodeAt(i + 1), c = bytes.charCodeAt(i + 2);
+    const bits = (a << 16) | ((b || 0) << 8) | (c || 0);
+    encoded += alphabet[(bits >>> 18) & 63] + alphabet[(bits >>> 12) & 63]
+      + (i + 1 < bytes.length ? alphabet[(bits >>> 6) & 63] : "=")
+      + (i + 2 < bytes.length ? alphabet[bits & 63] : "=");
+  }
+  return `data:image/svg+xml;base64,${encoded}`;
+}
 
 const LIMIT = 256;
 type Source = Readonly<{uri: string}>;
