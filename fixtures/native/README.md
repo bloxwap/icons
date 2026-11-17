@@ -4,6 +4,9 @@ From the repository root, run `node scripts/pack-ui-icons.mjs`. In this director
 run `npm ci` and `npm start`, then open the project in Expo Go for SDK 58. The
 screen reports successful native decoding for the entire catalog and lets you
 check contrast after a theme change. `npm run export` bundles both iOS and Android.
+After changing the archive, first refresh its locked checksum from this directory:
+`npm install --package-lock-only --ignore-scripts @bloxwap/icons@file:../../artifacts/bloxwap-icons-0.1.0.tgz`.
+Then run `npm ci` so the fixture tests the newly packed implementation.
 Restart Metro with `npm start -- --clear` after changing a package archive or
 when running with `CI=1`, which disables normal file watching.
 

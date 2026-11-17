@@ -6,7 +6,13 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "docs:dev": "pnpm --filter @bloxwap/icons-docs dev",
+    "docs:build": "pnpm --filter @bloxwap/icons-docs build",
+    "docs:check": "pnpm --filter @bloxwap/icons-docs check",
+    "docs:preview": "pnpm --filter @bloxwap/icons-docs preview",
+    "docs:test": "pnpm --filter @bloxwap/icons-docs test",
+    "docs:test:dev": "pnpm --filter @bloxwap/icons-docs test:dev"
   },
   "keywords": [],
   "author": "strobie",

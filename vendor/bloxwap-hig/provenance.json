@@ -1,0 +1,12 @@
+{
+  "repository": "bloxwap/hig",
+  "commit": "872906a9071469af8714b3b6fb5cc7bd64d2d6f3",
+  "version": "0.1.0-candidate.sha872906a9",
+  "producedBy": "npm ci && npm run build && npm run generate:fonts && npm run release:dry-run -- --channel candidate (Node 22.22.0, npm 11.6.1; fonttools 4.61.1 + brotli for the native faces in @bloxwap/hig-native-fonts)",
+  "distribution": "unpublished candidate tarballs; no npm release, tag or GitHub release exists",
+  "sha256": {
+    "bloxwap-hig-contracts-0.1.0-candidate.sha872906a9.tgz": "ca8d5e0fe7e6138c056e9b45182e664c69d7217295264dff56a09290acabd352",
+    "bloxwap-hig-react-0.1.0-candidate.sha872906a9.tgz": "5835fea5e4f701815fb4152cf079901d0f8af634ef3fbb537b40fc48500670c4",
+    "bloxwap-hig-tokens-0.1.0-candidate.sha872906a9.tgz": "62b4007b5e06ee571352f8a33bd7e14025745fe42234d8532092739ff49f6196"
+  }
+}

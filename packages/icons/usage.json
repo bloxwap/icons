@@ -1,0 +1,5815 @@
+{
+  "repositories": {
+    "bloxwap/monorepo": {
+      "commit": "c2ee3fb7c4e03de60ff22b20ab322f989602e174"
+    },
+    "bloxwap/chart": {
+      "commit": "7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987"
+    }
+  },
+  "scope": "Value imports, MDX icon metadata and imports, and the plain DOM adapter from Bloxwap apps/packages; all SVGs shipped by the Pro chart library. Test fixtures and generated documentation are excluded.",
+  "icons": [
+    {
+      "name": "activity",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Activity"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        }
+      ]
+    },
+    {
+      "name": "archive",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Archive"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowDown"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/data-table.tsx",
+          "sha256": "4b0b5c59b0dff9650803d39aefa01af35d480315a3af810d4b1ff1b5c0ed5c63"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/history-card.tsx",
+          "sha256": "9a3f156a252f484f8f76484bd7075e2dbc73c7c130e5c86476705acb9b035b4b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/onboarding-hint.tsx",
+          "sha256": "9a0fcf8d7ebed4aee1ef8c62aafb7d1dd4e2b0ec2a9f7e02dfa091d23905ea9e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/position-list-row.tsx",
+          "sha256": "1b38a955fd700dcdc69a2ce9a33d910f581dfeb264269a44582a44c6aecac2d7"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/seam-arrow.tsx",
+          "sha256": "c39a72dd3aad753401c7430945c3a1b2966a3a977b85451b151bb3508b302b49"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/trade-detail-card.tsx",
+          "sha256": "92b631aca718dacd98b64bbf663022430886980e1ba0b1b2079e41da994f73db"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/position-card-renderers.tsx",
+          "sha256": "98a4d532d67d101d5061780cf5d19abea150b8d05b18b4c24ebf84a4c6dfea91"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-amount-entry.tsx",
+          "sha256": "45677824791ff7aaf5dd7ca61bcea6e4a5055ac57ecba1bf3657ac379a7dcd77"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-renderers.tsx",
+          "sha256": "dc4388e5c4f4cc4f91e307e85c6992eb1223b20cad04c420a2f97eadf697c1da"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-list-row.tsx",
+          "sha256": "cef9e81930f08791c67b6eef7a09417c602aad68f4848372f91952e01eefe470"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/trade-history.tsx",
+          "sha256": "35005f2a5c591f3e9b5e3cadbc70fecadde9cebabf70a84ce6f0f7a0112f4fea"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/trade-detail-card.tsx",
+          "sha256": "d5846b9cc6241c78c903f7e5c0be2b66f55d5668e4406f9bc7f28389138d75fe"
+        }
+      ]
+    },
+    {
+      "name": "arrow-down-to-line",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowDownToLine"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/account-summary.tsx",
+          "sha256": "2973d3c3e02f7feb73d1d328615edda8dd1c534c582b6061d53480f06baeae1e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/nav/connect-wallet-button.tsx",
+          "sha256": "06949b9a27ef04b40aa8f15330ccd9920ab797e034aa4e60f8a0b36e93bde958"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/portfolio/portfolio-view.tsx",
+          "sha256": "5a349c444fcbac9cabd5adb37742fb853b7f67d7c97215380170bb5a0fb80c74"
+        }
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowLeft"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/tournament-drawer-content.tsx",
+          "sha256": "09f506b37c2941430d739b0bc9ef71d41e19442810203edf8aaa23815e961485"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/blog/src/app/not-found.tsx",
+          "sha256": "62354d1adfd66cee6ab0d0a5ace3255557da5e5bd8cf9225ec6443521bdbd306"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/blog/src/components/article-header.tsx",
+          "sha256": "14021457e7a2e6ca4ad8c48f8aafc87657f74078968aacbdbb14aed6112e1b7d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/app/not-found.tsx",
+          "sha256": "1ddc24f79200a42d43c52063fac25d9a11f4882167acf3c4e22afe0fe4dff255"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/referral-leaderboard.tsx",
+          "sha256": "feb24a4aae4a95824b39fbae09fe09aa32fb6256b3104df38f41180843c2a35b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/withdraw-dialog.tsx",
+          "sha256": "351e610746a04e44f52630d87ad59fbde72416bd7a071b74e3c3bb96da326eee"
+        }
+      ]
+    },
+    {
+      "name": "arrow-left-right",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowLeftRight"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/sim-funding-cards.tsx",
+          "sha256": "c49ed91a787a98ff6e0067c76f7a3778e17b6caffebc237f788f52d3b57a3949"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        }
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowRight"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/app/not-found.tsx",
+          "sha256": "dc974d6bd8f6504c817ee2e0461986b54c36291cbee1ca0454774e87162e6a24"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/referral-prompt.tsx",
+          "sha256": "f5d1abde9c7eaba01501264b5621cb409267a472137a59617b82486703ab0291"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/tournament-drawer-content.tsx",
+          "sha256": "09f506b37c2941430d739b0bc9ef71d41e19442810203edf8aaa23815e961485"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/tournament-join-modal.tsx",
+          "sha256": "7bbe21ab6f07ff2a521867bae3837baaa861ceadc865695a2b251f36cc25d6d8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/agent-task-dialog.tsx",
+          "sha256": "0cd0cfa6a5d22e52ef7f6d2cc457a4a329ea208d9670224978e8f792477145b2"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/builder-task-dialog.tsx",
+          "sha256": "d20d7767abeec9c9465a0270dc684da92bfe5643ca655395052cd7eb8286783e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/leaderboard-cta.tsx",
+          "sha256": "1935720378919bda0c5d9876ab56a4a6134aad5c0d9f86ba3061543a29fbc19d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/blog/src/app/page.tsx",
+          "sha256": "326d99ff64faff3d55701488582324dca2bafacbca9d1510b82d17781f8522e4"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/gate-form.tsx",
+          "sha256": "8a9855913664d2adc5690a6c6abc9ef36f3fc195de3dd201216ee45016695d15"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/link-card.tsx",
+          "sha256": "4963271bfa4c7ab2d3cbb069444c6deb0b1c76dcf501c58ff7047a8db79f7acd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/referral-leaderboard.tsx",
+          "sha256": "feb24a4aae4a95824b39fbae09fe09aa32fb6256b3104df38f41180843c2a35b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/season01-leaderboard.tsx",
+          "sha256": "a1594c8ffe09ea660983e53c815095adbad60466d588153c3b6359b1002dca21"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/not-found-screen.tsx",
+          "sha256": "697cf25edbabb2b337261757fc199edff02d42beaf579cc66adb1ae982b7a46d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/advanced-card.tsx",
+          "sha256": "f54fe022ceaa3cc3168dbc16125345de59f726f07478225a15356434b0c7f338"
+        }
+      ]
+    },
+    {
+      "name": "arrow-right-left",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowRightLeft"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/hype-staking-card.tsx",
+          "sha256": "3088036af0c38139b6b4c66cae983d0e272465b737bddd689502b0e108c6f83e"
+        }
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowUp"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/data-table.tsx",
+          "sha256": "4b0b5c59b0dff9650803d39aefa01af35d480315a3af810d4b1ff1b5c0ed5c63"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/history-card.tsx",
+          "sha256": "9a3f156a252f484f8f76484bd7075e2dbc73c7c130e5c86476705acb9b035b4b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/onboarding-hint.tsx",
+          "sha256": "9a0fcf8d7ebed4aee1ef8c62aafb7d1dd4e2b0ec2a9f7e02dfa091d23905ea9e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/position-list-row.tsx",
+          "sha256": "1b38a955fd700dcdc69a2ce9a33d910f581dfeb264269a44582a44c6aecac2d7"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/trade-detail-card.tsx",
+          "sha256": "92b631aca718dacd98b64bbf663022430886980e1ba0b1b2079e41da994f73db"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/position-card-renderers.tsx",
+          "sha256": "98a4d532d67d101d5061780cf5d19abea150b8d05b18b4c24ebf84a4c6dfea91"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-list-row.tsx",
+          "sha256": "cef9e81930f08791c67b6eef7a09417c602aad68f4848372f91952e01eefe470"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/trade-history.tsx",
+          "sha256": "35005f2a5c591f3e9b5e3cadbc70fecadde9cebabf70a84ce6f0f7a0112f4fea"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/trade-detail-card.tsx",
+          "sha256": "d5846b9cc6241c78c903f7e5c0be2b66f55d5668e4406f9bc7f28389138d75fe"
+        }
+      ]
+    },
+    {
+      "name": "arrow-up-down",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowUpDown"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/conversion-pill.tsx",
+          "sha256": "af669e543e4645f539c8d5afdab1deb0cace44f53533ebb9c54cea726e620666"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-renderers.tsx",
+          "sha256": "dc4388e5c4f4cc4f91e307e85c6992eb1223b20cad04c420a2f97eadf697c1da"
+        }
+      ]
+    },
+    {
+      "name": "arrow-up-from-line",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowUpFromLine"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/account-summary.tsx",
+          "sha256": "2973d3c3e02f7feb73d1d328615edda8dd1c534c582b6061d53480f06baeae1e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/portfolio/portfolio-view.tsx",
+          "sha256": "5a349c444fcbac9cabd5adb37742fb853b7f67d7c97215380170bb5a0fb80c74"
+        }
+      ]
+    },
+    {
+      "name": "arrow-up-right",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ArrowUpRight"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/blog/src/components/blog-shell.tsx",
+          "sha256": "b2c393a99a004b2ae751666f9374a288c70f43f5f4660e65c9b1cae644157bad"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/blog/src/components/post-list.tsx",
+          "sha256": "a7cadfbf32802ed16cefabc5089640297988f36cbeb68a9456e6b6ead54257af"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/app/(docs)/layout.tsx",
+          "sha256": "430dacd9d480ac5a77d4ba49ab745e38d1f5b7eb5309a5d127a2f8e975cc4814"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/cluster/cluster-guide.tsx",
+          "sha256": "27155e47af60fa17f49d270c9dab595e128f34d479b810f26e11d927c92df995"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/link-card.tsx",
+          "sha256": "4963271bfa4c7ab2d3cbb069444c6deb0b1c76dcf501c58ff7047a8db79f7acd"
+        }
+      ]
+    },
+    {
+      "name": "audio-lines",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "AudioLines"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/sfx.mdx",
+          "sha256": "af8872f3e4abdfda4c440b6e1129181e996f434015c26f28dedbc4b523845839"
+        }
+      ]
+    },
+    {
+      "name": "badge-check",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "BadgeCheck"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/genesis-badge-check.tsx",
+          "sha256": "167a7ece3be744c3d1818a914c31db745411adb74cecc6783c00535ab636a99c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/genesis.mdx",
+          "sha256": "2b6ffc846bcc38ffcac5dd7fb321386da11aee40a1a8cb4ce52f5c91aa88e561"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/season01-leaderboard.tsx",
+          "sha256": "a1594c8ffe09ea660983e53c815095adbad60466d588153c3b6359b1002dca21"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/signals-card.tsx",
+          "sha256": "0fdf6047d1bb560b4443695bc91891df9913ab6a70e7d64edd368bcfdf482ec0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/genesis-badge.tsx",
+          "sha256": "559ce2fb09afd7eebbd0f5f2172c85fb8ad3dc552df2e6d923c3317027236c63"
+        }
+      ]
+    },
+    {
+      "name": "ban",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Ban"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "banknote",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Banknote"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/size-lev-picker.tsx",
+          "sha256": "edb2cda93a8a010e3e93358466a5f0ffe2b1c8f5b1bf0f18033445b4e9c4e728"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/index.mdx",
+          "sha256": "239eb62def8e275c3567bafe45d6c4bc3e4f4dfd5922e37b6cdfc27a4eda67eb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/withdraw-to-base.mdx",
+          "sha256": "03320eda7eb544cb5aedaef787fe2fa3cd9ee8e9895bbf244e84282b049c4dc6"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-rail.tsx",
+          "sha256": "00f9a566017247d60386e845e5b27c1175450f4a617cc3b6d39825eb8b658103"
+        }
+      ]
+    },
+    {
+      "name": "bell",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Bell"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/subscribe.mdx",
+          "sha256": "a0d8e56314bd03d5c0afcc1fb3444dd4219d39ace6fb4c5043bf62c3fddcddd6"
+        }
+      ]
+    },
+    {
+      "name": "bitcoin",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Bitcoin"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/assets.mdx",
+          "sha256": "6206fe018be79f10ad4052bea2f8ed894158c7d7e13bfc8d47f881ca6e112058"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/deposit-bitcoin-cash-app.mdx",
+          "sha256": "6d8672457e87914e7d277d56eb9be3c58010af68b31aeeae786c790e12f84875"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/index.mdx",
+          "sha256": "239eb62def8e275c3567bafe45d6c4bc3e4f4dfd5922e37b6cdfc27a4eda67eb"
+        }
+      ]
+    },
+    {
+      "name": "book-a",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "BookA"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/glossary.mdx",
+          "sha256": "5fa0f6e511a087397d20beeed6115dfc703b82c8b5cf0c3ae1a4607f779fe000"
+        }
+      ]
+    },
+    {
+      "name": "bot",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Bot"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/developers/templates.mdx",
+          "sha256": "35bd78af9cac322fcbcc51141332a777f3712d40fef0a258d44b1da1fa82fbe9"
+        }
+      ]
+    },
+    {
+      "name": "box",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Box"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/cluster/3d.mdx",
+          "sha256": "af6d1ce981f0269425ecac4777f845382a02112b30c9f8432e526ec841b952dc"
+        }
+      ]
+    },
+    {
+      "name": "braces",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Braces"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/links.mdx",
+          "sha256": "3f747aaed2332edbe8185671b7205e27bdbcbb0169e7d6332138e886455765dc"
+        }
+      ]
+    },
+    {
+      "name": "briefcase",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Briefcase"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/size-lev-picker.tsx",
+          "sha256": "edb2cda93a8a010e3e93358466a5f0ffe2b1c8f5b1bf0f18033445b4e9c4e728"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-rail.tsx",
+          "sha256": "00f9a566017247d60386e845e5b27c1175450f4a617cc3b6d39825eb8b658103"
+        }
+      ]
+    },
+    {
+      "name": "chart-candlestick",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChartCandlestick"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/links.mdx",
+          "sha256": "3f747aaed2332edbe8185671b7205e27bdbcbb0169e7d6332138e886455765dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/chart.mdx",
+          "sha256": "9bb1c449b4416b459753b765b0708e13c738d7f1d15f7eff5f302fef03b21776"
+        }
+      ]
+    },
+    {
+      "name": "chart-column",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChartColumn"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/links.mdx",
+          "sha256": "3f747aaed2332edbe8185671b7205e27bdbcbb0169e7d6332138e886455765dc"
+        }
+      ]
+    },
+    {
+      "name": "check",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Check",
+        "CheckIcon"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+          "sha256": "ab3d1b023e2175fff2991c884bb09a3e50d9c665f96250c48a1f359c22544077"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/profile-cards.tsx",
+          "sha256": "0d656b1e8d639bdc84bd0cc45ed2c2763659287eac570e69e947d767b4cdc058"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/send-cards.tsx",
+          "sha256": "6225ac2c81673d474a668df17569b12461b430c13b16b8a6e8c20ed52a823d90"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/setting-rows.tsx",
+          "sha256": "98bf04beaf6020e144e14d346e3f170f8ab3b17ee44519aca67620b9c4be69c6"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/market-picker.tsx",
+          "sha256": "4fb9c03ea1eb0981b88cd42449a3911b5225dbd8a622756409da9f3f70157e8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/notification-card.tsx",
+          "sha256": "061625c6b33323a5b05d8eb7894d3827ad4f0bb6737bc9008c62db40b6e8bc42"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/brand-colors.tsx",
+          "sha256": "19557ec5afc4b1c5bf29be3d7d5f8cca25e1808e1c6a44ff4c12209af387230f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/brand-messaging.tsx",
+          "sha256": "5a7084909e6c69b0b310ae8749226418abbe558cfdeadf6b4af9545157f4b112"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/contract-address.tsx",
+          "sha256": "34ac66e0ab44f50b46e20905f75662a478cbdc78d3cecdc79ead51737470fdcb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+          "sha256": "279440f6f9814d609b7bec24c9a85b8e2b44e38e42d8d293a4b25132f953cc58"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-renderers.tsx",
+          "sha256": "dc4388e5c4f4cc4f91e307e85c6992eb1223b20cad04c420a2f97eadf697c1da"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/market-picker.tsx",
+          "sha256": "616b19af83ad9019fa877b8af772b3f2a9f35c850a7bdaeaa26d8b87839663f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/hig/language-picker.tsx",
+          "sha256": "5a7cc7b1608a9d181f2e1b9e1b48bb767a091f7db1d786ecc510a1af8cc5bf3a"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/advanced-card.tsx",
+          "sha256": "f54fe022ceaa3cc3168dbc16125345de59f726f07478225a15356434b0c7f338"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/choose-avatar-card.tsx",
+          "sha256": "88b6db8ec31e1782d342cfb4f76c250806f890aa78708d483697bd329d9eb44e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/language-card.tsx",
+          "sha256": "5525ee1c0cb3c99d047401ccb5d46c42f3747fcacecc2c5c25bd10d407005dff"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/signing-account-card.tsx",
+          "sha256": "06aa7c4b034d75ef7310b280739354ef555d76dfb499c9fad0e8580e6a07112d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/nav/wallet-address-card.tsx",
+          "sha256": "0fd055cab9191ca3a101a402d045cb60817559b673d722157b2a4da94f0d1a42"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/toast.tsx",
+          "sha256": "734811e6db90db1157dce7436c87c122c6d2b020cae43dc076d5a1c7041c62d8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui/src/components/select.tsx",
+          "sha256": "43288e5c07179c834c3b9809ea1e65510deda8f61ae7256bd33258b9271b19a3"
+        }
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChevronDown",
+        "ChevronDownIcon"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/withdraw-cards.tsx",
+          "sha256": "a3e731f44ca1bd51d6bda93c1d772c97baf467df21773ad2649ef5c7884c56bb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/login-drawer.tsx",
+          "sha256": "11ee2484818590539960e05d15a61e35950b089b56559246fb4e7f23d505d62c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/order-ticket/order-ticket.tsx",
+          "sha256": "34b60db7e1ce74ebd714b76a08490945dea8381732e22838d8344926b9b5f5d0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui/src/components/select.tsx",
+          "sha256": "43288e5c07179c834c3b9809ea1e65510deda8f61ae7256bd33258b9271b19a3"
+        }
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChevronLeft"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/hig/drawer.tsx",
+          "sha256": "afe9f42f1cb0c4115cce4fbd4c9611fa6b6460de5bd1272d89798ad71b9e9440"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/drawer.tsx",
+          "sha256": "47a7a7807f553abad25b09016d223ec1fe24c763cf699236688104b1f85044f5"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/deck.tsx",
+          "sha256": "968eb575166c0a1289e490bf051149901e2967f0f518acec4c8df41ad030528f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deck.tsx",
+          "sha256": "6f047d24c66577b26b5cc6a7b386662ff8f98f823ca09d8351758136489caa1d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/size-lev-sheet.tsx",
+          "sha256": "f2160c94a70b33759e0fe5b949d9d70093722abbdf39061e89146b22a6427070"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/profile-sheet-body.tsx",
+          "sha256": "2cbf9220a79fe8f0a1808d73710a68cc1ec615eeb5c193c4784192b1cffb931b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/leaderboard/leaderboard-view.tsx",
+          "sha256": "bc0a0042acdf7a82e4cb61b2cba3295c959e5538110c90b6961a97e48640b43f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChevronRight"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+          "sha256": "ab3d1b023e2175fff2991c884bb09a3e50d9c665f96250c48a1f359c22544077"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/position-cards.tsx",
+          "sha256": "5024f53e32257ec2b8022dec3ccde2a24ba5a83d55b1e6dfc6b521d215103cc9"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/referral-cards.tsx",
+          "sha256": "563c5a1e06a642977a7c153a9af4ce1a943fb930f630be4e95cd5ec0771c1827"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/setting-rows.tsx",
+          "sha256": "98bf04beaf6020e144e14d346e3f170f8ab3b17ee44519aca67620b9c4be69c6"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/withdraw-cards.tsx",
+          "sha256": "a3e731f44ca1bd51d6bda93c1d772c97baf467df21773ad2649ef5c7884c56bb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/activity-card.tsx",
+          "sha256": "80a1500b73cc1cb97128ba9144560213dd8d86af0e4b0de1580584f3d516214c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/deposit-method-rows.tsx",
+          "sha256": "63d862f86eb3b373ebeabf1994a03a51aea5c76241903cee88ec3407af03bad2"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/history-card.tsx",
+          "sha256": "9a3f156a252f484f8f76484bd7075e2dbc73c7c130e5c86476705acb9b035b4b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/position-list-row.tsx",
+          "sha256": "1b38a955fd700dcdc69a2ce9a33d910f581dfeb264269a44582a44c6aecac2d7"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/size-lev-picker.tsx",
+          "sha256": "edb2cda93a8a010e3e93358466a5f0ffe2b1c8f5b1bf0f18033445b4e9c4e728"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/sl-tp-cards.tsx",
+          "sha256": "e7aee29ae15f4e89e263cf75fa54ebb912c72666257b0f9c968683a77925ec63"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-usdc-send-card.tsx",
+          "sha256": "1220ff6f25fef6769b1c4f0bd6ca60d899f5e2b8bb1fda6310dbca1ba274b0dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/deck.tsx",
+          "sha256": "968eb575166c0a1289e490bf051149901e2967f0f518acec4c8df41ad030528f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/position-card-renderers.tsx",
+          "sha256": "98a4d532d67d101d5061780cf5d19abea150b8d05b18b4c24ebf84a4c6dfea91"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+          "sha256": "279440f6f9814d609b7bec24c9a85b8e2b44e38e42d8d293a4b25132f953cc58"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-composer-renderers.tsx",
+          "sha256": "d05e8433e7873f80a5a47e3c98cf6b8ed84fa6fc8f22692ef23a5dc4d0a75933"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-list-row.tsx",
+          "sha256": "cef9e81930f08791c67b6eef7a09417c602aad68f4848372f91952e01eefe470"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/size-lev-risk-composer.tsx",
+          "sha256": "f1e77ac87a863d95037e20f281b3824b46cbdcbbcc258155c56c4d37f1135f93"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/size-lev-sheet.tsx",
+          "sha256": "f2160c94a70b33759e0fe5b949d9d70093722abbdf39061e89146b22a6427070"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/trade-history.tsx",
+          "sha256": "35005f2a5c591f3e9b5e3cadbc70fecadde9cebabf70a84ce6f0f7a0112f4fea"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/referral-card.tsx",
+          "sha256": "c77fab7e25d18b8e1d9e4e80c1be41bf236b133be717673bbfe7eea3d16df649"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/rows.tsx",
+          "sha256": "4a5d58eda9b492567f6bfbce52114dbfd91d79204bc5dd2c33d838c63e5f3b48"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/withdraw-dialog.tsx",
+          "sha256": "351e610746a04e44f52630d87ad59fbde72416bd7a071b74e3c3bb96da326eee"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/leaderboard/leaderboard-view.tsx",
+          "sha256": "bc0a0042acdf7a82e4cb61b2cba3295c959e5538110c90b6961a97e48640b43f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChevronUpIcon"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui/src/components/select.tsx",
+          "sha256": "43288e5c07179c834c3b9809ea1e65510deda8f61ae7256bd33258b9271b19a3"
+        }
+      ]
+    },
+    {
+      "name": "chevrons-up-down",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ChevronsUpDown"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/data-table.tsx",
+          "sha256": "4b0b5c59b0dff9650803d39aefa01af35d480315a3af810d4b1ff1b5c0ed5c63"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/nav/connect-wallet-button.tsx",
+          "sha256": "06949b9a27ef04b40aa8f15330ccd9920ab797e034aa4e60f8a0b36e93bde958"
+        }
+      ]
+    },
+    {
+      "name": "circle-alert",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "CircleAlert"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "circle-check",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "CheckCircle2"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/deposit-card.tsx",
+          "sha256": "cee2d99a9d333e8965045e64c628eb98a8fbfc19030ebfb470a0e62f65d8d6f8"
+        }
+      ]
+    },
+    {
+      "name": "clipboard-check",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ClipboardCheck"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/listing.mdx",
+          "sha256": "9a9780050b860914ee33596a9d9d5f58eca50c74691a9cf465139a7c07c2c2a7"
+        }
+      ]
+    },
+    {
+      "name": "clock",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Clock"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/hooks/use-market-open-countdown-toast.tsx",
+          "sha256": "82c2ed4bdcfdf7b846a2808b8ba86fe0e621d0f61b0a1296e7b434513f020e29"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Code"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/chart-frame.tsx",
+          "sha256": "251348030e1ce97b4fc8c90751803732d978e51ddaa0c5c5fe03a6086766735f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/developers/index.mdx",
+          "sha256": "59508c8870c11404b4c0e38173f59a751385845385903bdbb20e1a9465c40215"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/developers/meta.json",
+          "sha256": "e936779a00e7be37de89e9f3fbf0a718d21e2461af67368c0ae8beeea467e158"
+        }
+      ]
+    },
+    {
+      "name": "code-xml",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Code2",
+        "CodeXml"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/links.mdx",
+          "sha256": "3f747aaed2332edbe8185671b7205e27bdbcbb0169e7d6332138e886455765dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/index.mdx",
+          "sha256": "62ac2c33062c01dbd8d545413a52ef70db015a85b62a5d9c82db2e979db2193f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/meta.json",
+          "sha256": "9d103d42cede9e8fb858088ac0230bd0b95f27c5a5330b9e605fd4e7d7a267e6"
+        }
+      ]
+    },
+    {
+      "name": "coins",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Coins"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/fund-from-solana.mdx",
+          "sha256": "6f6c636126bb7d7c207bd54b14a4463aa2de87dc1ed79c48f18db5a60618fd85"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/index.mdx",
+          "sha256": "239eb62def8e275c3567bafe45d6c4bc3e4f4dfd5922e37b6cdfc27a4eda67eb"
+        }
+      ]
+    },
+    {
+      "name": "copy",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Copy"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/leaderboard-card.tsx",
+          "sha256": "99f57f44af34f6b122cd6d39ccbbfac7f609ed4dd146f295892d757391b12523"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/crypto-address.tsx",
+          "sha256": "36e3860b412347de073f7faac0321704d61b241c0dad07b14809930eb8b12a7b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/trade-share-card.tsx",
+          "sha256": "c798ae74e11cb7b41a943b1bb4aa44422bdc5cfaa3cd3032eb01cafc724c952a"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/brand-colors.tsx",
+          "sha256": "19557ec5afc4b1c5bf29be3d7d5f8cca25e1808e1c6a44ff4c12209af387230f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/brand-messaging.tsx",
+          "sha256": "5a7084909e6c69b0b310ae8749226418abbe558cfdeadf6b4af9545157f4b112"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/contract-address.tsx",
+          "sha256": "34ac66e0ab44f50b46e20905f75662a478cbdc78d3cecdc79ead51737470fdcb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+          "sha256": "279440f6f9814d609b7bec24c9a85b8e2b44e38e42d8d293a4b25132f953cc58"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/nav/wallet-address-card.tsx",
+          "sha256": "0fd055cab9191ca3a101a402d045cb60817559b673d722157b2a4da94f0d1a42"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "delete",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Delete"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/send-cards.tsx",
+          "sha256": "6225ac2c81673d474a668df17569b12461b430c13b16b8a6e8c20ed52a823d90"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/sim-funding-cards.tsx",
+          "sha256": "c49ed91a787a98ff6e0067c76f7a3778e17b6caffebc237f788f52d3b57a3949"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/withdraw-cards.tsx",
+          "sha256": "a3e731f44ca1bd51d6bda93c1d772c97baf467df21773ad2649ef5c7884c56bb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bloxwap-burn-card.tsx",
+          "sha256": "ea6438f3cb42a1a43ac7d9c04b0c419a16a105d27fa71d80e890c8b2e4684ab9"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bloxwap-send-card.tsx",
+          "sha256": "6132a3d19aa860573d9c81d97c5bb79363a0f5d1226cc5284d0053566c24ed77"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/hype-staking-card.tsx",
+          "sha256": "3088036af0c38139b6b4c66cae983d0e272465b737bddd689502b0e108c6f83e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/amount-pad.tsx",
+          "sha256": "df4223f2cac8e93659f373a5330a1645125de0ff79b109fcb962049f09bb0d31"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/size-lev-picker.tsx",
+          "sha256": "edb2cda93a8a010e3e93358466a5f0ffe2b1c8f5b1bf0f18033445b4e9c4e728"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/sl-tp-cards.tsx",
+          "sha256": "e7aee29ae15f4e89e263cf75fa54ebb912c72666257b0f9c968683a77925ec63"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-sol-send-card.tsx",
+          "sha256": "a5ccfe4c9588e102d409cde85e91137e026a5d8f1dc9dc2a08f2209ae9c07645"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-usdc-send-card.tsx",
+          "sha256": "1220ff6f25fef6769b1c4f0bd6ca60d899f5e2b8bb1fda6310dbca1ba274b0dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/swap/keypad.tsx",
+          "sha256": "d61d860590593730651bfff9e46ba842d592b3c33e67627c23989e32fb33199f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-primitives.tsx",
+          "sha256": "d69e40bb78c94c096c4cc4fbf4095f69a071218ce8084c40bfe42fd5ef73ec6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/size-lev-risk-composer.tsx",
+          "sha256": "f1e77ac87a863d95037e20f281b3824b46cbdcbbcc258155c56c4d37f1135f93"
+        }
+      ]
+    },
+    {
+      "name": "download",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Download"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/chart-frame.tsx",
+          "sha256": "251348030e1ce97b4fc8c90751803732d978e51ddaa0c5c5fe03a6086766735f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/download-deck.tsx",
+          "sha256": "83a3411acff6b858d192207e2cc04a48def1c60a6f180b683c2ae86a81f22f2d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/brand-livestream-card.tsx",
+          "sha256": "10452c85da65764b64dfbaa7cf6475501035154aa467fc41206bc515635adf13"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/brand-logos.tsx",
+          "sha256": "3cc9376bc24cf5289625c41e5747ba54916a4061ec798f2484aa4a126e573ee1"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "droplet",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Droplet"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/sim-funding-cards.tsx",
+          "sha256": "c49ed91a787a98ff6e0067c76f7a3778e17b6caffebc237f788f52d3b57a3949"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+          "sha256": "279440f6f9814d609b7bec24c9a85b8e2b44e38e42d8d293a4b25132f953cc58"
+        }
+      ]
+    },
+    {
+      "name": "ellipsis",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Ellipsis"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "external-link",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ExternalLink"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/setting-rows.tsx",
+          "sha256": "98bf04beaf6020e144e14d346e3f170f8ab3b17ee44519aca67620b9c4be69c6"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/rows.tsx",
+          "sha256": "4a5d58eda9b492567f6bfbce52114dbfd91d79204bc5dd2c33d838c63e5f3b48"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Eye"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/market-picker.tsx",
+          "sha256": "4fb9c03ea1eb0981b88cd42449a3911b5225dbd8a622756409da9f3f70157e8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/asset-pill.tsx",
+          "sha256": "1ebbd24f0179c376071effcd5cefbebd3284b4a7f46e58756e7725987796bd31"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/market-picker.tsx",
+          "sha256": "616b19af83ad9019fa877b8af772b3f2a9f35c850a7bdaeaa26d8b87839663f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/signals-card.tsx",
+          "sha256": "0fdf6047d1bb560b4443695bc91891df9913ab6a70e7d64edd368bcfdf482ec0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "figma",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Figma"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/brand.mdx",
+          "sha256": "6fed4bd268562c319f2d1c6ddcbdd04d73e13fccb4e48669fc71dd1de966fb89"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/lib/icons.ts",
+          "sha256": "a4d96f3a25a58c6703f43572e578f48ccbcf4cbec19e34e1f78157e50b8d498d"
+        }
+      ]
+    },
+    {
+      "name": "file",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "File"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "file-text",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "FileText"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "flame",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Flame"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bloxwap-burn-card.tsx",
+          "sha256": "ea6438f3cb42a1a43ac7d9c04b0c419a16a105d27fa71d80e890c8b2e4684ab9"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-staking-renderers.tsx",
+          "sha256": "b2126d888ee917eabbc9a306cc6e646615c53ae8f8e3e8a7d4a2f4f386e4d6ff"
+        }
+      ]
+    },
+    {
+      "name": "flask-conical",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "FlaskConical"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/unified-send-card.tsx",
+          "sha256": "4f306403891bb49609002e9863b0646525b16c6fd1d0aedf0271f00edad24acb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-renderers.tsx",
+          "sha256": "dc4388e5c4f4cc4f91e307e85c6992eb1223b20cad04c420a2f97eadf697c1da"
+        }
+      ]
+    },
+    {
+      "name": "folder",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Folder"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "folder-open",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "FolderOpen"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "folder-plus",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "FolderPlus"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "funnel",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Filter"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        }
+      ]
+    },
+    {
+      "name": "gift",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Gift"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/referral-cards.tsx",
+          "sha256": "563c5a1e06a642977a7c153a9af4ce1a943fb930f630be4e95cd5ec0771c1827"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/referrals-list-card.tsx",
+          "sha256": "f8f03c9f64ed610f8767400c3a61df696d7371b0621809eab62fc1fd09a9c159"
+        }
+      ]
+    },
+    {
+      "name": "github",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Github"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/links.mdx",
+          "sha256": "3f747aaed2332edbe8185671b7205e27bdbcbb0169e7d6332138e886455765dc"
+        }
+      ]
+    },
+    {
+      "name": "globe",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Globe"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/team.tsx",
+          "sha256": "ed5cbd127e5287aad0a9097fdebd83309ff1aa2a485f46901602407de71c962b"
+        }
+      ]
+    },
+    {
+      "name": "handshake",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Handshake"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/creators.mdx",
+          "sha256": "44349a2f17d9acc46f0ddc19abab89efbef94a50fe871fe1b6c6e07909f68330"
+        }
+      ]
+    },
+    {
+      "name": "hourglass",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Hourglass"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/queue-notice.tsx",
+          "sha256": "c1cbafb854864d3c07b2203658058a6ff6d991da683472ec8f4d0c74122ef18c"
+        }
+      ]
+    },
+    {
+      "name": "house",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "House"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/index.mdx",
+          "sha256": "0b698befc928056240934d4ba7704e304917bf857ab9cb2784bbbddab94eb2ef"
+        }
+      ]
+    },
+    {
+      "name": "image",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Image"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/chart-frame.tsx",
+          "sha256": "251348030e1ce97b4fc8c90751803732d978e51ddaa0c5c5fe03a6086766735f"
+        }
+      ]
+    },
+    {
+      "name": "image-off",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ImageOff"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/trade-share-card.tsx",
+          "sha256": "c798ae74e11cb7b41a943b1bb4aa44422bdc5cfaa3cd3032eb01cafc724c952a"
+        }
+      ]
+    },
+    {
+      "name": "inbox",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Inbox"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/data-table.tsx",
+          "sha256": "4b0b5c59b0dff9650803d39aefa01af35d480315a3af810d4b1ff1b5c0ed5c63"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/ui.tsx",
+          "sha256": "a523b0dc58e28ee91e48268b158139eb1d86dc0c1f1ae33449ba8fe331e48477"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/bottom-panel/data-table.tsx",
+          "sha256": "1bd41dfff3ebdb444f2d6f02e28aa6fb2e8b490f48564942d9509b0426e1eb12"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Info"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/market-banner.tsx",
+          "sha256": "7b13724458702e47d39a9a186db50409747e20dde04968fd1bd9d5c601bd58e5"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/notification-card.tsx",
+          "sha256": "061625c6b33323a5b05d8eb7894d3827ad4f0bb6737bc9008c62db40b6e8bc42"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/toast.tsx",
+          "sha256": "734811e6db90db1157dce7436c87c122c6d2b020cae43dc076d5a1c7041c62d8"
+        }
+      ]
+    },
+    {
+      "name": "key",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Key"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/developers/signing.mdx",
+          "sha256": "12b655b6ed4901f8f0fcf3dd57272c66de8a83390e42e61af1b8b0501710947c"
+        }
+      ]
+    },
+    {
+      "name": "key-round",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "KeyRound"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/profile-cards.tsx",
+          "sha256": "0d656b1e8d639bdc84bd0cc45ed2c2763659287eac570e69e947d767b4cdc058"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/export-wallet-card.tsx",
+          "sha256": "2db5fb9e0cd2812ef00ef0193d1ed3af3d545b93bb33ab6fe697fba97fc274e4"
+        }
+      ]
+    },
+    {
+      "name": "landmark",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Landmark"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/hype-staking-card.tsx",
+          "sha256": "3088036af0c38139b6b4c66cae983d0e272465b737bddd689502b0e108c6f83e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/stake-card.tsx",
+          "sha256": "2bf1820fd3ecb716200a0e8610966237343bea7b7d5e4a0b23e7c3297c55cafb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-icons.tsx",
+          "sha256": "f23c8d6d5f3b70f2d993d109d0bee827442a4ee3c84e6a9a2fbd68af9a2eb224"
+        }
+      ]
+    },
+    {
+      "name": "layers",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Layers"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/cluster/cluster-explorer.tsx",
+          "sha256": "4bdde79c71dcb80d75bd60e0c2711f4fff0c9241dcb4a97b6133130a21123dd0"
+        }
+      ]
+    },
+    {
+      "name": "layout-dashboard",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "LayoutDashboard"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Library"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/resources.mdx",
+          "sha256": "6a28eba981bde7097a6442753160200606affa3d03af0da8c0add7865a29583e"
+        }
+      ]
+    },
+    {
+      "name": "link",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Link"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/links.mdx",
+          "sha256": "3f747aaed2332edbe8185671b7205e27bdbcbb0169e7d6332138e886455765dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "list-checks",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ListChecks"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/index.mdx",
+          "sha256": "239eb62def8e275c3567bafe45d6c4bc3e4f4dfd5922e37b6cdfc27a4eda67eb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/meta.json",
+          "sha256": "18b648c47a34fd739f67c492d8c5e9c8259cacb206b6f4ee7632bae5e5915825"
+        }
+      ]
+    },
+    {
+      "name": "loader-circle",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Loader2",
+        "LoaderCircle"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/referral-prompt.tsx",
+          "sha256": "f5d1abde9c7eaba01501264b5621cb409267a472137a59617b82486703ab0291"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/tournament-drawer-content.tsx",
+          "sha256": "09f506b37c2941430d739b0bc9ef71d41e19442810203edf8aaa23815e961485"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/tournament-join-modal.tsx",
+          "sha256": "7bbe21ab6f07ff2a521867bae3837baaa861ceadc865695a2b251f36cc25d6d8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+          "sha256": "ab3d1b023e2175fff2991c884bb09a3e50d9c665f96250c48a1f359c22544077"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/position-cards.tsx",
+          "sha256": "5024f53e32257ec2b8022dec3ccde2a24ba5a83d55b1e6dfc6b521d215103cc9"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/profile-cards.tsx",
+          "sha256": "0d656b1e8d639bdc84bd0cc45ed2c2763659287eac570e69e947d767b4cdc058"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/setting-rows.tsx",
+          "sha256": "98bf04beaf6020e144e14d346e3f170f8ab3b17ee44519aca67620b9c4be69c6"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/use-send-controller.tsx",
+          "sha256": "49925d60272c0da3d470be60ecb91113039af54f5989c3549a6a89a56eed412f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/use-withdraw-controller.tsx",
+          "sha256": "48c7e210be1fb2e41bd8fad517ebc49fda31b8da894e9ea0ec5b9403e784d40c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/activity-card.tsx",
+          "sha256": "80a1500b73cc1cb97128ba9144560213dd8d86af0e4b0de1580584f3d516214c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bloxwap-burn-card.tsx",
+          "sha256": "ea6438f3cb42a1a43ac7d9c04b0c419a16a105d27fa71d80e890c8b2e4684ab9"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bloxwap-send-card.tsx",
+          "sha256": "6132a3d19aa860573d9c81d97c5bb79363a0f5d1226cc5284d0053566c24ed77"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bottom-controls.tsx",
+          "sha256": "c8ce5df182a2351b106ce54b12a3f50f92d000a802853e4838e90a1a8f7c6453"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/history-card.tsx",
+          "sha256": "9a3f156a252f484f8f76484bd7075e2dbc73c7c130e5c86476705acb9b035b4b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/hype-staking-card.tsx",
+          "sha256": "3088036af0c38139b6b4c66cae983d0e272465b737bddd689502b0e108c6f83e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/deposit-card.tsx",
+          "sha256": "cee2d99a9d333e8965045e64c628eb98a8fbfc19030ebfb470a0e62f65d8d6f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/positions-bulk-close.tsx",
+          "sha256": "c7c30e4a6a73ccbcf6ada85d757063864b86be5680e8a19975cb91b5e8a0b938"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-sol-send-card.tsx",
+          "sha256": "a5ccfe4c9588e102d409cde85e91137e026a5d8f1dc9dc2a08f2209ae9c07645"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-usdc-send-card.tsx",
+          "sha256": "1220ff6f25fef6769b1c4f0bd6ca60d899f5e2b8bb1fda6310dbca1ba274b0dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/trade-share-card.tsx",
+          "sha256": "c798ae74e11cb7b41a943b1bb4aa44422bdc5cfaa3cd3032eb01cafc724c952a"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/unified-send-card.tsx",
+          "sha256": "4f306403891bb49609002e9863b0646525b16c6fd1d0aedf0271f00edad24acb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/withdraw-dialog.tsx",
+          "sha256": "351e610746a04e44f52630d87ad59fbde72416bd7a071b74e3c3bb96da326eee"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/order-ticket/chase-runner.tsx",
+          "sha256": "99e5350556804019165fa6549782d2de0a703face264df1498cbb0747898c9af"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/order-ticket/order-ticket.tsx",
+          "sha256": "34b60db7e1ce74ebd714b76a08490945dea8381732e22838d8344926b9b5f5d0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/download-deck.tsx",
+          "sha256": "83a3411acff6b858d192207e2cc04a48def1c60a6f180b683c2ae86a81f22f2d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/advanced-card.tsx",
+          "sha256": "f54fe022ceaa3cc3168dbc16125345de59f726f07478225a15356434b0c7f338"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "lock",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Lock"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/hype-staking-card.tsx",
+          "sha256": "3088036af0c38139b6b4c66cae983d0e272465b737bddd689502b0e108c6f83e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/gate-form.tsx",
+          "sha256": "8a9855913664d2adc5690a6c6abc9ef36f3fc195de3dd201216ee45016695d15"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "lock-keyhole",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "LockKeyhole"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/slide-view.tsx",
+          "sha256": "931733c3fa14273f5da9168a3fc99bae8a838243419c6eb0dfa8793f5c6cfcec"
+        }
+      ]
+    },
+    {
+      "name": "log-out",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "LogOut"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/nav/connect-wallet-button.tsx",
+          "sha256": "06949b9a27ef04b40aa8f15330ccd9920ab797e034aa4e60f8a0b36e93bde958"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "mail",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Mail"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/login-drawer.tsx",
+          "sha256": "11ee2484818590539960e05d15a61e35950b089b56559246fb4e7f23d505d62c"
+        }
+      ]
+    },
+    {
+      "name": "maximize",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Maximize"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/deck.tsx",
+          "sha256": "968eb575166c0a1289e490bf051149901e2967f0f518acec4c8df41ad030528f"
+        }
+      ]
+    },
+    {
+      "name": "megaphone",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Megaphone"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/explainers.mdx",
+          "sha256": "e45fa24927a2a2f1a01c062eddc4c2ec848f07113cf20b1076cab28e71dca5f4"
+        }
+      ]
+    },
+    {
+      "name": "menu",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Menu"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        }
+      ]
+    },
+    {
+      "name": "message-circle-question-mark",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "MessageCircleQuestionMark"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/faq.mdx",
+          "sha256": "f2b04f8f428e2dce5993b2a005cdcf5cbe7c9d73ae983c97cc7a0d81434252b6"
+        }
+      ]
+    },
+    {
+      "name": "minimize",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Minimize"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/deck/src/app/deck.tsx",
+          "sha256": "968eb575166c0a1289e490bf051149901e2967f0f518acec4c8df41ad030528f"
+        }
+      ]
+    },
+    {
+      "name": "minus",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Minus"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/cluster/cluster-explorer.tsx",
+          "sha256": "4bdde79c71dcb80d75bd60e0c2711f4fff0c9241dcb4a97b6133130a21123dd0"
+        }
+      ]
+    },
+    {
+      "name": "monitor-smartphone",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "MonitorSmartphone"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/layout/mobile-fallback.tsx",
+          "sha256": "a0760e675a0b377ec4153592aadd07c71683c9e2131d7ab0d3255b739a0242f2"
+        }
+      ]
+    },
+    {
+      "name": "newspaper",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Newspaper"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/press.mdx",
+          "sha256": "2116602d63ac1a58caf55ea214fe9d67def5a6d5bea7e41a36bb9ae765135bae"
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Orbit"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/cluster/cluster-explorer.tsx",
+          "sha256": "4bdde79c71dcb80d75bd60e0c2711f4fff0c9241dcb4a97b6133130a21123dd0"
+        }
+      ]
+    },
+    {
+      "name": "pen-line",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "PenLine"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/root-menu.tsx",
+          "sha256": "70cf4ee26c3ea6050df00494b9b964f904a76dd7e02e7f89f1f88a4dc786a6d0"
+        }
+      ]
+    },
+    {
+      "name": "pencil",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Pencil"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/profile-cards.tsx",
+          "sha256": "0d656b1e8d639bdc84bd0cc45ed2c2763659287eac570e69e947d767b4cdc058"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "pill",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Pill"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/token.mdx",
+          "sha256": "fe0bf6ac33e7877c057b74d138d9b86a47295649dd22bb31e80edaf927a83264"
+        }
+      ]
+    },
+    {
+      "name": "plus",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Plus"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bottom-controls.tsx",
+          "sha256": "c8ce5df182a2351b106ce54b12a3f50f92d000a802853e4838e90a1a8f7c6453"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/cluster/cluster-explorer.tsx",
+          "sha256": "4bdde79c71dcb80d75bd60e0c2711f4fff0c9241dcb4a97b6133130a21123dd0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/tap-controls.tsx",
+          "sha256": "17e492a0ae526da7764b8a13dcd82247eb1431d336e04f3838493531d12bceac"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "pro-abcd",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "abcd"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/abcd.svg",
+          "sha256": "45b9eae02b52947d905d967389d28c425c8837e2343bd8b34a9319c84249090f"
+        }
+      ]
+    },
+    {
+      "name": "pro-anchored-note",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "anchored-note"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/anchored-note.svg",
+          "sha256": "292d6391edb4eacb3419ec7417687f5b2abc8836a2ac993620d81665108c4ce2"
+        }
+      ]
+    },
+    {
+      "name": "pro-anchored-text",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "anchored-text"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/anchored-text.svg",
+          "sha256": "57ef0b7964c6e3524d2f0dc8ebb97f595d474ae07587890e9450246622df5f9a"
+        }
+      ]
+    },
+    {
+      "name": "pro-anchored-vwap",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "anchored-vwap"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/anchored-vwap.svg",
+          "sha256": "c698f16f1dfa0be3a8184d4f8cb48347a96759276da4d105a48b5c3e1d158449"
+        }
+      ]
+    },
+    {
+      "name": "pro-arc",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "arc"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/arc.svg",
+          "sha256": "e883d98e88283dda8d47fcb43b8dc43340a28741b528cfa12f8a451926a9bbfd"
+        }
+      ]
+    },
+    {
+      "name": "pro-arrow",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "arrow"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/arrow.svg",
+          "sha256": "7ff7da876c4f1b47e88d7b1ba67f0b8351c649795935b21ea464e3bf7b77db2a"
+        }
+      ]
+    },
+    {
+      "name": "pro-arrow-down",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "arrow-down"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/arrow-down.svg",
+          "sha256": "0fadc8ce7d45318fb0ab9ec7dfc741822821598ad925d08d542d55d15dab4844"
+        }
+      ]
+    },
+    {
+      "name": "pro-arrow-marker",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "arrow-marker"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/arrow-marker.svg",
+          "sha256": "39c86cfef4ca6053f16f254354b6db33a34c89eb7325a6f8e8929b5eb9bec3da"
+        }
+      ]
+    },
+    {
+      "name": "pro-arrow-up",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "arrow-up"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/arrow-up.svg",
+          "sha256": "c35de360910c731c5c100e6fce2dd386051795b2af08c79b7b1572b802f204a0"
+        }
+      ]
+    },
+    {
+      "name": "pro-bars-pattern",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "bars-pattern"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/bars-pattern.svg",
+          "sha256": "96eeaa0020bc1f8ca72099ff097fca0ddbd3f9898b5ccb3fd046b4700ce59d9e"
+        }
+      ]
+    },
+    {
+      "name": "pro-brush",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/brush.svg",
+          "sha256": "e90f4d59d7f8578a0afdee84a0b47824fddda03eae8938579eb9ac010ef6465d"
+        }
+      ]
+    },
+    {
+      "name": "pro-callout",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "callout"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/callout.svg",
+          "sha256": "5a10fdd7918193d7756932ed003c3c6a8cd1a216e4f5f026a7a2a709620c0623"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-area",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-area"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-area.svg",
+          "sha256": "bcc4d3f473e5eff968b2465829fc383f4898fe6767ef029cb584d2f50bf7c67c"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-bar",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-bar"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-bar.svg",
+          "sha256": "a942375543e9f2d20758157f56fa14ba70db134d7199ee3226d1c8a730d3f9a7"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-candlestick",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-candlestick"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-candlestick.svg",
+          "sha256": "d704304d76ca035cb785549f525cd1cc23f7dfd3229e8a4c34887b0cc95cae37"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-heikin-ashi",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-heikin-ashi"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-heikin-ashi.svg",
+          "sha256": "4d8ddc36233dfbadd4c14a4faad14571fc4dda24bcff843382b0290bd4d72f49"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-histogram",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-histogram"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-histogram.svg",
+          "sha256": "e8544020628916fac3951fe1bf878bede69690f0a95180dd297f1e3a02848ec6"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-hollow-candlestick",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-hollow-candlestick"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-hollow-candlestick.svg",
+          "sha256": "9d5d2e8066421828ad1f3b2dd1d91b0ce541ae5dc3d46c4c267af32d099fd5ac"
+        }
+      ]
+    },
+    {
+      "name": "pro-chart-line",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chart-line"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chart-line.svg",
+          "sha256": "4afa87062ebc2c3f43bb32a944383b8a558c2b6498be2dee2ee4af13b45f21e3"
+        }
+      ]
+    },
+    {
+      "name": "pro-check",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "check"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/check.svg",
+          "sha256": "5c599acc8be35b5344bba03fc4e5d84b65bb7fd75fb85ba2268fc093b2b895da"
+        }
+      ]
+    },
+    {
+      "name": "pro-chevron-down",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chevron-down"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chevron-down.svg",
+          "sha256": "1c8187c177ad320475095e3f32dc64d6ef913ace86240151819dd734f2f3b146"
+        }
+      ]
+    },
+    {
+      "name": "pro-chevron-left",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chevron-left"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chevron-left.svg",
+          "sha256": "819afd82f1c6ef4ed34a961b911931e6b0a0aa5a66ae292370b709a540d83971"
+        }
+      ]
+    },
+    {
+      "name": "pro-chevron-right",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "chevron-right"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/chevron-right.svg",
+          "sha256": "5930b48d5e1814803ec591e89489b0a9b888391db70ab0bfde06da5d6cf8660d"
+        }
+      ]
+    },
+    {
+      "name": "pro-circle",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "circle"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/circle.svg",
+          "sha256": "af462bce40a52fc4713bb5ecf657a6267b9ba11adf658b9b7c2969e17658f48b"
+        }
+      ]
+    },
+    {
+      "name": "pro-comment",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "comment"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/comment.svg",
+          "sha256": "dd0df1b6c66d53a83a31ab58bf59d58acce68f052f4aee9f28b388b7e2d442cc"
+        }
+      ]
+    },
+    {
+      "name": "pro-copy",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "copy"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/copy.svg",
+          "sha256": "aa71ec817e24d7fa41ec546a626bbd845ef35cb9a1a1cdb2832c62770db3afd2"
+        }
+      ]
+    },
+    {
+      "name": "pro-cross-line",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cross-line"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cross-line.svg",
+          "sha256": "7ed75b2420399a7eff4f1942aeb4689d72164e0733430cab941fdd785977cd95"
+        }
+      ]
+    },
+    {
+      "name": "pro-crosshair",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "crosshair"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/crosshair.svg",
+          "sha256": "1988f23de95e2b444d624b976c76706eede8cba3e33cd2e483893281566cc8a3"
+        }
+      ]
+    },
+    {
+      "name": "pro-cursor-arrow",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cursor-arrow"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cursor-arrow.svg",
+          "sha256": "12cf348228398eac48f0913a341a6ca131630ba309c08cad3c5d9aab8e9257d1"
+        }
+      ]
+    },
+    {
+      "name": "pro-cursor-cross",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cursor-cross"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cursor-cross.svg",
+          "sha256": "84c8f2a9ba826a71e53fb71deb59d5227e86d41d0a2cf82186b85d491b88ac6a"
+        }
+      ]
+    },
+    {
+      "name": "pro-cursor-demonstration",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cursor-demonstration"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cursor-demonstration.svg",
+          "sha256": "908fe94ae844ba1a4a7ab78180535e9b28e67445d28dc9cab662b3caf417fc19"
+        }
+      ]
+    },
+    {
+      "name": "pro-cursor-dot",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cursor-dot"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cursor-dot.svg",
+          "sha256": "a1b2963145e098df64086f65e84e2916c4b5ff68f4952d6a323cb819d94df381"
+        }
+      ]
+    },
+    {
+      "name": "pro-curve",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "curve"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/curve.svg",
+          "sha256": "7043b2def3e0d78d2fbe09377a05b52478f13e6e087f9653079930a530f91dbd"
+        }
+      ]
+    },
+    {
+      "name": "pro-cyclic-lines",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cyclic-lines"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cyclic-lines.svg",
+          "sha256": "a999e13741fa46c20b9e817b466585603a79703975c7314c15875255d40061eb"
+        }
+      ]
+    },
+    {
+      "name": "pro-cypher",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "cypher"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/cypher.svg",
+          "sha256": "d924367ede9cd10774dbb88a50f63cf62c4cf27521ad8058c37f265f8e5fbb5a"
+        }
+      ]
+    },
+    {
+      "name": "pro-date-price-range",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "date-price-range"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/date-price-range.svg",
+          "sha256": "8e95a6eec7dc4e032bbfa7ebb8a7713920ce68ea96404e6b74015df6828e34d9"
+        }
+      ]
+    },
+    {
+      "name": "pro-date-range",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "date-range"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/date-range.svg",
+          "sha256": "3bccceb1477da78e85ad2ca5a97020ee3253f8c9be9ee162088f66e628ae3033"
+        }
+      ]
+    },
+    {
+      "name": "pro-disjoint-channel",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "disjoint-channel"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/disjoint-channel.svg",
+          "sha256": "d549334e71205ba412b6db2a0815cf3fa78e4c0634d984931953f6dded362416"
+        }
+      ]
+    },
+    {
+      "name": "pro-double-curve",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "double-curve"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/double-curve.svg",
+          "sha256": "68ee99ff8d18ea255e7e6d0a708a2ce36b63541be12f51cd12119a033640b18e"
+        }
+      ]
+    },
+    {
+      "name": "pro-elliott-correction",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "elliott-correction"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/elliott-correction.svg",
+          "sha256": "94bf6e6fac6f6f61b867fab872482eeabedc5c69fc300b3d9e9a4930bd4e6cc1"
+        }
+      ]
+    },
+    {
+      "name": "pro-elliott-double-combo",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "elliott-double-combo"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/elliott-double-combo.svg",
+          "sha256": "140ee1b61a4ef6ba75ad05ccfb8241520c924c88b0e17be61d1258349e21a1ab"
+        }
+      ]
+    },
+    {
+      "name": "pro-elliott-impulse",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "elliott-impulse"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/elliott-impulse.svg",
+          "sha256": "f946fae50b0660665e611285f8e229a4e4f32d73a117bd7d8c61ae1c63b4d7f1"
+        }
+      ]
+    },
+    {
+      "name": "pro-elliott-triangle",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "elliott-triangle"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/elliott-triangle.svg",
+          "sha256": "c48eff9e23f5fcccb3833fce3e3b0f931db7ec415381d85947a347e445789581"
+        }
+      ]
+    },
+    {
+      "name": "pro-elliott-triple-combo",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "elliott-triple-combo"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/elliott-triple-combo.svg",
+          "sha256": "b64c398bb606f10bc6416489576d5736544cd25f3262dc8700220e26ba6bb323"
+        }
+      ]
+    },
+    {
+      "name": "pro-ellipse",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "ellipse"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/ellipse.svg",
+          "sha256": "b36b468e6d19e0ac57b151f8432fcdc9c9682f2b8a9e60cb94a41c56dfeca24f"
+        }
+      ]
+    },
+    {
+      "name": "pro-emoji",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "emoji"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/emoji.svg",
+          "sha256": "d40431104cac4c7af813045709e715236eb3bb8f2c166a1e22c3ea39b427b2a2"
+        }
+      ]
+    },
+    {
+      "name": "pro-eraser",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "eraser"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/eraser.svg",
+          "sha256": "f1d05aded1fe0963013620ee6f0479d4ad6d3d76745722914ea0a9297089f2d0"
+        }
+      ]
+    },
+    {
+      "name": "pro-extended-line",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "extended-line"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/extended-line.svg",
+          "sha256": "dc64a978d4e05698d707c0d24dfc149268403481e77bc0ed846a4e6394923b2c"
+        }
+      ]
+    },
+    {
+      "name": "pro-eye",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "eye"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/eye.svg",
+          "sha256": "3b7e9e369ec56183523dc9ed4644068c381eb04ebf8d2186e194a9a917703e97"
+        }
+      ]
+    },
+    {
+      "name": "pro-eye-off",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "eye-off"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/eye-off.svg",
+          "sha256": "563e75c8d52f631db62a092d97f0bfa4a1b385949bd0c4547df977af653765ef"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib.svg",
+          "sha256": "f5b32f353563699d1c5297a8387fd7fb56ad671498b33fde84ecb546242c3f7a"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-channel",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-channel"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-channel.svg",
+          "sha256": "3ed5f45b26113e6388e4873f730fb1bab56611407b4f6186a10f30970356b700"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-circles",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-circles"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-circles.svg",
+          "sha256": "893db075d7ba00987ba2533e4bb41f935c0da38ab85fcd94452c2929554e3949"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-extension",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-extension"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-extension.svg",
+          "sha256": "4ac44bf340b01190f6a7f0b4376d229b488c8f04e34b5308b722fa1ca8af89ed"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-speed-arcs",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-speed-arcs"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-speed-arcs.svg",
+          "sha256": "fb4b6e69c369999f18dc9f3d9a315c37f9595c871f4ae200ba9225b2339cb86a"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-speed-fan",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-speed-fan"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-speed-fan.svg",
+          "sha256": "20021f2be205453c562b49fe2f350b05d7b524f71c75ffe05fad0f438d8c133c"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-spiral",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-spiral"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-spiral.svg",
+          "sha256": "99686a8a1c8472bc4dcf0bee5e73c0fff4593253cbd5f552e7d3a201a7004b70"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-time",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-time"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-time.svg",
+          "sha256": "35f52c9f3bb20cb50d21701fb1ee83802c2ddc2f3bf265ad5fc49e24acac4f5e"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-time-zone",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-time-zone"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-time-zone.svg",
+          "sha256": "3d54811e82adb8a452bdd4a93f75f2462f39ed5659387448bb6bcf6a49b0dc60"
+        }
+      ]
+    },
+    {
+      "name": "pro-fib-wedge",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "fib-wedge"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/fib-wedge.svg",
+          "sha256": "8f1f395da76ebcd3723a913bbf4d254a4c74c1ca9e0b1c35c111f4037f4aa4d4"
+        }
+      ]
+    },
+    {
+      "name": "pro-flag-mark",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "flag-mark"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/flag-mark.svg",
+          "sha256": "925cad7c50c5b18a777b300bf05b76cc6a51e26f4982a839803da9ffc161259c"
+        }
+      ]
+    },
+    {
+      "name": "pro-flat-top-bottom",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "flat-top-bottom"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/flat-top-bottom.svg",
+          "sha256": "fd012515c5b2207a5980592510fd137c79f659abfc585e2a8dea3bdea7492108"
+        }
+      ]
+    },
+    {
+      "name": "pro-forecast",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "forecast"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/forecast.svg",
+          "sha256": "5304b3dd01efe4c1a608681ca2a638a4236cd9c6b6b70087c09585e4910b870d"
+        }
+      ]
+    },
+    {
+      "name": "pro-function-square",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "function-square"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/function-square.svg",
+          "sha256": "a4dce31fef693ebb61450ce99c110f8c7e4cfece2cbd2e0d48553b2e2d9fb0ce"
+        }
+      ]
+    },
+    {
+      "name": "pro-gann-box",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "gann-box"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/gann-box.svg",
+          "sha256": "161e041a12553cbb5036a6c2a45557e41cc55fef57ec23e6b59aa7f4a4e5ca97"
+        }
+      ]
+    },
+    {
+      "name": "pro-gann-fan",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "gann-fan"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/gann-fan.svg",
+          "sha256": "2b6468acd122fc3e73f619cabc54d7f8ad7d9083f3c2e78856ba8440fe6f7737"
+        }
+      ]
+    },
+    {
+      "name": "pro-gann-square",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "gann-square"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/gann-square.svg",
+          "sha256": "ae7780abff3d4aa6141eb98a393e57be2f1d4c3685b9d76b562dab09da3414c2"
+        }
+      ]
+    },
+    {
+      "name": "pro-gann-square-fixed",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "gann-square-fixed"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/gann-square-fixed.svg",
+          "sha256": "b117dc2e4448980f67b0e92ef3829c6f7a3226cb8424102015fefe0cd5fb5e8c"
+        }
+      ]
+    },
+    {
+      "name": "pro-ghost-feed",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "ghost-feed"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/ghost-feed.svg",
+          "sha256": "6ec429cf7a833669d87112e235dda638ba9ab514d1bb2cc946ccd9094a3683af"
+        }
+      ]
+    },
+    {
+      "name": "pro-head-shoulders",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "head-shoulders"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/head-shoulders.svg",
+          "sha256": "89861c1b595c4309483ea0acc98e56bbaa63b7e06a984308093ffd638a1e63eb"
+        }
+      ]
+    },
+    {
+      "name": "pro-highlighter",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "highlighter"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/highlighter.svg",
+          "sha256": "e51f25f76922acc4bd6183f20b7995c75d905dee126911a03e109a63b6b86da6"
+        }
+      ]
+    },
+    {
+      "name": "pro-hline",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "hline"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/hline.svg",
+          "sha256": "c7ab6575e76154618b6557e75c121cada9026bae7d72d539d81c1255e8730432"
+        }
+      ]
+    },
+    {
+      "name": "pro-horizontal-ray",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "horizontal-ray"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/horizontal-ray.svg",
+          "sha256": "8799eba463036f2a7b09cd4bd5862cbae48c1f2cc986ca70575bd388406148e7"
+        }
+      ]
+    },
+    {
+      "name": "pro-icon",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "icon"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/icon.svg",
+          "sha256": "16e571cf16135734770b4a0774de3b1d05ecb86e9540b6d401d938944a6a0ef8"
+        }
+      ]
+    },
+    {
+      "name": "pro-image",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "image"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/image.svg",
+          "sha256": "5f716342b1d3a27340576a4bd0c19df22bba38e9e781378e7f056b4d71a0b077"
+        }
+      ]
+    },
+    {
+      "name": "pro-info-line",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "info-line"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/info-line.svg",
+          "sha256": "822b33f07c457cc32f80af3e3186b7e8edf82f6ed08cc5b43ec49aaf92fdb551"
+        }
+      ]
+    },
+    {
+      "name": "pro-inside-pitchfork",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "inside-pitchfork"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/inside-pitchfork.svg",
+          "sha256": "deaf7b4b900f79e3959b0481c2e8cfc283ae405c011a8d14f3c7125c94d462b1"
+        }
+      ]
+    },
+    {
+      "name": "pro-lock",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "lock"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/lock.svg",
+          "sha256": "8c7b4a3695e1bf8b453ea85652bd92795462aaeab190f6edd431f5285f8bc43f"
+        }
+      ]
+    },
+    {
+      "name": "pro-long-position",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "long-position"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/long-position.svg",
+          "sha256": "f970e04458573ec97c812bc7209e962d4fb262c337dc6a3864706ddb99d9f0f2"
+        }
+      ]
+    },
+    {
+      "name": "pro-magnet",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "magnet"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/magnet.svg",
+          "sha256": "e47cd3f891ac745acfa7becb4e5ebb696268bb82d2335964f56005d489279fa2"
+        }
+      ]
+    },
+    {
+      "name": "pro-magnet-strong",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "magnet-strong"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/magnet-strong.svg",
+          "sha256": "96dce8cdf80e21d8b1acd6c74e37907cbbe637aae1383778c878c0e4f4db7e84"
+        }
+      ]
+    },
+    {
+      "name": "pro-modified-schiff-pitchfork",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "modified-schiff-pitchfork"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/modified-schiff-pitchfork.svg",
+          "sha256": "e53cbc692c32a0672624f01babfa38868b86d5bd86793ebd2475305d6558a05a"
+        }
+      ]
+    },
+    {
+      "name": "pro-monitor",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "monitor"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/monitor.svg",
+          "sha256": "ae317a669ec2710147687613b7ed24963e7caaf87aa8d48d89ad0f784baf3ad8"
+        }
+      ]
+    },
+    {
+      "name": "pro-moon",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "moon"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/moon.svg",
+          "sha256": "9d03f9251b94978a4cfa23df7d0e99427fec64421b65963704edb88375e45fdd"
+        }
+      ]
+    },
+    {
+      "name": "pro-note",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "note"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/note.svg",
+          "sha256": "85cde495f0f029ba2a9be32f22410729675cfccc06911010abed6bdb1ef074b4"
+        }
+      ]
+    },
+    {
+      "name": "pro-order-book",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "order-book"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/order-book.svg",
+          "sha256": "aff2082ad512895d0ba6b336cb3499c879598a82f86b56e931e6f2310d0aadea"
+        }
+      ]
+    },
+    {
+      "name": "pro-palette",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "palette"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/palette.svg",
+          "sha256": "fdd898d5fbd75f08fea5bc5617c003a4fd875e70910585e73025ad29881ac8a9"
+        }
+      ]
+    },
+    {
+      "name": "pro-panel-left-close",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "panel-left-close"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/panel-left-close.svg",
+          "sha256": "9986426dc1f851b11b888e9107d2e0b4d13157272efe5230f75118605ed3b294"
+        }
+      ]
+    },
+    {
+      "name": "pro-panel-left-open",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "panel-left-open"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/panel-left-open.svg",
+          "sha256": "447eddf83d164c284948b4609b3d024c865aba376b73f6f01c3275fd037fefa2"
+        }
+      ]
+    },
+    {
+      "name": "pro-parallel-channel",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "parallel-channel"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/parallel-channel.svg",
+          "sha256": "ed2a9bdf3e72e04445a433644985c9d014d09e19dc56c67f978686b934a1f396"
+        }
+      ]
+    },
+    {
+      "name": "pro-path",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "path"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/path.svg",
+          "sha256": "823bedb40d7a38bf6025c8ffe6db71c4d91d97de2714e9035753f43ef96a39e6"
+        }
+      ]
+    },
+    {
+      "name": "pro-pause",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "pause"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/pause.svg",
+          "sha256": "165b3512f9398492eb4cdf5b7960f89609cca180d3dc16fa25e20ce99334ad5b"
+        }
+      ]
+    },
+    {
+      "name": "pro-pencil",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "pencil"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/pencil.svg",
+          "sha256": "d920acb0c71fb7e03d68428bbe342e796d68ecdb5d3a838009a8ecde345d823d"
+        }
+      ]
+    },
+    {
+      "name": "pro-pencil-lock",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "pencil-lock"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/pencil-lock.svg",
+          "sha256": "ff4b95b90c8ec899234144d774493d43033b2370e2ada68cd0a8e7b5c7587023"
+        }
+      ]
+    },
+    {
+      "name": "pro-pin",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "pin"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/pin.svg",
+          "sha256": "002678379ba9e925744cdce125ad9ba82020a1fbdc28e1c1a831640b02078ac8"
+        }
+      ]
+    },
+    {
+      "name": "pro-pitchfan",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "pitchfan"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/pitchfan.svg",
+          "sha256": "fcf2269ccc85c01b9893b4bbae142eaef88d5f827b27744e58bc7b3f52d4c4f8"
+        }
+      ]
+    },
+    {
+      "name": "pro-pitchfork",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "pitchfork"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/pitchfork.svg",
+          "sha256": "edd442dbacb8f92b096aa569ed55d8cbe8a178836122b67b4d75dcd81d8ad88c"
+        }
+      ]
+    },
+    {
+      "name": "pro-play",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "play"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/play.svg",
+          "sha256": "d416e75ebf80010c708b91f06f732918bed2e5da7f783ce259d1846c1cfad94c"
+        }
+      ]
+    },
+    {
+      "name": "pro-polyline",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "polyline"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/polyline.svg",
+          "sha256": "8c16c53f62c9bb04d22b227e3c765f811a474b38084c93961714a47f66d09ae3"
+        }
+      ]
+    },
+    {
+      "name": "pro-price-label",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "price-label"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/price-label.svg",
+          "sha256": "79add936c282ca730c2a60a33e38336c53806f62a9f47b03c1bcf8ef44dec1da"
+        }
+      ]
+    },
+    {
+      "name": "pro-price-note",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "price-note"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/price-note.svg",
+          "sha256": "6ba7c55ba32b541175e91f0a0931348bd8846d84af5ff6b16a25f6cfb5ae1669"
+        }
+      ]
+    },
+    {
+      "name": "pro-price-range",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "price-range"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/price-range.svg",
+          "sha256": "f31dbfd5f636f63373c680dd9c51dd837084dcdaf7e40596a2a855201097690e"
+        }
+      ]
+    },
+    {
+      "name": "pro-projection",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "projection"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/projection.svg",
+          "sha256": "6bcbe888889c1f19bb34b5dd60804724762713399620b64ac8c68a74a3c6c9fa"
+        }
+      ]
+    },
+    {
+      "name": "pro-range-profile",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "range-profile"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/range-profile.svg",
+          "sha256": "15e2f72d3fc626ea26085480ca59beecc020ad088f24e5b72b39233579b37654"
+        }
+      ]
+    },
+    {
+      "name": "pro-ray",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "ray"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/ray.svg",
+          "sha256": "2a6f9d38c05ee169a6d317b7083d16f4b75676f3690eb9a3f501a5cb2fb694b2"
+        }
+      ]
+    },
+    {
+      "name": "pro-rect",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "rect"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/rect.svg",
+          "sha256": "5f3a7d1066c73098a0f2b95389cfd3ebdd9fa852e1e3ca6d7dbe3af9f3bbd19b"
+        }
+      ]
+    },
+    {
+      "name": "pro-redo",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "redo"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/redo.svg",
+          "sha256": "fee20670e14c069e5c65acf1a4d91af73c3360bf940e93f04624e0d37fed3f02"
+        }
+      ]
+    },
+    {
+      "name": "pro-regression-trend",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "regression-trend"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/regression-trend.svg",
+          "sha256": "4e74813a2860445922e0923d80062ec6a467ff1f463561b7a57178e46ac43a86"
+        }
+      ]
+    },
+    {
+      "name": "pro-rotated-rect",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "rotated-rect"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/rotated-rect.svg",
+          "sha256": "810d182d219f213f1d31e0104f37584faf887ba7c852aa38fa75256840bc16c8"
+        }
+      ]
+    },
+    {
+      "name": "pro-ruler",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "ruler"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/ruler.svg",
+          "sha256": "5c684ea3f9ca29e6805677e117cf2246e6beaa94da9e768cb987ea7854b87543"
+        }
+      ]
+    },
+    {
+      "name": "pro-schiff-pitchfork",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "schiff-pitchfork"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/schiff-pitchfork.svg",
+          "sha256": "1d34882bfe739d4491c0bede520ac348321512e8980dcc8a74e092fd38bf1acc"
+        }
+      ]
+    },
+    {
+      "name": "pro-settings",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "settings"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/settings.svg",
+          "sha256": "712648e9f88317be051f7ea96218cc7ff21d4f0820f780bc56114231e0f415ab"
+        }
+      ]
+    },
+    {
+      "name": "pro-short-position",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "short-position"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/short-position.svg",
+          "sha256": "d5a2af4588418caef1075cc1e5ef9c6e0c9bdd50eeb44c1c4b9e4d82dd263111"
+        }
+      ]
+    },
+    {
+      "name": "pro-signpost",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "signpost"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/signpost.svg",
+          "sha256": "de70d2b1942b10c08d6d8eb051ecaba88e7fa4c90167c34c8b85ab71ad559d68"
+        }
+      ]
+    },
+    {
+      "name": "pro-sine-line",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "sine-line"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/sine-line.svg",
+          "sha256": "db46ab87761d7a94978189dd89c1c8823fcdf7f8fc9d16ecf16d6d4629425a97"
+        }
+      ]
+    },
+    {
+      "name": "pro-smile",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "smile"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/smile.svg",
+          "sha256": "7c9fb4dfec9056cf5cc21b3715087ad8246a0d5dc967613bd5df2f1fdaca2b94"
+        }
+      ]
+    },
+    {
+      "name": "pro-star",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "star"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/star.svg",
+          "sha256": "16e571cf16135734770b4a0774de3b1d05ecb86e9540b6d401d938944a6a0ef8"
+        }
+      ]
+    },
+    {
+      "name": "pro-star-filled",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "star-filled"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/star-filled.svg",
+          "sha256": "e83fdab50bfe99da04f9c2d9f2d38dff630400fb70664469447a2650ce3d7bce"
+        }
+      ]
+    },
+    {
+      "name": "pro-sticker",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "sticker"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/sticker.svg",
+          "sha256": "cb52a7e5770a12107cfd092da2b508534a8ea0dce81cbec8d545fbc4d19f94f5"
+        }
+      ]
+    },
+    {
+      "name": "pro-sun",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "sun"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/sun.svg",
+          "sha256": "0f5f74b727e687c70bb365d41b56e1e4557df3a4654c4bc7e6e010ffcd2e92fb"
+        }
+      ]
+    },
+    {
+      "name": "pro-table",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "table"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/table.svg",
+          "sha256": "69e8f6789903eff7a1349aadd40e9d41299c1b853f60cc84acc7737682fa4441"
+        }
+      ]
+    },
+    {
+      "name": "pro-text",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "text"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/text.svg",
+          "sha256": "80d3e568ef99de429f78c239c2c7104dbce21d3ac815475e5d8b5dc90671ccd1"
+        }
+      ]
+    },
+    {
+      "name": "pro-three-drives",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "three-drives"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/three-drives.svg",
+          "sha256": "91cd4c823814356ffa17077fb8f900da22f363a1f2b0a03e14173b97c66b68d5"
+        }
+      ]
+    },
+    {
+      "name": "pro-time-cycles",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "time-cycles"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/time-cycles.svg",
+          "sha256": "74e70b91ae620e9d9e87c211f4970b27228129b313973ecf62efd81e5be5959b"
+        }
+      ]
+    },
+    {
+      "name": "pro-trash",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "trash"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/trash.svg",
+          "sha256": "102a4e1a7479ddd010b208d8f3c6f5f6ff11323b4b1c063e9aaaae21feb33b21"
+        }
+      ]
+    },
+    {
+      "name": "pro-trend-angle",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "trend-angle"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/trend-angle.svg",
+          "sha256": "1232f8604a2e3663b5e717c677825efd0d1591ac5362738c45014daa91e77672"
+        }
+      ]
+    },
+    {
+      "name": "pro-trendline",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "trendline"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/trendline.svg",
+          "sha256": "033c4f249f651ae9937266733a64cb0d6f5d21c2791eecbf5a10d6114f8c7b1f"
+        }
+      ]
+    },
+    {
+      "name": "pro-triangle",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "triangle"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/triangle.svg",
+          "sha256": "f87f8473b50d2762e83d908d0c7c41f3181c3d1e9d6a87bd9788c449da99de63"
+        }
+      ]
+    },
+    {
+      "name": "pro-triangle-pattern",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "triangle-pattern"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/triangle-pattern.svg",
+          "sha256": "344c7d3c4d127df94139d44997e1a858431882ae92c1ebb326f78589e7ea6fcc"
+        }
+      ]
+    },
+    {
+      "name": "pro-undo",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "undo"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/undo.svg",
+          "sha256": "94e119a7b2f4fffd3a6c06f1f1b9f8a2948d7e2a84c212ff3af0c592ebfca968"
+        }
+      ]
+    },
+    {
+      "name": "pro-unlock",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "unlock"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/unlock.svg",
+          "sha256": "8843723a858467b275422c26c639c2ea04f635dafaf604e07fb02fc241bd9044"
+        }
+      ]
+    },
+    {
+      "name": "pro-vertical-line",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "vertical-line"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/vertical-line.svg",
+          "sha256": "4e2debd8f799f432398a2c1112ec90140b1e582bd5407f7fea8463b1b9759942"
+        }
+      ]
+    },
+    {
+      "name": "pro-volume-profile",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "volume-profile"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/volume-profile.svg",
+          "sha256": "a13b9d6f40436e6657360ac332b364980e1d46abc9c0744354f5457a95913bc6"
+        }
+      ]
+    },
+    {
+      "name": "pro-x",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "x"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/x.svg",
+          "sha256": "c9ee38413d0bc3313aeaa668e174b677d00bdd20212c97de8c6198f082c2e005"
+        }
+      ]
+    },
+    {
+      "name": "pro-xabcd",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "xabcd"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/xabcd.svg",
+          "sha256": "2e5aae6bff0cf21e5a7768529ec800a3dd19d4ddaa08d3185d268632651deecc"
+        }
+      ]
+    },
+    {
+      "name": "pro-zoom-in",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "zoom-in"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/zoom-in.svg",
+          "sha256": "ee0197ceb07201e2274dc6189f6e4e56a12274e1dc70a2eeacfbae6b343a283f"
+        }
+      ]
+    },
+    {
+      "name": "pro-zoom-out",
+      "collections": [
+        "pro-chart"
+      ],
+      "searchTerms": [
+        "zoom-out"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/chart",
+          "path": "packages/chart/assets/icons/zoom-out.svg",
+          "sha256": "55730d2e44eb217832080e8edb6dcaec574c5acfeeca66a7fa48a7926d5fac73"
+        }
+      ]
+    },
+    {
+      "name": "qr-code",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "QrCode"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet.tsx",
+          "sha256": "2778c0ad3e1bedee8d6c8fd2067bb707713d9ce0cda84cd884c2fe60b7bd2799"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/deposit-method-rows.tsx",
+          "sha256": "63d862f86eb3b373ebeabf1994a03a51aea5c76241903cee88ec3407af03bad2"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deck.tsx",
+          "sha256": "6f047d24c66577b26b5cc6a7b386662ff8f98f823ca09d8351758136489caa1d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/profile-sheet-body.tsx",
+          "sha256": "2cbf9220a79fe8f0a1808d73710a68cc1ec615eeb5c193c4784192b1cffb931b"
+        }
+      ]
+    },
+    {
+      "name": "receipt",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Receipt"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/size-lev-picker.tsx",
+          "sha256": "edb2cda93a8a010e3e93358466a5f0ffe2b1c8f5b1bf0f18033445b4e9c4e728"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/fees.mdx",
+          "sha256": "9b0b0a11294f95dba7b8e73c58c9caae64c1ba6258a4cb7b586c2862b1ac5374"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-rail.tsx",
+          "sha256": "00f9a566017247d60386e845e5b27c1175450f4a617cc3b6d39825eb8b658103"
+        }
+      ]
+    },
+    {
+      "name": "refresh-cw",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "RefreshCw"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/privy-load-guard.tsx",
+          "sha256": "0ba0dce985c8e0a7bde9f151cdc72453927a47f7f1d42ea54a0203abc3fb7d9c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/account-summary.tsx",
+          "sha256": "2973d3c3e02f7feb73d1d328615edda8dd1c534c582b6061d53480f06baeae1e"
+        }
+      ]
+    },
+    {
+      "name": "repeat",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Repeat"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        }
+      ]
+    },
+    {
+      "name": "rotate-ccw",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "RotateCcw"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/src/components/cluster/cluster-explorer.tsx",
+          "sha256": "4bdde79c71dcb80d75bd60e0c2711f4fff0c9241dcb4a97b6133130a21123dd0"
+        }
+      ]
+    },
+    {
+      "name": "scale",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Scale"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/size-lev-picker.tsx",
+          "sha256": "edb2cda93a8a010e3e93358466a5f0ffe2b1c8f5b1bf0f18033445b4e9c4e728"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/compare.mdx",
+          "sha256": "c23ca502cc83e4eba4e1b9920d8ac62dd6fdfcea4b0f07468a973d4e726030bf"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/season-01/rules.mdx",
+          "sha256": "b03e73574c5415d09d0b86edb7ef9e6c86ce362a9cc7630a93252e7b5a47d66e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/terms.mdx",
+          "sha256": "fa780f88b6599b2fd220104d0b5fd6b9a83f88cecc455e9316fed75c656d537b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/position-rail.tsx",
+          "sha256": "00f9a566017247d60386e845e5b27c1175450f4a617cc3b6d39825eb8b658103"
+        }
+      ]
+    },
+    {
+      "name": "scan-qr-code",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ScanQrCode"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/referral-cards.tsx",
+          "sha256": "563c5a1e06a642977a7c153a9af4ce1a943fb930f630be4e95cd5ec0771c1827"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/send-cards.tsx",
+          "sha256": "6225ac2c81673d474a668df17569b12461b430c13b16b8a6e8c20ed52a823d90"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-composer-renderers.tsx",
+          "sha256": "d05e8433e7873f80a5a47e3c98cf6b8ed84fa6fc8f22692ef23a5dc4d0a75933"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/referral-card.tsx",
+          "sha256": "c77fab7e25d18b8e1d9e4e80c1be41bf236b133be717673bbfe7eea3d16df649"
+        }
+      ]
+    },
+    {
+      "name": "search",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Search"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+          "sha256": "ab3d1b023e2175fff2991c884bb09a3e50d9c665f96250c48a1f359c22544077"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/market-picker.tsx",
+          "sha256": "4fb9c03ea1eb0981b88cd42449a3911b5225dbd8a622756409da9f3f70157e8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/blog/src/components/search-pill.tsx",
+          "sha256": "ba6894469c928541bde5e720de37a0147d874e26609487ed5bc658c727dd32c4"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+          "sha256": "279440f6f9814d609b7bec24c9a85b8e2b44e38e42d8d293a4b25132f953cc58"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/market-picker.tsx",
+          "sha256": "616b19af83ad9019fa877b8af772b3f2a9f35c850a7bdaeaa26d8b87839663f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/nav/top-bar.tsx",
+          "sha256": "058b892df650903ed8268fc5a56c3b1a884b201d5269079b96e3a7976a3170c8"
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Server"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/cluster/index.mdx",
+          "sha256": "fb4c62b3b2155e6f6404c5126552f424c6742ade30e63d01f8eeb320f425df20"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/cluster/meta.json",
+          "sha256": "156bc20f6dc645ef49df54d30f29209cc13f1728bc20465eb73efa4ae6f494ef"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Settings"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/command-bar/page-filters.ts",
+          "sha256": "8405b3f8207f5e1a34e4c6ff9e5edeb1a07d8cfec1478b63986da77e2933c377"
+        }
+      ]
+    },
+    {
+      "name": "share",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Share"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet.tsx",
+          "sha256": "2778c0ad3e1bedee8d6c8fd2067bb707713d9ce0cda84cd884c2fe60b7bd2799"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/profile-sheet-body.tsx",
+          "sha256": "2cbf9220a79fe8f0a1808d73710a68cc1ec615eeb5c193c4784192b1cffb931b"
+        }
+      ]
+    },
+    {
+      "name": "shield",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Shield"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/developers/permissions.mdx",
+          "sha256": "03d53c4e984d52f48b98f6ce0ab09fa46179ba8621f7aa6588f995ba8f26c29d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/privacy.mdx",
+          "sha256": "19c94ef97b86f5e67562c67a01e698a198681180d308c2fc4dd581100947457c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "shield-alert",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ShieldAlert"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/index.mdx",
+          "sha256": "239eb62def8e275c3567bafe45d6c4bc3e4f4dfd5922e37b6cdfc27a4eda67eb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/set-a-stop-loss.mdx",
+          "sha256": "278fad13827b10bdd6cfd3ec6c96c6c7f2d3c4bb36d7b28ec575d6a2b6a3d526"
+        }
+      ]
+    },
+    {
+      "name": "shield-check",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "ShieldCheck"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        }
+      ]
+    },
+    {
+      "name": "signal",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Signal"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/signal-strength.tsx",
+          "sha256": "777cf97fae4ffaa63d627ac398a58287ab0240ed3672b98e1058d2ce17926d17"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/signal-strength.tsx",
+          "sha256": "fd68dc5aa4984d9f52ccfea4cfa8385fea079db98f4b79ab6e0bb7f17c62a8f5"
+        }
+      ]
+    },
+    {
+      "name": "star",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Star"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/command-bar/command-bar.tsx",
+          "sha256": "4db4ea5925efa604a2fe70f0a3c0d78bc062d2601a8c2dc11a94c3ad3d3056b2"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/hig/market-row.tsx",
+          "sha256": "eae3baf110d938df21f2b30760e859fbe1b244fec8c7d0a2567f13441ed347e9"
+        }
+      ]
+    },
+    {
+      "name": "terminal",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Terminal"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/hyperliquid.mdx",
+          "sha256": "75be66a5c089bfee9051e3d1771b567ed9947a0b5aeef62c3a500ec883788ba8"
+        }
+      ]
+    },
+    {
+      "name": "timer",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Timer"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/hype-staking-card.tsx",
+          "sha256": "3088036af0c38139b6b4c66cae983d0e272465b737bddd689502b0e108c6f83e"
+        }
+      ]
+    },
+    {
+      "name": "trash",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Trash2"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "trending-down",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "TrendingDown"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/live-activity-feed.tsx",
+          "sha256": "515aa69196836c9d7bfbb4a523ad6134dd7514e0e6f77c61240885d8cb8626e8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/market-picker.tsx",
+          "sha256": "4fb9c03ea1eb0981b88cd42449a3911b5225dbd8a622756409da9f3f70157e8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/swing-signal-card.tsx",
+          "sha256": "89cd71bdf1bb41db75710d976ab59ed719147a0e29d2ae46464ecccbfa14b216"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/asset-pill.tsx",
+          "sha256": "1ebbd24f0179c376071effcd5cefbebd3284b4a7f46e58756e7725987796bd31"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/live-activity-feed.tsx",
+          "sha256": "88183f650a3c8c300fba6763d9a9323efd6550718f6366b9b1a0ea6028623981"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/market-picker.tsx",
+          "sha256": "616b19af83ad9019fa877b8af772b3f2a9f35c850a7bdaeaa26d8b87839663f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/signals-card.tsx",
+          "sha256": "0fdf6047d1bb560b4443695bc91891df9913ab6a70e7d64edd368bcfdf482ec0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/toast.tsx",
+          "sha256": "734811e6db90db1157dce7436c87c122c6d2b020cae43dc076d5a1c7041c62d8"
+        }
+      ]
+    },
+    {
+      "name": "trending-up",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "TrendingUp"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/live-activity-feed.tsx",
+          "sha256": "515aa69196836c9d7bfbb4a523ad6134dd7514e0e6f77c61240885d8cb8626e8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/market-picker.tsx",
+          "sha256": "4fb9c03ea1eb0981b88cd42449a3911b5225dbd8a622756409da9f3f70157e8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/swing-signal-card.tsx",
+          "sha256": "89cd71bdf1bb41db75710d976ab59ed719147a0e29d2ae46464ecccbfa14b216"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/asset-pill.tsx",
+          "sha256": "1ebbd24f0179c376071effcd5cefbebd3284b4a7f46e58756e7725987796bd31"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/live-activity-feed.tsx",
+          "sha256": "88183f650a3c8c300fba6763d9a9323efd6550718f6366b9b1a0ea6028623981"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/market-picker.tsx",
+          "sha256": "616b19af83ad9019fa877b8af772b3f2a9f35c850a7bdaeaa26d8b87839663f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/signals-card.tsx",
+          "sha256": "0fdf6047d1bb560b4443695bc91891df9913ab6a70e7d64edd368bcfdf482ec0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/command-bar/page-filters.ts",
+          "sha256": "8405b3f8207f5e1a34e4c6ff9e5edeb1a07d8cfec1478b63986da77e2933c377"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/toast.tsx",
+          "sha256": "734811e6db90db1157dce7436c87c122c6d2b020cae43dc076d5a1c7041c62d8"
+        }
+      ]
+    },
+    {
+      "name": "triangle-alert",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "AlertTriangle",
+        "TriangleAlert"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+          "sha256": "ab3d1b023e2175fff2991c884bb09a3e50d9c665f96250c48a1f359c22544077"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/profile-cards.tsx",
+          "sha256": "0d656b1e8d639bdc84bd0cc45ed2c2763659287eac570e69e947d767b4cdc058"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/send-cards.tsx",
+          "sha256": "6225ac2c81673d474a668df17569b12461b430c13b16b8a6e8c20ed52a823d90"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/papertrade/market-banner.tsx",
+          "sha256": "7b13724458702e47d39a9a186db50409747e20dde04968fd1bd9d5c601bd58e5"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/notification-card.tsx",
+          "sha256": "061625c6b33323a5b05d8eb7894d3827ad4f0bb6737bc9008c62db40b6e8bc42"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/deposit-dialog.tsx",
+          "sha256": "3106e330fc2c83da24cf3f534a668a9f057cf70dbc79a70f104875dcf6593b05"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/ui.tsx",
+          "sha256": "a523b0dc58e28ee91e48268b158139eb1d86dc0c1f1ae33449ba8fe331e48477"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/geo-banner.tsx",
+          "sha256": "a8e7baa8e49e5974509abebfa2f908fc7946e890c8ee8cef52cf69cbbd930d92"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-primitives.tsx",
+          "sha256": "d69e40bb78c94c096c4cc4fbf4095f69a071218ce8084c40bfe42fd5ef73ec6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-composer-renderers.tsx",
+          "sha256": "d05e8433e7873f80a5a47e3c98cf6b8ed84fa6fc8f22692ef23a5dc4d0a75933"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/advanced-card.tsx",
+          "sha256": "f54fe022ceaa3cc3168dbc16125345de59f726f07478225a15356434b0c7f338"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/chrome/geo-banner.tsx",
+          "sha256": "984478e0995d7c709f6e76191cf05a09e77061a63d790d75c6d965f39091f0c4"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/toast.tsx",
+          "sha256": "734811e6db90db1157dce7436c87c122c6d2b020cae43dc076d5a1c7041c62d8"
+        }
+      ]
+    },
+    {
+      "name": "trophy",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Trophy"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/referral-cards.tsx",
+          "sha256": "563c5a1e06a642977a7c153a9af4ce1a943fb930f630be4e95cd5ec0771c1827"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/hooks/use-tournament-start-toast.tsx",
+          "sha256": "1a0eabcdd9ee5467da271d324fbc85d1d4dc0637b645425b6c0a27d610ede4fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/index.mdx",
+          "sha256": "239eb62def8e275c3567bafe45d6c4bc3e4f4dfd5922e37b6cdfc27a4eda67eb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/how-to/qualify-for-season-01.mdx",
+          "sha256": "a3916d6286850f2a90761bc8fc78e0d81b78e35db481c1501d311bb818c8000f"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/season-01/index.mdx",
+          "sha256": "cee99af6753306bd60ea135f47a17bec66682b7a16b2290bd52d25aee5af10ad"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/season-01/meta.json",
+          "sha256": "6cdeae184e14304dfc93e55f249bbc5608046e750c3d9a3d4c12a9844c342207"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/referral-leaderboard-card.tsx",
+          "sha256": "eeb3e6472719bedaa3ed84bd544f9167e22879ab083d8d1d8e4510f97175c692"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/command-bar/page-filters.ts",
+          "sha256": "8405b3f8207f5e1a34e4c6ff9e5edeb1a07d8cfec1478b63986da77e2933c377"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/leaderboard/leaderboard-view.tsx",
+          "sha256": "bc0a0042acdf7a82e4cb61b2cba3295c959e5538110c90b6961a97e48640b43f"
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Type"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/font.mdx",
+          "sha256": "81676c6597503921ce101d408dd5bba9d0d93b00fd38f104a667f4ba0ade8884"
+        }
+      ]
+    },
+    {
+      "name": "upload",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Upload"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Users"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/referral-leaderboard.mdx",
+          "sha256": "e2bb5aa8e8c46a834ec7e0986478a2036e8eb060293c811dbb6a8a036ba7ad49"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/team.mdx",
+          "sha256": "383e49ca8cd594315955bbcc0141dd1e2dc9ab225301f9f35c57147862f1ba1e"
+        }
+      ]
+    },
+    {
+      "name": "vibrate",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Vibrate"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/open-source/haptic.mdx",
+          "sha256": "d3112fc33e1a47e2f20a5d5885229877fc2f44b72bb8eee1b4125cb30df0ad94"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/root-menu.tsx",
+          "sha256": "70cf4ee26c3ea6050df00494b9b964f904a76dd7e02e7f89f1f88a4dc786a6d0"
+        }
+      ]
+    },
+    {
+      "name": "vibrate-off",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "VibrateOff"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        }
+      ]
+    },
+    {
+      "name": "volume-1",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Volume1"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        }
+      ]
+    },
+    {
+      "name": "volume-2",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Volume2"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/root-menu.tsx",
+          "sha256": "70cf4ee26c3ea6050df00494b9b964f904a76dd7e02e7f89f1f88a4dc786a6d0"
+        }
+      ]
+    },
+    {
+      "name": "volume-off",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "VolumeOff"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+          "sha256": "730b4302b3ff3a3cbb783d66f6384aaa62d5a77f2b5ad0583efac02081d75a6d"
+        }
+      ]
+    },
+    {
+      "name": "wallet",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Wallet"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+          "sha256": "ab3d1b023e2175fff2991c884bb09a3e50d9c665f96250c48a1f359c22544077"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/send-cards.tsx",
+          "sha256": "6225ac2c81673d474a668df17569b12461b430c13b16b8a6e8c20ed52a823d90"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/bloxwap-send-card.tsx",
+          "sha256": "6132a3d19aa860573d9c81d97c5bb79363a0f5d1226cc5284d0053566c24ed77"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/login-drawer.tsx",
+          "sha256": "11ee2484818590539960e05d15a61e35950b089b56559246fb4e7f23d505d62c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-sol-send-card.tsx",
+          "sha256": "a5ccfe4c9588e102d409cde85e91137e026a5d8f1dc9dc2a08f2209ae9c07645"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/solana-usdc-send-card.tsx",
+          "sha256": "1220ff6f25fef6769b1c4f0bd6ca60d899f5e2b8bb1fda6310dbca1ba274b0dc"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/unified-send-card.tsx",
+          "sha256": "4f306403891bb49609002e9863b0646525b16c6fd1d0aedf0271f00edad24acb"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+          "sha256": "279440f6f9814d609b7bec24c9a85b8e2b44e38e42d8d293a4b25132f953cc58"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-composer-renderers.tsx",
+          "sha256": "d05e8433e7873f80a5a47e3c98cf6b8ed84fa6fc8f22692ef23a5dc4d0a75933"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-send-renderers.tsx",
+          "sha256": "dc4388e5c4f4cc4f91e307e85c6992eb1223b20cad04c420a2f97eadf697c1da"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+          "sha256": "7c453d56bbe5e66cf9b399cd09152eefdd64b11beb23adf78ce9b86ebc155c8b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/account/account-summary.tsx",
+          "sha256": "2973d3c3e02f7feb73d1d328615edda8dd1c534c582b6061d53480f06baeae1e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/command-bar/page-filters.ts",
+          "sha256": "8405b3f8207f5e1a34e4c6ff9e5edeb1a07d8cfec1478b63986da77e2933c377"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/order-ticket/order-ticket.tsx",
+          "sha256": "34b60db7e1ce74ebd714b76a08490945dea8381732e22838d8344926b9b5f5d0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/portfolio/portfolio-view.tsx",
+          "sha256": "5a349c444fcbac9cabd5adb37742fb853b7f67d7c97215380170bb5a0fb80c74"
+        }
+      ]
+    },
+    {
+      "name": "x",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "X",
+        "XIcon"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/analytics/src/components/sidebar.tsx",
+          "sha256": "a7921c11328a474e2203b2094647a3f06f160c0fe2c41ddf22af4e4aaf9472fd"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/analytics-feedback.tsx",
+          "sha256": "3e786be23bd4e29bba3342900954f98042245e143bd663f364b31daf08268009"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/hig/dialog.tsx",
+          "sha256": "371ee4411f0da2c9817a4d04a4de9d202dca81fd48fafea593eaad262d37e45c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/hig/drawer.tsx",
+          "sha256": "afe9f42f1cb0c4115cce4fbd4c9611fa6b6460de5bd1272d89798ad71b9e9440"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/session-expired-banner.tsx",
+          "sha256": "342f44858a07eec055543cfb7f4faf6250991ec89c1e33ea61b786e0bafb8c52"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/swing-signal-subscriber.tsx",
+          "sha256": "08b6f030c2140ca9f9f50f3d00a2c9a39517df9ca96c250c1021ac99254a9446"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/account-sheet/setting-rows.tsx",
+          "sha256": "98bf04beaf6020e144e14d346e3f170f8ab3b17ee44519aca67620b9c4be69c6"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/activity-card.tsx",
+          "sha256": "80a1500b73cc1cb97128ba9144560213dd8d86af0e4b0de1580584f3d516214c"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/close-payout-card.tsx",
+          "sha256": "b108b0ca0afe5554773ec160d1e401181e00ca5f5cbc30e4fdcb698bbb417b8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/market-picker.tsx",
+          "sha256": "4fb9c03ea1eb0981b88cd42449a3911b5225dbd8a622756409da9f3f70157e8d"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/onboarding-hint.tsx",
+          "sha256": "9a0fcf8d7ebed4aee1ef8c62aafb7d1dd4e2b0ec2a9f7e02dfa091d23905ea9e"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/trading/trade-screen.tsx",
+          "sha256": "86058a986fe06af023d667f1084932cba170e50a1e76d8f741e949993bf09a87"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/dialog.tsx",
+          "sha256": "94e22545e6bcdccf725489e611bd492a05d78a6de51f2df047fa61c59c31b11a"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/drawer.tsx",
+          "sha256": "47a7a7807f553abad25b09016d223ec1fe24c763cf699236688104b1f85044f5"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/ui/notification-card.tsx",
+          "sha256": "061625c6b33323a5b05d8eb7894d3827ad4f0bb6737bc9008c62db40b6e8bc42"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/app/trade/[asset].tsx",
+          "sha256": "64775ef1b5551a03ba5e22069515d2839572ed7b32375940003c40c070878cf1"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/login-drawer.tsx",
+          "sha256": "d446bbc6fbb06c1535475c5ab11382a0f9e416cbc216f2a75ebcd568d563b468"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/market-picker.tsx",
+          "sha256": "616b19af83ad9019fa877b8af772b3f2a9f35c850a7bdaeaa26d8b87839663f8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/onboarding-hint.tsx",
+          "sha256": "91e4c8f646b88a507eabe0b2b0a57d4171443b857e0e89ce7ed7d10358d090ba"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/components/size-lev-sheet.tsx",
+          "sha256": "f2160c94a70b33759e0fe5b949d9d70093722abbdf39061e89146b22a6427070"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/advanced-card.tsx",
+          "sha256": "f54fe022ceaa3cc3168dbc16125345de59f726f07478225a15356434b0c7f338"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/cards/signals-card.tsx",
+          "sha256": "0fdf6047d1bb560b4443695bc91891df9913ab6a70e7d64edd368bcfdf482ec0"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/mobile/src/profile/profile-sheet-body.tsx",
+          "sha256": "2cbf9220a79fe8f0a1808d73710a68cc1ec615eeb5c193c4784192b1cffb931b"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/analytics-feedback.tsx",
+          "sha256": "d53b599ccac0d21d95765cff54e0b63c9ec185c02cb1a6c9828f2926a35e7654"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/pro/src/components/hig/dialog.tsx",
+          "sha256": "ed6ad4ed13c97df3b9bad947de99d577d66096809ac104a6afc814657406371a"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/plain-ui/src/icons.generated.ts",
+          "sha256": "0a95c41a337d2b3c47d27dd1433c1dbd854065c42aacad226352fb4acffd1c83"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui-native/src/components/toast.tsx",
+          "sha256": "734811e6db90db1157dce7436c87c122c6d2b020cae43dc076d5a1c7041c62d8"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "packages/ui/src/components/dialog.tsx",
+          "sha256": "78905985655b4432c76bacb49be1c3a632ef41e73d28e8b148357ca0378a7402"
+        }
+      ]
+    },
+    {
+      "name": "zap",
+      "collections": [
+        "bloxwap"
+      ],
+      "searchTerms": [
+        "Zap"
+      ],
+      "sources": [
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/app/src/components/providers.tsx",
+          "sha256": "ae68e76fbd16727d4872b4435b20d24fccb22eeb8f87ffca8a81b17f1c62e6df"
+        },
+        {
+          "repository": "bloxwap/monorepo",
+          "path": "apps/docs/content/docs/developers/low-latency.mdx",
+          "sha256": "0669139be1e1862b69039f314f93b8c10bbaa5ede756750d041cf69c3fa4188c"
+        }
+      ]
+    }
+  ]
+}

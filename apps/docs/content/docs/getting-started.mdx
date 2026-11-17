@@ -1,0 +1,45 @@
+---
+title: Getting started
+description: Install the package and put your first icon in an interface.
+---
+
+## Install the package
+
+React, React Native, Pro chart icons, and raw SVGs are included in one npm package:
+
+```sh
+npm install @bloxwap/icons@0.1.0
+```
+
+Choose the platform entry when importing an icon. Native consumers also need Expo Image; see the [React Native guide](/docs/react-native).
+
+## Render your first icon
+
+React 19 is the web peer dependency.
+
+```tsx
+import { Wallet } from '@bloxwap/icons/react/wallet';
+
+export function OpenWallet() {
+  return (
+    <button aria-label="Open wallet">
+      <Wallet size={24} />
+    </button>
+  );
+}
+```
+
+Icons inherit `currentColor` on the web and are decorative by default. Put the accessible name on the control, or label a standalone meaningful icon.
+
+## Choose a platform
+
+| Import | Use |
+| --- | --- |
+| `@bloxwap/icons/react` | React web components |
+| `@bloxwap/icons/react/wallet` | Explicit individual web component |
+| `@bloxwap/icons/native/wallet` | React Native component |
+| `@bloxwap/icons/svg/wallet.svg` | Raw SVG asset |
+| `@bloxwap/icons/definitions/wallet` | Framework-independent geometry |
+| `@bloxwap/icons` | SVG serialization and types |
+
+For native setup, continue to the [React Native guide](/docs/react-native).

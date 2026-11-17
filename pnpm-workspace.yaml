@@ -1,5 +1,11 @@
 packages:
   - packages/*
+  - apps/*
 allowBuilds:
   sharp: true
 minimumReleaseAge: 4320
+
+overrides:
+  "@bloxwap/hig-tokens": file:vendor/bloxwap-hig/bloxwap-hig-tokens-0.1.0-candidate.sha872906a9.tgz
+  "@bloxwap/hig-contracts": file:vendor/bloxwap-hig/bloxwap-hig-contracts-0.1.0-candidate.sha872906a9.tgz
+  "@bloxwap/hig-react": file:vendor/bloxwap-hig/bloxwap-hig-react-0.1.0-candidate.sha872906a9.tgz

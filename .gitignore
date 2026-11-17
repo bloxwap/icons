@@ -5,3 +5,12 @@ dist
 artifacts/
 .expo/
 .test-native-*/
+
+# Documentation build output
+.next/
+.source/
+apps/docs/out/
+apps/docs/public/generated/
+*.tsbuildinfo
+playwright-report/
+test-results/

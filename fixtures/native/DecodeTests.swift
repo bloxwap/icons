@@ -14,7 +14,10 @@ final class DecodeTests: XCTestCase {
         }
         let result = app.staticTexts["decode-result"]
         XCTAssertTrue(result.waitForExistence(timeout: 40), app.debugDescription)
-        let complete = NSPredicate(format: "label == %@", "123/123 decoded · 0 errors")
+        let total = app.staticTexts["decode-total"].label
+        XCTAssertGreaterThan(Int(total) ?? 0, 0)
+        let expected = "\(total)/\(total) decoded · 0 errors"
+        let complete = NSPredicate(format: "label == %@", expected)
         expectation(for: complete, evaluatedWith: result)
         waitForExpectations(timeout: 30)
         // Expo Go can leave its developer sheet over the running gallery.
@@ -29,7 +32,7 @@ final class DecodeTests: XCTestCase {
         app.buttons["Switch theme"].tap()
         expectation(for: NSPredicate(format: "label == %@", "Light theme"), evaluatedWith: theme)
         waitForExpectations(timeout: 5)
-        XCTAssertEqual(result.label, "123/123 decoded · 0 errors")
+        XCTAssertEqual(result.label, expected)
         let light = XCTAttachment(screenshot: app.screenshot())
         light.name = "icons-light"
         light.lifetime = .keepAlways

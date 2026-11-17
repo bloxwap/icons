@@ -8,13 +8,13 @@ export interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'ref'> {
 export type IconComponent = (props: IconProps) => ReactNode;
 
 /** Generated children are created once per module, not mapped on every render. */
-export function createIcon(name: string, geometry: ReactNode): IconComponent {
-  function Icon({size = 24, color = 'currentColor', strokeWidth = 2,
+export function createIcon(name: string, geometry: ReactNode, defaultStrokeWidth = 2): IconComponent {
+  function Icon({size = 24, color = 'currentColor', strokeWidth = defaultStrokeWidth,
     absoluteStrokeWidth = false, children, className, ...props}: IconProps) {
     const named = !!(props['aria-label'] || props['aria-labelledby']);
     return createElement('svg', {
       xmlns: 'http://www.w3.org/2000/svg', width: size, height: size,
-      viewBox: '0 0 24 24', fill: 'none', stroke: color, strokeWidth,
+      viewBox: '0 0 24 24', fill: 'none', color, stroke: color, strokeWidth,
       strokeLinecap: 'round', strokeLinejoin: 'round', focusable: false,
       'aria-hidden': named ? undefined : true, role: named ? 'img' : undefined,
       ...props,

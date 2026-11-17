@@ -1,7 +1,51 @@
 # Bloxwap icons
 
+## Repository layout
+
+| Directory | Purpose |
+| --- | --- |
+| `assets/` | Brand, token, exchange, and platform images |
+| `packages/icons/` | Shared UI icon package, catalog, and SVGs |
+| `apps/docs/` | Fumadocs landing page and GitHub Pages documentation |
+| `src/` | Existing Express asset server |
+
+## Documentation website
+
+```sh
+pnpm install
+pnpm docs:dev
+# Build the GitHub Pages export:
+NEXT_PUBLIC_BASE_PATH=/icons pnpm docs:build
+```
+
+The landing page shows icons audited from the Bloxwap monorepo and Pro chart
+library, with collection and category filters, size/stroke/color controls, React and native examples, and SVG downloads.
+See [the docs app guide](apps/docs/README.md) for verification, preview, and Pages
+setup. The site uses the shared Bloxwap HIG styles and Bloxwap Sans/Mono fonts.
+
+To refresh the reviewed consumer inventory from sibling checkouts:
+
+```sh
+node scripts/sync-consumer-icons.mjs ../monorepo ../chart-ts
+pnpm --filter @bloxwap/icons build
+```
+
+Normal docs builds use the committed catalog and usage snapshot, so sibling
+checkouts are not required. Development uses `http://127.0.0.1:3909`; the static
+preview uses `http://127.0.0.1:3918/icons/`.
+
+## UI library
+
 The shared UI icon library lives in [`packages/icons`](packages/icons/README.md).
 It supplies one curated catalog for React, React Native, and raw SVG consumers.
+
+Install the [published package](https://www.npmjs.com/package/@bloxwap/icons/v/0.1.0):
+
+```sh
+npm install @bloxwap/icons@0.1.0
+```
+
+To build and verify the library from source:
 
 ```sh
 pnpm install

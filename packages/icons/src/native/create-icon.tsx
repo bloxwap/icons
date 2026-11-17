@@ -15,7 +15,7 @@ export type IconComponent = (props: IconProps) => ReactNode;
 /** One native image view; no path views, fonts, network requests or SVG parser in JS. */
 export function createIcon(definition: IconDefinition): IconComponent {
   function Icon({size = 24, width = size, height = size, color = '#000000', fill = 'none',
-    strokeWidth = 2, strokeLinecap = 'round', strokeLinejoin = 'round', absoluteStrokeWidth = false,
+    strokeWidth = definition.strokeWidth ?? 2, strokeLinecap = 'round', strokeLinejoin = 'round', absoluteStrokeWidth = false,
     style, accessibilityLabel, accessible = !!accessibilityLabel, ...props}: IconProps) {
     if (!(width > 0 && height > 0 && Number.isFinite(width) && Number.isFinite(height))) return null;
     // Native tint respects the host's React Native color space (including iOS P3).

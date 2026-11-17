@@ -1,5 +1,9 @@
 # Icon verification — 2026-11-16
 
+The original migration results below describe the 123-icon candidate. The
+[264-icon follow-up](#react-and-react-native-follow-up--2026-11-17) records the
+current catalog and optimization checks.
+
 The release candidate is `@bloxwap/icons@0.1.0`. The identical archive is used in
 the monorepo and HIG migrations. Its SHA-256 is
 `45a7c508ab4f7c4595e2046f785a8c5fb64daed4136fc80d76942b7ee671c6d7`.
@@ -82,3 +86,58 @@ SVG rasterization and transform-scaling behavior are documented in
 Reproduce the library checks from the repository README and the real native
 check from [fixtures/native](../fixtures/native/README.md). The archive is a
 local release candidate; no registry publication or deployment was performed.
+
+## React and React Native follow-up — 2026-11-17
+
+The expanded package contains 264 entries; the consumer gallery includes 261.
+Default native source identity was retained for only 2 of 264 definitions on a
+second sequential pass through the previous 256-entry cache. Default sources
+now use a weak cache per imported definition: all 264 survive a second pass and
+custom-paint churn. Customized paint retains a separate 256-entry LRU limit.
+Cache hits no longer stringify SVG geometry. Chart defaults (1.5) no longer
+collide with explicit 2-unit stroke overrides.
+
+Unchanged builds preserve all 1,597 generated module, declaration, and manifest
+timestamps. Outputs are compiled in a temporary directory before changed files
+replace their previous versions, avoiding missing-module windows during dev.
+
+| Check | Result |
+| --- | --- |
+| Package build, generated outputs, types, and tests | Pass; 11 tests |
+| Web/native SVG pixel parity | All 264 entries, three sizes/paints |
+| Largest optimized/source mean alpha difference | 0.0280% |
+| React SSR and Chromium hydration | All 264 entries, zero errors |
+| React browser behavior | React 19 ref, inherited fill, chart defaults, non-scaling stroke pass |
+| Direct React Check / ProFib, minified + gzip | 528 / 567 bytes |
+| Direct native Check / ProFib, minified + gzip | 1,157 / 1,189 bytes |
+| Real Metro graph, direct ProFib import | iOS and Android include only ProFib geometry and shared native helpers |
+| Packed Expo SDK 58 fixture | iOS and Android exports pass |
+| iOS 27.2, Expo Go 58.0.7 | 264/264 decoded, zero errors; theme-switch XCTest passes |
+| Documentation types and dev stability | Pass; one document request and one search-index request |
+
+Bundle numbers exclude React and Expo Image. iOS screenshots were visually
+checked in [dark](screenshots/ios-264-dark.png) and
+[light](screenshots/ios-264-light.png) themes. The native test reads the catalog
+count instead of hard-coding 123. Android native decoding and physical-device
+frame-time/memory benchmarks were not run in this pass. Verification used an
+isolated simulator and temporary servers, which were stopped afterward.
+
+## npm publication — 2026-11-17
+
+Published `@bloxwap/icons@0.1.0` publicly with the `latest` tag. Verified the npm
+package page through browser automation and downloaded the registry archive
+without authentication. Its bytes match the tested local archive exactly:
+
+```text
+sha512-BFBu9JA7GRakCXKG7/rq8ZNYEfcd77Zf/m7H57s07jePFGrahY6PLJLGC/FpVgRKh+ozD92w/R93ZaZyr6BwRg==
+```
+
+A clean temporary project installed the registry package with React and React DOM
+19.3.1. All 264 React components rendered to SVG, all native/definition/SVG
+subpaths resolved, chart defaults retained their 1.5 stroke, and the lockfile
+integrity matched. Optional native peers were not installed for the web consumer.
+Native runtime verification remains the fixture results above.
+
+The future tag-triggered CI release workflow is prepared locally and its release
+guard tests and actionlint checks pass. It still needs to be committed to GitHub
+and connected to an npm trusted publisher before the first CI release.

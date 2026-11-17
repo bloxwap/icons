@@ -7,6 +7,7 @@
     "CheckIcon": "Check",
     "ChevronDownIcon": "ChevronDown",
     "ChevronUpIcon": "ChevronUp",
+    "Code2": "CodeXml",
     "Filter": "Funnel",
     "Loader2": "LoaderCircle",
     "Trash2": "Trash",
@@ -164,6 +165,37 @@
           "path",
           {
             "d": "m12 5 7 7-7 7"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "arrow-right-left",
+      "symbol": "ArrowRightLeft",
+      "source": "lucide-react@1.61.0",
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m16 3 4 4-4 4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M20 7H4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m8 21-4-4 4-4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M4 17h16"
           }
         ]
       ]
@@ -506,6 +538,25 @@
       ]
     },
     {
+      "name": "braces",
+      "symbol": "Braces",
+      "source": "lucide-react@1.61.0",
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"
+          }
+        ]
+      ]
+    },
+    {
       "name": "briefcase",
       "symbol": "Briefcase",
       "source": "lucide-react@1.61.0",
@@ -581,6 +632,37 @@
           "path",
           {
             "d": "M3 3v16a2 2 0 0 0 2 2h16"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "chart-column",
+      "symbol": "ChartColumn",
+      "source": "lucide-react@1.61.0",
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 3v16a2 2 0 0 0 2 2h16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M18 17V9"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M13 17V5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 17v-3"
           }
         ]
       ]
@@ -2243,6 +2325,3330 @@
       ]
     },
     {
+      "name": "pro-abcd",
+      "symbol": "ProAbcd",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/abcd.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 18 9 6l5 8 6-10"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M4 18l10-4",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-anchored-note",
+      "symbol": "ProAnchoredNote",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/anchored-note.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 3h14a2 2 0 0 1 2 2v10l-6 6H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M15 21v-4a2 2 0 0 1 2-2h4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 8h6M7 12h4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-anchored-text",
+      "symbol": "ProAnchoredText",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/anchored-text.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M7 8V6h10v2M10 17h4M12 6v11"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 7V3h4M17 3h4v4M21 17v4h-4M7 21H3v-4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-anchored-vwap",
+      "symbol": "ProAnchoredVwap",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/anchored-vwap.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 17c4 0 5-6 8.5-6S18 13 21 11"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M5 17v4M3 21h4"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "15",
+            "r": "2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-arc",
+      "symbol": "ProArc",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arc.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 18a9 9 0 0 1 18 0"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 18h18",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-arrow",
+      "symbol": "ProArrow",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 19 19 5M10 5h9v9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-arrow-down",
+      "symbol": "ProArrowDown",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow-down.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 21l7-8h-4V4H9v9H5z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-arrow-marker",
+      "symbol": "ProArrowMarker",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow-marker.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 17.5 13.5 9 11 6.5h7.5V14L16 11.5 7.5 20z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-arrow-up",
+      "symbol": "ProArrowUp",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow-up.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 3l7 8h-4v9H9v-9H5z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-bars-pattern",
+      "symbol": "ProBarsPattern",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/bars-pattern.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M6 3v18M12 6v14M18 3v14"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "4.5",
+            "y": "7",
+            "width": "3",
+            "height": "8",
+            "rx": ".5"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "10.5",
+            "y": "9",
+            "width": "3",
+            "height": "7",
+            "rx": ".5"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "16.5",
+            "y": "6",
+            "width": "3",
+            "height": "7",
+            "rx": ".5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-brush",
+      "symbol": "ProBrush",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/brush.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m9 12 8-8a2.75 2.75 0 1 1 4 4l-8 8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 15c-1.75 0-3 1.25-3 3 0 1.25-2.5 1.5-2 2 1 1 2.5 2 4 2 2.25 0 4-1.75 4-4a3 3 0 0 0-3-3z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-callout",
+      "symbol": "ProCallout",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/callout.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M20 3H8a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1l-6 8 10-8h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-area",
+      "symbol": "ProChartArea",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-area.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4v15a1 1 0 0 0 1 1h16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6 17v-4l4-5 4 3 5-6v12"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-bar",
+      "symbol": "ProChartBar",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-bar.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4v15a1 1 0 0 0 1 1h16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 5v8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6 8h3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 10h3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M16 9v9"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M13 12h3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M16 15h3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-candlestick",
+      "symbol": "ProChartCandlestick",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-candlestick.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M7 3v2"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "5",
+            "y": "5",
+            "width": "4",
+            "height": "8",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 13v3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M17 6v2"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "15",
+            "y": "8",
+            "width": "4",
+            "height": "6",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M17 14v4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-heikin-ashi",
+      "symbol": "ProChartHeikinAshi",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-heikin-ashi.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M6 11v2"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "4.5",
+            "y": "13",
+            "width": "3",
+            "height": "6",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6 19v2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 7v2"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "10.5",
+            "y": "9",
+            "width": "3",
+            "height": "7",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M18 3v2"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "16.5",
+            "y": "5",
+            "width": "3",
+            "height": "7.5",
+            "rx": "1"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-histogram",
+      "symbol": "ProChartHistogram",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-histogram.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4v15a1 1 0 0 0 1 1h16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 18v-6"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M13 18V7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M18 18v-3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-hollow-candlestick",
+      "symbol": "ProChartHollowCandlestick",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-hollow-candlestick.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M7 3v3"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "5",
+            "y": "6",
+            "width": "4",
+            "height": "8",
+            "rx": "1",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 14v3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M17 5v3"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "15",
+            "y": "8",
+            "width": "4",
+            "height": "7",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M17 15v4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chart-line",
+      "symbol": "ProChartLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-line.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4v15a1 1 0 0 0 1 1h16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m6 15 4-5 4 3 5-7"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-check",
+      "symbol": "ProCheck",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/check.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M20 6 9 17l-5-5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chevron-down",
+      "symbol": "ProChevronDown",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chevron-down.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m6 9 6 6 6-6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chevron-left",
+      "symbol": "ProChevronLeft",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chevron-left.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m14 6-6 6 6 6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-chevron-right",
+      "symbol": "ProChevronRight",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chevron-right.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m10 6 6 6-6 6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-circle",
+      "symbol": "ProCircle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/circle.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-comment",
+      "symbol": "ProComment",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/comment.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-copy",
+      "symbol": "ProCopy",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/copy.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "8",
+            "y": "8",
+            "width": "14",
+            "height": "14",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M4 16c-1 0-2-1-2-2V4c0-1 1-2 2-2h10c1 0 2 1 2 2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cross-line",
+      "symbol": "ProCrossLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cross-line.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 3v7M12 14v7M3 12h7M14 12h7"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-crosshair",
+      "symbol": "ProCrosshair",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/crosshair.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 2v3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 19v3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M2 12h3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M19 12h3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cursor-arrow",
+      "symbol": "ProCursorArrow",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-arrow.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4.75 3.75a.5.5 0 0 1 .75-.5l15 6.5a.5.5 0 0 1 0 1l-6 1.5a1.5 1.5 0 0 0-1 1l-1.5 6a.5.5 0 0 1-1 0z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cursor-cross",
+      "symbol": "ProCursorCross",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-cross.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 3v7M12 14v7M3 12h7M14 12h7"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cursor-demonstration",
+      "symbol": "ProCursorDemonstration",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-demonstration.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "2.5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 2v2M12 20v2M2 12h2M20 12h2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cursor-dot",
+      "symbol": "ProCursorDot",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-dot.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "2.5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "8",
+            "stroke-dasharray": "2 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-curve",
+      "symbol": "ProCurve",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/curve.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20c4-14 14-12 18-16"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cyclic-lines",
+      "symbol": "ProCyclicLines",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cyclic-lines.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 3v18M11 3v18M18 3v18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M4 12h7",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-cypher",
+      "symbol": "ProCypher",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cypher.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 15 8 5l3 11 4-8 6 11"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 15l8 1",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-date-price-range",
+      "symbol": "ProDatePriceRange",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/date-price-range.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 7v10M7 12h10"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-date-range",
+      "symbol": "ProDateRange",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/date-range.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 12h16M7 9l-3 3 3 3M17 9l3 3-3 3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 4v16M21 4v16"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-disjoint-channel",
+      "symbol": "ProDisjointChannel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/disjoint-channel.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 5l18 6"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 19l18-6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-double-curve",
+      "symbol": "ProDoubleCurve",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/double-curve.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 18c3-12 6-12 9-6s6 6 9-6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-elliott-correction",
+      "symbol": "ProElliottCorrection",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-correction.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 5l7 12 4-6 7 9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-elliott-double-combo",
+      "symbol": "ProElliottDoubleCombo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-double-combo.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4l6 10 4-5 8 11"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "9",
+            "cy": "14",
+            "r": "1.5"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "13",
+            "cy": "9",
+            "r": "1.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-elliott-impulse",
+      "symbol": "ProElliottImpulse",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-impulse.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 19l4-7 3 4 5-11 3 5 3-5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-elliott-triangle",
+      "symbol": "ProElliottTriangle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-triangle.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4l3 16 3-12 3 9 3-6 3 4 3-2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-elliott-triple-combo",
+      "symbol": "ProElliottTripleCombo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-triple-combo.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 4l4 8 3-4 4 7 3-4 6 9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-ellipse",
+      "symbol": "ProEllipse",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ellipse.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "ellipse",
+          {
+            "cx": "12",
+            "cy": "12",
+            "rx": "10",
+            "ry": "6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-emoji",
+      "symbol": "ProEmoji",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/emoji.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "10"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 14s1.5 2 4 2 4-2 4-2"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "9",
+            "cy": "9",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "15",
+            "cy": "9",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-eraser",
+      "symbol": "ProEraser",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/eraser.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m7 21-4.25-4.25c-1-1-1-2.5 0-3.5l9.5-9.5c1-1 2.5-1 3.5 0l5.5 5.5c1 1 1 2.5 0 3.5L13 21"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M22 21H7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m5 11 9 9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-extended-line",
+      "symbol": "ProExtendedLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/extended-line.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "9",
+            "cy": "15",
+            "r": "2"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "15",
+            "cy": "9",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 21l4.5-4.5M10.5 13.5l3-3M16.5 7.5 21 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-eye",
+      "symbol": "ProEye",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/eye.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2.5 12a10 5.5 0 0 1 19 0 10 5.5 0 0 1-19 0"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-eye-off",
+      "symbol": "ProEyeOff",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/eye-off.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2.5 12a10 5.5 0 0 1 19 0 10 5.5 0 0 1-19 0"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9.75 9.75a3 3 0 0 0 0 4.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M14.25 9.75a3 3 0 0 1 0 4.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m2 2 20 20"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib",
+      "symbol": "ProFib",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 4h18M3 9h18M3 14h18M3 20h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M5 20 19 4",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-channel",
+      "symbol": "ProFibChannel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-channel.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 11 11 3M3 16 16 3M3 21 21 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-circles",
+      "symbol": "ProFibCircles",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-circles.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "3"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "6"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "9.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-extension",
+      "symbol": "ProFibExtension",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-extension.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20l5-8 4 4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M13 4h8M13 9h8M13 14h8M13 19h8"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-speed-arcs",
+      "symbol": "ProFibSpeedArcs",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-speed-arcs.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 20a3 3 0 0 1 6 0M6 20a6 6 0 0 1 12 0M3 20a9 9 0 0 1 18 0"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-speed-fan",
+      "symbol": "ProFibSpeedFan",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-speed-fan.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 21 21 3M3 21 21 10M3 21 21 16M3 21 10 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-spiral",
+      "symbol": "ProFibSpiral",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-spiral.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 12a2 2 0 0 1 2 2 4 4 0 0 1-4 4 6 6 0 0 1-6-6 8 8 0 0 1 8-8 10 10 0 0 1 9.5 6.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-time",
+      "symbol": "ProFibTime",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-time.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20l4-8 3 4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M13 3v18M16 3v18M21 3v18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-time-zone",
+      "symbol": "ProFibTimeZone",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-time-zone.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 3v18M6 3v18M9 3v18M14 3v18M21 3v18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-fib-wedge",
+      "symbol": "ProFibWedge",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-wedge.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20 21 5M3 20h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 20a8 8 0 0 0-1.75-5M16 20a13 13 0 0 0-3-8.25"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-flag-mark",
+      "symbol": "ProFlagMark",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/flag-mark.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 22V4a1 1 0 0 1 .5-.75A6 6 0 0 1 8 2c3 0 5 2 7.25 2q2 0 3.25-.75A1 1 0 0 1 20 4v10a1 1 0 0 1-.5.75A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-flat-top-bottom",
+      "symbol": "ProFlatTopBottom",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/flat-top-bottom.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 6h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 20 21 11"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-forecast",
+      "symbol": "ProForecast",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/forecast.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "17",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 15.75 17.25 7.25"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "19",
+            "cy": "6",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M19 9v12",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-function-square",
+      "symbol": "ProFunctionSquare",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/function-square.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M14 7.5h-1.5A1.5 1.5 0 0 0 11 9v7.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8.5 10.5H14"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m14.5 14.5 3 3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m17.5 14.5-3 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-gann-box",
+      "symbol": "ProGannBox",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-box.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 3v18M15 3v18M3 9h18M3 15h18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-gann-fan",
+      "symbol": "ProGannFan",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-fan.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 21 21 3M3 21 12 3M3 21 21 12M3 21 6 3M3 21 21 18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-gann-square",
+      "symbol": "ProGannSquare",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-square.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M21 21A18 18 0 0 0 3 3M12 21a9 9 0 0 0-9-9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-gann-square-fixed",
+      "symbol": "ProGannSquareFixed",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-square-fixed.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 21 21 3M3 21l18-9M3 21l9-18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-ghost-feed",
+      "symbol": "ProGhostFeed",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ghost-feed.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M6 3v18M12 6v14M18 3v14",
+            "stroke-dasharray": "2 2"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "4.5",
+            "y": "7",
+            "width": "3",
+            "height": "8",
+            "rx": ".5"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "10.5",
+            "y": "9",
+            "width": "3",
+            "height": "7",
+            "rx": ".5"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "16.5",
+            "y": "6",
+            "width": "3",
+            "height": "7",
+            "rx": ".5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-head-shoulders",
+      "symbol": "ProHeadShoulders",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/head-shoulders.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 18l4-7 3 4 3-10 3 10 3-4 4 7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M5 15h14",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-highlighter",
+      "symbol": "ProHighlighter",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/highlighter.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m9 11-6 6v3h9l3-3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m22 12-4.5 4.5a2 2 0 0 1-2.75 0l-5.25-5.25a2 2 0 0 1 0-2.75L14 4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-hline",
+      "symbol": "ProHline",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/hline.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 12h7M14 12h7"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-horizontal-ray",
+      "symbol": "ProHorizontalRay",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/horizontal-ray.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "12",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 12h14"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-icon",
+      "symbol": "ProIcon",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/icon.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 2.5l2.75 5.75 6.25.75-4.5 4.25 1 6.25-5.5-3-5.5 3 1-6.25L3 9l6.25-.75z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-image",
+      "symbol": "ProImage",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/image.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "2"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "9",
+            "cy": "9",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m21 15-3-3a2 2 0 0 0-3 0L6 21"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-info-line",
+      "symbol": "ProInfoLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/info-line.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "4",
+            "cy": "20",
+            "r": "2"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "13",
+            "cy": "11",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M5.5 18.5l6-6"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "15",
+            "y": "3",
+            "width": "7",
+            "height": "6",
+            "rx": "1"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-inside-pitchfork",
+      "symbol": "ProInsidePitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/inside-pitchfork.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 13h6"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 8v10"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 8h12M9 18h12"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 13h12",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-lock",
+      "symbol": "ProLock",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/lock.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "5",
+            "y": "11",
+            "width": "14",
+            "height": "9",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 11V7a4 4 0 0 1 8 0v4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-long-position",
+      "symbol": "ProLongPosition",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/long-position.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 13h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m9 9 3-3 3 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-magnet",
+      "symbol": "ProMagnet",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/magnet.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 4v7a7 7 0 0 0 14 0V4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M5 4h4v5H5z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M15 4h4v5h-4z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-magnet-strong",
+      "symbol": "ProMagnetStrong",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/magnet-strong.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "m6 15-4-4 6.75-6.75a8 8 0 0 1 11 11L13 22l-4-4 6.5-6.5a2.25 2.25 0 0 0-3-3L6 15"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m5 8 4 4M12 15l4 4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M2.5 21.5 5 19"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-modified-schiff-pitchfork",
+      "symbol": "ProModifiedSchiffPitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/modified-schiff-pitchfork.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 8l6 5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 5v16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 5h10M11 13h10M11 21h10"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-monitor",
+      "symbol": "ProMonitor",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/monitor.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "2",
+            "y": "3",
+            "width": "20",
+            "height": "14",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 21h8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 17v4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-moon",
+      "symbol": "ProMoon",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/moon.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M20.5 13.5A8.5 8.5 0 1 1 10.5 3.5a7 7 0 0 0 10 10z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-note",
+      "symbol": "ProNote",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/note.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M5 3h14a2 2 0 0 1 2 2v10l-6 6H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M15 21v-4a2 2 0 0 1 2-2h4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-order-book",
+      "symbol": "ProOrderBook",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/order-book.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M20 3v18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M14 5h6M8 9h12M4 13h16M11 17h9M16 21h4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-palette",
+      "symbol": "ProPalette",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/palette.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "13.5",
+            "cy": "6.5",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "17.5",
+            "cy": "10.5",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "8.5",
+            "cy": "7.5",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "6.5",
+            "cy": "12.5",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 2.5C6.5 2.5 2.5 6.5 2.5 12s4 9.5 9.5 9.5c.75 0 1.5-.5 1.5-1.5 0-.5-.25-.75-.5-1s-.5-.5-.5-1a1.5 1.5 0 0 1 1.5-1.5h2c3 0 5.5-2.5 5.5-5.5C21.5 6 17.5 2.5 12 2.5z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-panel-left-close",
+      "symbol": "ProPanelLeftClose",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/panel-left-close.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "4",
+            "width": "18",
+            "height": "16",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 4v16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m14.5 9-3 3 3 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-panel-left-open",
+      "symbol": "ProPanelLeftOpen",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/panel-left-open.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "4",
+            "width": "18",
+            "height": "16",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 4v16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m11.5 9 3 3-3 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-parallel-channel",
+      "symbol": "ProParallelChannel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/parallel-channel.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 13 13 3M11 21 21 11"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 17 17 7",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-path",
+      "symbol": "ProPath",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/path.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 19l5-9 6 5 6-10"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M16 5h4v4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-pause",
+      "symbol": "ProPause",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pause.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "7",
+            "y": "4",
+            "width": "3.5",
+            "height": "16",
+            "rx": "1.25"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "13.5",
+            "y": "4",
+            "width": "3.5",
+            "height": "16",
+            "rx": "1.25"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-pencil",
+      "symbol": "ProPencil",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pencil.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 20h4l11-11a2.25 2.25 0 0 0-3-3L5 17l-1 3z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m13.5 7.5 3 3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-pencil-lock",
+      "symbol": "ProPencilLock",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pencil-lock.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 22l1-4L16 5a2.25 2.25 0 0 1 3 3L6 21l-4 1z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m14.5 6.5 3 3"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "15",
+            "y": "15",
+            "width": "7",
+            "height": "6",
+            "rx": "1"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M17 15v-1.5a1.5 1.5 0 0 1 3 0V15"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-pin",
+      "symbol": "ProPin",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pin.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M20 10c0 5-5.5 10.25-7.5 11.75a1 1 0 0 1-1 0C9.5 20.25 4 15 4 10a8 8 0 0 1 16 0"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "10",
+            "r": "3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-pitchfan",
+      "symbol": "ProPitchfan",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pitchfan.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20 21 4M3 20 21 11M3 20h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M21 4v16",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-pitchfork",
+      "symbol": "ProPitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pitchfork.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 13h8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 5v16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 5h10M11 13h10M11 21h10"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-play",
+      "symbol": "ProPlay",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/play.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M7 4.75v14.5a.75.75 0 0 0 1.25.75l11-7.25a.75.75 0 0 0 0-1.5l-11-7.25a.75.75 0 0 0-1.25.75z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-polyline",
+      "symbol": "ProPolyline",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/polyline.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 18 3 8l8-5 10 7-5 10z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-price-label",
+      "symbol": "ProPriceLabel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/price-label.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 3H4a2 2 0 0 0-2 2v8l9 9a2.5 2.5 0 0 0 3.5 0l7-7a2.5 2.5 0 0 0 0-3.5z"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "7.5",
+            "cy": "7.5",
+            "r": "1.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-price-note",
+      "symbol": "ProPriceNote",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/price-note.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "18",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6.5 16.5 11 12"
+          }
+        ],
+        [
+          "rect",
+          {
+            "x": "11",
+            "y": "5",
+            "width": "11",
+            "height": "7",
+            "rx": "2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-price-range",
+      "symbol": "ProPriceRange",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/price-range.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 4v16M9 7l3-3 3 3M9 17l3 3 3-3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M4 3h16M4 21h16"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-projection",
+      "symbol": "ProProjection",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/projection.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 20 9 6l6 10 6-8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M15 16a7 7 0 0 0-6-10",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-range-profile",
+      "symbol": "ProRangeProfile",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/range-profile.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 3v18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M10 5h4M7 9h10M4 13h16M8 17h8M10 21h4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-ray",
+      "symbol": "ProRay",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ray.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "17",
+            "r": "2"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "13.5",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6.75 16l3.5-1.75M13.75 12.5 21 9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-rect",
+      "symbol": "ProRect",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/rect.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "5",
+            "width": "18",
+            "height": "14",
+            "rx": "2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-redo",
+      "symbol": "ProRedo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/redo.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M20 8H9a5 5 0 0 0 0 10h7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m16 4 4 4-4 4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-regression-trend",
+      "symbol": "ProRegressionTrend",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/regression-trend.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 17 21 7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 12 21 2M3 22l18-10",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-rotated-rect",
+      "symbol": "ProRotatedRect",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/rotated-rect.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 12 10 4l12 8-8 8z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-ruler",
+      "symbol": "ProRuler",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ruler.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3.5 15.5 15.5 3.5a1.5 1.5 0 0 1 2 0l3 3a1.5 1.5 0 0 1 0 2l-12 12a1.5 1.5 0 0 1-2 0l-3-3a1.5 1.5 0 0 1 0-2z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m8.5 11.5 1.5 1.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m11.5 8.5 1.5 1.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m14.5 5.5 1.5 1.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-schiff-pitchfork",
+      "symbol": "ProSchiffPitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/schiff-pitchfork.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 19l8-6"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 5v16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 5h10M11 13h10M11 21h10"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-settings",
+      "symbol": "ProSettings",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/settings.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M9.5 5L10.25 2.5L13.75 2.5L14.5 5L15 5.25L17.5 4L20 6.5L18.75 9L19 9.5L21.5 10.25L21.5 13.75L19 14.5L18.75 15L20 17.5L17.5 20L15 18.75L14.5 19L13.75 21.5L10.25 21.5L9.5 19L9 18.75L6.5 20L4 17.5L5.25 15L5 14.5L2.5 13.75L2.5 10.25L5 9.5L5.25 9L4 6.5L6.5 4L9 5.25Z"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-short-position",
+      "symbol": "ProShortPosition",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/short-position.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 11h18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m9 15 3 3 3-3"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-signpost",
+      "symbol": "ProSignpost",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/signpost.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 13v8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 3v3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M18 6a2 2 0 0 1 1.5.5l2.25 2.25a1 1 0 0 1 0 1.5l-2.25 2.25A2 2 0 0 1 18 13H6a2 2 0 0 1-1.5-.5l-2.25-2.25a1 1 0 0 1 0-1.5L4.5 6.5A2 2 0 0 1 6 6z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-sine-line",
+      "symbol": "ProSineLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/sine-line.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 12c2-6 4-6 5 0s3 6 5 0 3-6 5 0 3 6 5 0"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-smile",
+      "symbol": "ProSmile",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/smile.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "9"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8.5 14.5a4.5 4.5 0 0 0 7 0"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "9",
+            "cy": "9.5",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "15",
+            "cy": "9.5",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-star",
+      "symbol": "ProStar",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/star.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 2.5l2.75 5.75 6.25.75-4.5 4.25 1 6.25-5.5-3-5.5 3 1-6.25L3 9l6.25-.75z"
+          }
+        ]
+      ],
+      "aliasOf": "pro-icon"
+    },
+    {
+      "name": "pro-star-filled",
+      "symbol": "ProStarFilled",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/star-filled.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "fill": "currentColor",
+            "d": "M12 2.5l2.75 5.75 6.25.75-4.5 4.25 1 6.25-5.5-3-5.5 3 1-6.25L3 9l6.25-.75z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-sticker",
+      "symbol": "ProSticker",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/sticker.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M15.5 3H5a2 2 0 0 0-2 2v14c0 1 1 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M14 3v4a2 2 0 0 0 2 2h4"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "8",
+            "cy": "13",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "16",
+            "cy": "13",
+            "r": ".5",
+            "fill": "currentColor"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M10 16s.75 1 2 1 2-1 2-1"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-sun",
+      "symbol": "ProSun",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/sun.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "4"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 2v2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 20v2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M2 12h2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M20 12h2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m5 5 1.5 1.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m17.5 17.5 1.5 1.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m19 5-1.5 1.5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m6.5 17.5-1.5 1.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-table",
+      "symbol": "ProTable",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/table.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "3",
+            "y": "3",
+            "width": "18",
+            "height": "18",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 9h18M3 15h18M12 3v18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-text",
+      "symbol": "ProText",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/text.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M6 5h12"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 5v13"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 18h6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-three-drives",
+      "symbol": "ProThreeDrives",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/three-drives.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 20l3-6 3 3 4-8 3 3 6-9"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-time-cycles",
+      "symbol": "ProTimeCycles",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/time-cycles.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M2 18a5 5 0 0 1 10 0 5 5 0 0 1 10 0"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M2 18h20"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-trash",
+      "symbol": "ProTrash",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/trash.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 7h16"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6 7l1 13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1l1-13"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M10 11v6"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M14 11v6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-trend-angle",
+      "symbol": "ProTrendAngle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/trend-angle.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "18",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6.5 16.75 19 6"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M7 18h13"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M13 18a7 7 0 0 0-1.5-4.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-trendline",
+      "symbol": "ProTrendline",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/trendline.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "5",
+            "cy": "19",
+            "r": "2"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "19",
+            "cy": "5",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M6.5 17.5l11-11"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-triangle",
+      "symbol": "ProTriangle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/triangle.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M12 4 21 20H3z"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-triangle-pattern",
+      "symbol": "ProTrianglePattern",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/triangle-pattern.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 5l5 13 5-9 4 6 4-3"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 5l18 7M8 18l13-6",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-undo",
+      "symbol": "ProUndo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/undo.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 8h11a5 5 0 0 1 0 10H8"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 4 4 8l4 4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-unlock",
+      "symbol": "ProUnlock",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/unlock.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "rect",
+          {
+            "x": "5",
+            "y": "11",
+            "width": "14",
+            "height": "9",
+            "rx": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8 11V7a4 4 0 0 1 7.5-2"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-vertical-line",
+      "symbol": "ProVerticalLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/vertical-line.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "12",
+            "r": "2"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M12 3v7M12 14v7"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-volume-profile",
+      "symbol": "ProVolumeProfile",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/volume-profile.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M4 3v18"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M4 5h6M4 9h12M4 13h16M4 17h9M4 21h4"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-x",
+      "symbol": "ProX",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/x.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M6 6l12 12"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M18 6 6 18"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-xabcd",
+      "symbol": "ProXabcd",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/xabcd.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "path",
+          {
+            "d": "M3 17 7 5l4 9 5-7 5 12"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M3 17l8-3 10 5",
+            "stroke-dasharray": "2 2.5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-zoom-in",
+      "symbol": "ProZoomIn",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/zoom-in.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "11",
+            "cy": "11",
+            "r": "7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m20.5 20.5-4.25-4.25"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M11 8.5v5"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8.5 11h5"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "pro-zoom-out",
+      "symbol": "ProZoomOut",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/zoom-out.svg",
+      "strokeWidth": 1.5,
+      "nodes": [
+        [
+          "circle",
+          {
+            "cx": "11",
+            "cy": "11",
+            "r": "7"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "m20.5 20.5-4.25-4.25"
+          }
+        ],
+        [
+          "path",
+          {
+            "d": "M8.5 11h5"
+          }
+        ]
+      ]
+    },
+    {
       "name": "qr-code",
       "symbol": "QrCode",
       "source": "lucide-react@1.61.0",
@@ -2869,6 +6275,39 @@
           "path",
           {
             "d": "m4 17 6-6-6-6"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "timer",
+      "symbol": "Timer",
+      "source": "lucide-react@1.61.0",
+      "nodes": [
+        [
+          "line",
+          {
+            "x1": "10",
+            "x2": "14",
+            "y1": "2",
+            "y2": "2"
+          }
+        ],
+        [
+          "line",
+          {
+            "x1": "12",
+            "x2": "15",
+            "y1": "14",
+            "y2": "11"
+          }
+        ],
+        [
+          "circle",
+          {
+            "cx": "12",
+            "cy": "14",
+            "r": "8"
           }
         ]
       ]

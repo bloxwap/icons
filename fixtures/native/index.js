@@ -12,6 +12,7 @@ function App() {
   return <ScrollView style={{flex:1,backgroundColor:dark?'#111':'#fff'}} contentContainerStyle={{padding:24,paddingTop:70}}>
     <Text style={{fontSize:24,color:dark?'white':'black'}}>Bloxwap icons</Text>
     <Text testID="decode-result" style={{fontSize:16,color}}>{count}/{manifest.icons.length} decoded · {errors.length} errors</Text>
+    <Text testID="decode-total" style={{color}}>{manifest.icons.length}</Text>
     <Text testID="theme-result" style={{color}}>{dark ? 'Dark theme' : 'Light theme'}</Text>
     <Pressable accessibilityRole="button" onPress={()=>setDark(!dark)} style={{paddingVertical:16}}><Text style={{color}}>Switch theme</Text></Pressable>
     {errors.map(error=><Text key={error} style={{color:'red'}}>{error}</Text>)}

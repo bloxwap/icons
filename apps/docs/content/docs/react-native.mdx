@@ -1,0 +1,48 @@
+---
+title: React Native
+description: The same icon catalog, rendered through Expo Image.
+---
+
+## Install the native peer
+
+Install `@bloxwap/icons` using the [getting started guide](/docs/getting-started), then install the Expo Image version supported by your Expo SDK:
+
+```sh
+npx expo install expo-image
+```
+
+The package supports React 19 and React Native 0.81 or newer (below 1.0). Check the peer ranges in the package manifest for the compatible Expo Image releases.
+
+## Render an icon
+
+```tsx
+import { Wallet } from '@bloxwap/icons/native/wallet';
+
+<Wallet size={24} color="#00ff3f" strokeWidth={2} />
+```
+
+Prefer per-icon imports such as `@bloxwap/icons/native/wallet` so Metro does not
+load the whole catalog through the native barrel.
+
+Native colors should be explicit: there is no browser `currentColor` inheritance. For a meaningful standalone icon, set `accessibilityLabel`. For a button, name the pressable container instead.
+
+```tsx
+import { Pressable } from 'react-native';
+import { Wallet } from '@bloxwap/icons/native/wallet';
+
+<Pressable accessibilityRole="button" accessibilityLabel="Open wallet">
+  <Wallet size={24} color="#00ff3f" />
+</Pressable>
+```
+
+## Rendering model
+
+Each icon uses one Expo Image view with an inline SVG source. No artwork is fetched at runtime and no icon font is required. Monochrome icons use native tint. Explicit two-color fills use SVG paint in sRGB.
+
+Default SVG sources are cached per imported definition, so larger icon grids do
+not evict one another. Changing tint or ordinary size reuses the source;
+`absoluteStrokeWidth` adjusts the source stroke for the requested dimensions.
+Custom paint uses a separate cache capped at 256 variants. Pro chart icons retain their
+1.5px default stroke; other interface icons default to 2px.
+
+Expo rasterizes tinted SVGs at the view size on iOS. Set `size` to request a new rendered size; transform scaling can scale a cached bitmap. Keep animation and layout on the host view. One image view simplifies the structure but does not guarantee better performance on every device.
