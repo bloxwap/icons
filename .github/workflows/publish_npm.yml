@@ -1,0 +1,70 @@
+name: Publish to npm
+
+on:
+  push:
+    tags: ['icons-v*']
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Validate the selected release tag without publishing
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-icons-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      # npm provenance requires a public source repository. OIDC also works for private repos.
+      NPM_CONFIG_PROVENANCE: ${{ !github.event.repository.private }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.0
+      - name: Use the tested npm CLI with trusted publishing support
+        run: npm install --global npm@11.19.1
+      - name: Validate package and release tag
+        id: release
+        run: node scripts/release-ui-icons.mjs
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: node --test tests/ui-icons-release.test.mjs
+      - run: pnpm --filter @bloxwap/icons check
+      - run: pnpm --filter @bloxwap/icons build
+      - run: pnpm --filter @bloxwap/icons test
+      - name: Require committed generated files
+        run: git diff --exit-code -- packages/icons
+      - run: node scripts/pack-ui-icons.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bloxwap-icons-${{ steps.release.outputs.version }}
+          path: ${{ steps.release.outputs.archive }}
+          if-no-files-found: error
+      - name: Validate npm publication
+        env:
+          RELEASE_ARCHIVE: ${{ steps.release.outputs.archive }}
+          NPM_DIST_TAG: ${{ steps.release.outputs.dist_tag }}
+        run: npm publish "$RELEASE_ARCHIVE" --dry-run --access public --tag "$NPM_DIST_TAG" --ignore-scripts
+      - name: Publish through npm trusted publishing
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        env:
+          RELEASE_ARCHIVE: ${{ steps.release.outputs.archive }}
+          NPM_DIST_TAG: ${{ steps.release.outputs.dist_tag }}
+        run: npm publish "$RELEASE_ARCHIVE" --access public --tag "$NPM_DIST_TAG" --ignore-scripts

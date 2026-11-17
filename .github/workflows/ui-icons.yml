@@ -1,10 +1,10 @@
 name: UI icon library
 on:
   pull_request:
-    paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', 'scripts/pack-ui-icons.mjs']
+    paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', '.github/workflows/publish_npm.yml', 'scripts/pack-ui-icons.mjs', 'scripts/release-ui-icons.mjs', 'tests/ui-icons-release.test.mjs']
   push:
     branches: [v2]
-    paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', 'scripts/pack-ui-icons.mjs']
+    paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', '.github/workflows/publish_npm.yml', 'scripts/pack-ui-icons.mjs', 'scripts/release-ui-icons.mjs', 'tests/ui-icons-release.test.mjs']
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -17,6 +17,7 @@ jobs:
         with:
           version: 11.1.0
       - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: node --test tests/ui-icons-release.test.mjs
       - run: pnpm --filter @bloxwap/icons build
       - run: pnpm --filter @bloxwap/icons check
       - run: pnpm --filter @bloxwap/icons test
