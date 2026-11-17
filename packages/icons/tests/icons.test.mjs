@@ -79,11 +79,11 @@ test('native source keys distinguish chart defaults from explicit stroke widths'
   const defaultSource = iconSource(ProFib, {});
   const explicitSource = iconSource(ProFib, {strokeWidth: 2});
   assert.notEqual(defaultSource, explicitSource);
-  assert.match(decodeURIComponent(defaultSource.uri), /stroke-width="1.5"/);
-  assert.match(decodeURIComponent(explicitSource.uri), /stroke-width="2"/);
+  assert.match(decodeNativeSvg(defaultSource.uri), /stroke-width="1.5"/);
+  assert.match(decodeNativeSvg(explicitSource.uri), /stroke-width="2"/);
   assert.equal(iconSource(ProFib, {strokeWidth: 1.5}), defaultSource);
   const sameGeometry = {...ProFib, strokeWidth: 3};
-  assert.match(decodeURIComponent(iconSource(sameGeometry, {}).uri), /stroke-width="3"/);
+  assert.match(decodeNativeSvg(iconSource(sameGeometry, {}).uri), /stroke-width="3"/);
 });
 
 test('native icons produce one image view with vector paint and no SVG child tree', async () => {
@@ -104,22 +104,22 @@ test('native icons produce one image view with vector paint and no SVG child tre
       assert.equal(element.props.cachePolicy, 'memory');
       assert.equal(element.props.transition, 0);
       assert.equal(element.props.tintColor, '#abcdef');
-      assert.match(decodeURIComponent(element.props.source.uri), /stroke="#000000" stroke-width="2.5"/);
+      assert.match(decodeNativeSvg(element.props.source.uri), /stroke="#000000" stroke-width="2.5"/);
       assert.deepEqual(element.props.style[0], {width: 20, height: 20, flexShrink: 0});
     }
     const named = native.Check({accessibilityLabel: 'Saved', size: 12, absoluteStrokeWidth: true, testID: 'saved'});
     assert.equal(named.props.accessible, true);
     assert.equal(named.props.accessibilityRole, 'image');
     assert.equal(named.props.testID, 'saved');
-    assert.match(decodeURIComponent(named.props.source.uri), /stroke-width="4"/);
+    assert.match(decodeNativeSvg(named.props.source.uri), /stroke-width="4"/);
     assert.equal(native.Check({size: 0}), null);
     const dark = native.ProFib({color: '#ffffff'});
     const light = native.ProFib({color: '#000000', size: 48});
     assert.equal(dark.props.source, light.props.source, 'tint and size changes reuse vector geometry');
-    assert.match(decodeURIComponent(dark.props.source.uri), /stroke-width="1.5"/);
+    assert.match(decodeNativeSvg(dark.props.source.uri), /stroke-width="1.5"/);
     const filled = native.ProCursorDot({color: '#008844', fill: '#ff0000'});
     assert.equal(filled.props.tintColor, undefined);
-    assert.match(decodeURIComponent(filled.props.source.uri), /color="#008844" fill="#ff0000"/);
+    assert.match(decodeNativeSvg(filled.props.source.uri), /color="#008844" fill="#ff0000"/);
     const ref = {current: null};
     assert.equal(native.Check({ref}).props.ref, ref);
     for (const [alias, canonical] of Object.entries(catalog.aliases)) assert.equal(native[alias], native[canonical]);
@@ -199,3 +199,8 @@ test('consumer catalog is complete and chart defaults, fills, and dashed lines s
   assert.match(filled, /fill="currentColor"/);
   assert(catalog.icons.some(icon => icon.name.startsWith('pro-') && icon.nodes.some(([,attrs]) => attrs['stroke-dasharray'])), 'Chart dashed strokes are missing');
 });
+
+function decodeNativeSvg(uri) {
+  assert.match(uri, /^data:image\/svg\+xml;base64,/);
+  return Buffer.from(uri.split(",")[1], "base64").toString("utf8");
+}
