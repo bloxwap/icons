@@ -68,22 +68,28 @@ checks generated files and types, runs package and release tests, builds and
 archives the package, then publishes that exact archive. Stable versions use
 `latest`; prereleases use `next`. The pack script uses the current package version.
 
-Before the first CI release, add an npm trusted publisher for `@bloxwap/icons`:
+All jobs use the Bloxwap Apple Silicon runners labeled
+`[self-hosted, macOS, ARM64]`, including npm publishing and Pages deployment.
+The organization runner group must allow this repository; public repositories
+need a group that permits public repository workflows. Fork pull requests do
+not execute on these persistent runners.
 
-| Setting | Value |
-| --- | --- |
-| Provider | GitHub Actions |
-| Organization | `bloxwap` |
-| Repository | `icons` |
-| Workflow filename | `publish_npm.yml` |
-| Environment | Leave empty |
-| Allowed action | Direct publishing with `npm publish` |
+Before the first CI release, ensure the organization `NPM_TOKEN` secret has
+package write access to `@bloxwap/icons` and permits direct automated publishing.
+The workflow exposes it only to authentication and publication steps. It verifies
+the token's identity before publishing; npm enforces its package permissions.
+Dry runs do not need the token. Keep the token renewed before expiry.
 
-The workflow must be in the repository before tagging a release. Configure the
-publisher immediately before the first CI publication: npm expires an unvalidated
-connection after two days. CI uses OIDC, with no npm token secret. Provenance is
-enabled when the source repository is public; it is disabled for this repository
-while private. See [npm's trusted publishing documentation](https://docs.npmjs.com/trusted-publishers/).
+[npm trusted publishing does not support self-hosted runners](https://docs.npmjs.com/trusted-publishers/),
+so this workflow uses token authentication and disables automatic provenance.
+[npm plans to remove direct publishing with granular tokens in January 2027](https://docs.npmjs.com/about-access-tokens/#direct-publishing-is-being-deprecated).
+Before that cutoff, migrate this job to `npm stage publish` followed by maintainer
+approval with 2FA, or revisit the runner policy for tokenless publishing.
+
+The runners need Xcode Command Line Tools and GNU tar (`gtar`, provided by
+Homebrew `gnu-tar`) for GitHub Pages artifacts. Node 24 and pnpm 11.1.0 are set up
+by the workflows. Playwright installs Chromium without `--with-deps`; no workflow
+installs operating-system packages or uses `sudo`.
 
 For the next stable release, bump and commit the package version with the reviewed
 changes, then tag that commit (for example, `icons-v0.1.1`) and push the tag.

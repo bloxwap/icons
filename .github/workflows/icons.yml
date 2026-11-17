@@ -17,7 +17,9 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Keep fork PR code off the persistent organization runners.
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: [self-hosted, macOS, ARM64]
     timeout-minutes: 20
     env:
       NEXT_PUBLIC_BASE_PATH: /icons
@@ -25,6 +27,8 @@ jobs:
       NEXT_TELEMETRY_DISABLED: '1'
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -34,8 +38,24 @@ jobs:
       - run: pnpm install --frozen-lockfile --ignore-scripts
       - run: pnpm docs:build
       - run: pnpm docs:check
-      - run: pnpm --filter @bloxwap/icons-docs exec playwright install --with-deps chromium
+      - run: pnpm --filter @bloxwap/icons-docs exec playwright install chromium
       - run: pnpm docs:test
+      # upload-pages-artifact uses GNU tar on macOS, not the system BSD tar.
+      - name: Locate GNU tar for the Pages artifact
+        if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+        run: |
+          if command -v gtar >/dev/null 2>&1; then
+            exit 0
+          fi
+          if command -v brew >/dev/null 2>&1; then
+            tar_prefix=$(brew --prefix gnu-tar 2>/dev/null || true)
+            if [ -n "$tar_prefix" ] && [ -x "$tar_prefix/bin/gtar" ]; then
+              echo "$tar_prefix/bin" >> "$GITHUB_PATH"
+              exit 0
+            fi
+          fi
+          echo "::error::Install Homebrew gnu-tar on this runner before uploading Pages artifacts."
+          exit 1
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
         with:
@@ -44,7 +64,8 @@ jobs:
   deploy:
     if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS, ARM64]
+    timeout-minutes: 10
     permissions:
       pages: write
       id-token: write

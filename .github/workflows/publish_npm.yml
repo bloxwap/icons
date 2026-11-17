@@ -1,5 +1,6 @@
 name: Publish to npm
 
+# npm trusted publishing does not support self-hosted runners; use the org NPM_TOKEN.
 on:
   push:
     tags: ['icons-v*']
@@ -19,14 +20,13 @@ concurrency:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS, ARM64]
     timeout-minutes: 15
     permissions:
       contents: read
-      id-token: write
     env:
-      # npm provenance requires a public source repository. OIDC also works for private repos.
-      NPM_CONFIG_PROVENANCE: ${{ !github.event.repository.private }}
+      # Self-hosted token publishing cannot generate npm OIDC provenance.
+      NPM_CONFIG_PROVENANCE: 'false'
     steps:
       - uses: actions/checkout@v6
         with:
@@ -39,7 +39,7 @@ jobs:
       - uses: pnpm/action-setup@v4
         with:
           version: 11.1.0
-      - name: Use the tested npm CLI with trusted publishing support
+      - name: Use the tested npm CLI
         run: npm install --global npm@11.19.1
       - name: Validate package and release tag
         id: release
@@ -62,9 +62,20 @@ jobs:
           RELEASE_ARCHIVE: ${{ steps.release.outputs.archive }}
           NPM_DIST_TAG: ${{ steps.release.outputs.dist_tag }}
         run: npm publish "$RELEASE_ARCHIVE" --dry-run --access public --tag "$NPM_DIST_TAG" --ignore-scripts
-      - name: Publish through npm trusted publishing
+      - name: Verify npm authentication
         if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
         env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "::error::NPM_TOKEN must be available to this repository with publish access to @bloxwap/icons."
+            exit 1
+          fi
+          npm whoami --registry=https://registry.npmjs.org >/dev/null
+      - name: Publish with the organization npm token
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           RELEASE_ARCHIVE: ${{ steps.release.outputs.archive }}
           NPM_DIST_TAG: ${{ steps.release.outputs.dist_tag }}
         run: npm publish "$RELEASE_ARCHIVE" --access public --tag "$NPM_DIST_TAG" --ignore-scripts
