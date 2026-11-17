@@ -1,0 +1,45 @@
+---
+title: Bloxwap Icons
+description: One curated catalog for React, React Native, and raw SVG.
+---
+
+Bloxwap Icons brings consistent vector geometry to interfaces on the web and on native devices. Explore the [live catalog](/#icons), adjust an icon, and copy a platform-specific example.
+
+## Choose your starting point
+
+- [Getting started](/docs/getting-started): install the package from npm.
+- [React](/docs/react): components, props, and individual imports.
+- [React Native](/docs/react-native): Expo setup and native rendering.
+- [Accessibility](/docs/accessibility): name meaningful icons and controls.
+- [Assets and SVG](/docs/assets): raw vectors, brand collections, and licenses.
+- [Contributing](/docs/contributing): maintain the shared catalog.
+
+## One source of truth
+
+The reviewed catalog lives in `packages/icons/catalog.json`. Its generated React components, native components, and SVG exports share the same geometry. The base grid is 24 × 24, with rounded caps and joins. Bloxwap interface icons default to a stroke width of 2; Pro chart icons retain their original 1.5 stroke.
+
+The package intentionally has no global runtime icon-name registry. Import the icons you use so your bundler can omit the rest.
+
+## Package
+
+Install [`@bloxwap/icons@0.1.0`](https://www.npmjs.com/package/@bloxwap/icons/v/0.1.0) from npm. React, React Native, Pro chart icons, and raw SVGs ship in this one package. The documentation app is a separate workspace in `apps/docs`; the image collections remain in `assets`.
+
+## What appears in the gallery
+
+The gallery is limited to icons referenced by Bloxwap’s monorepo plus the Pro
+chart library’s toolbar and drawing-tool SVGs. Use the **Bloxwap** and **Pro
+chart** filters to browse either collection. Each selected icon links to its
+recorded source revision.
+
+The checked-in `packages/icons/usage.json` inventory controls this list. Older
+package exports remain available for compatibility, but do not appear unless
+they have a consumer in the inventory. Brand and token image collections stay
+separate from this UI catalog.
+
+Chart icons have a `Pro` component prefix and `pro-` filename:
+
+```tsx
+import { ProFib } from '@bloxwap/icons/react/pro-fib';
+
+<ProFib size={24} />
+```

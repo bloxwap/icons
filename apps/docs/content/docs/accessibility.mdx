@@ -1,0 +1,43 @@
+---
+title: Accessibility
+description: Icons should clarify an action without becoming extra noise.
+---
+
+## Name the control
+
+A button containing only an icon needs an accessible name. Put that name on the button; leave the icon decorative.
+
+```tsx
+import { Search } from '@bloxwap/icons/react/search';
+
+<button aria-label="Search">
+  <Search size={20} />
+</button>
+```
+
+When visible text already names the action, no extra icon label is needed.
+
+```tsx
+<button>
+  <Search size={20} />
+  Search
+</button>
+```
+
+## Name independent information
+
+Use `aria-label` or `aria-labelledby` when a standalone icon communicates information that is not written nearby.
+
+```tsx
+import { CircleCheck } from '@bloxwap/icons/react/circle-check';
+
+<CircleCheck aria-label="Complete" color="#00ff3f" />
+```
+
+In native interfaces, use `accessibilityLabel` on the icon or on its containing pressable control.
+
+## Give the icon room
+
+The visible icon can be small while its control remains easy to activate. Give touch controls generous padding, keep keyboard focus visible, and do not use color as the only way to communicate state.
+
+For motion, respect the user's reduced-motion preference and keep repeated decorative animation out of frequently used controls.

@@ -1,0 +1,60 @@
+/*
+ * Host bridge for the packaged HIG plain CSS (@bloxwap/hig-tokens/css and @bloxwap/hig-react/css,
+ * imported by app/global.css from the vendored 0.1.0 candidate tarballs). It only translates
+ * Fumadocs/host names to HIG roles (including the radius, motion and density roles that
+ * @bloxwap/hig-tokens/css now emits) and the site layout spacing. No palette, role value,
+ * font family or control recipe is redefined here.
+ */
+:root, .dark {
+  --bloxwap-black: var(--hig-background);
+  --bloxwap-green: var(--hig-action);
+  --bloxwap-blue: var(--hig-info);
+  --bloxwap-pink: var(--hig-negative);
+  --bloxwap-gold: var(--hig-warning);
+  --background: var(--hig-background);
+  --foreground: var(--hig-text);
+  --card: var(--hig-surface);
+  --card-foreground: var(--hig-text);
+  --popover: var(--hig-surface);
+  --popover-foreground: var(--hig-text);
+  --muted: var(--hig-nested);
+  --muted-foreground: var(--hig-muted);
+  --border: var(--hig-border);
+  --ring: var(--hig-focus);
+  /* Host names for HIG radius, motion and compact-density roles (reduced motion zeroes the durations in HIG). */
+  --radius-lg: var(--hig-radius-xl);
+  --radius-xl: var(--hig-radius-xl);
+  --radius-full: var(--hig-radius-pill);
+  --duration-fast: var(--hig-motion-duration-fast);
+  --duration-base: var(--hig-motion-duration-base);
+  --duration-slow: var(--hig-motion-duration-slow);
+  --ease-spring: var(--hig-motion-easing-standard);
+  --ease-standard: ease-out;
+  --control-h-sm: var(--hig-density-compact-control);
+  --icon-md: 16px;
+  /* Exception: two landing-page layout steps wider than HIG's 48 px section spacing. */
+  --docs-space-wide: 2.5rem;
+  --docs-space-hero: 4rem;
+}
+@theme inline {
+  --color-background: var(--hig-background);
+  --color-foreground: var(--hig-text);
+  --color-card: var(--hig-surface);
+  --color-muted: var(--hig-nested);
+  --color-muted-foreground: var(--hig-muted);
+  --color-border: var(--hig-border);
+  --text-2xs: 0.6875rem;
+  --text-3xs: 0.625rem;
+}
+
+/*
+ * Host layout for HIG controls. HIG reads --hig-font-sans/--hig-font-mono, which resolve to the
+ * @bloxwap/font Next loader variables, so no family bridge is needed. Icon slots and anchors-as-buttons
+ * are layout only.
+ */
+.hig-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--hig-space-sm);
+  text-decoration: none; touch-action: manipulation;
+}
+.hig-button svg { flex: none; width: var(--icon-md); height: var(--icon-md); }
+.hig-button[data-shape='icon'] { width: var(--hig-control); min-width: 0; padding: 0; }

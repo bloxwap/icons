@@ -1,0 +1,35 @@
+name: UI icon library
+on:
+  pull_request:
+    paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', '.github/workflows/publish_npm.yml', 'scripts/pack-ui-icons.mjs', 'scripts/release-ui-icons.mjs', 'tests/ui-icons-release.test.mjs']
+  push:
+    branches: [v2]
+    paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', '.github/workflows/publish_npm.yml', 'scripts/pack-ui-icons.mjs', 'scripts/release-ui-icons.mjs', 'tests/ui-icons-release.test.mjs']
+permissions:
+  contents: read
+jobs:
+  verify:
+    # Keep fork PR code off the persistent organization runners.
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: [self-hosted, macOS, ARM64]
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.0
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: node --test tests/ui-icons-release.test.mjs
+      - run: pnpm --filter @bloxwap/icons build
+      - run: pnpm --filter @bloxwap/icons check
+      - run: pnpm --filter @bloxwap/icons test
+      - run: node scripts/pack-ui-icons.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bloxwap-icons
+          path: artifacts/*.tgz

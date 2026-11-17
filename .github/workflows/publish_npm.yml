@@ -1,0 +1,81 @@
+name: Publish to npm
+
+# npm trusted publishing does not support self-hosted runners; use the org NPM_TOKEN.
+on:
+  push:
+    tags: ['icons-v*']
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Validate the selected release tag without publishing
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-icons-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: [self-hosted, macOS, ARM64]
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    env:
+      # Self-hosted token publishing cannot generate npm OIDC provenance.
+      NPM_CONFIG_PROVENANCE: 'false'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.0
+      - name: Use the tested npm CLI
+        run: npm install --global npm@11.19.1
+      - name: Validate package and release tag
+        id: release
+        run: node scripts/release-ui-icons.mjs
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: node --test tests/ui-icons-release.test.mjs
+      - run: pnpm --filter @bloxwap/icons check
+      - run: pnpm --filter @bloxwap/icons build
+      - run: pnpm --filter @bloxwap/icons test
+      - name: Require committed generated files
+        run: git diff --exit-code -- packages/icons
+      - run: node scripts/pack-ui-icons.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bloxwap-icons-${{ steps.release.outputs.version }}
+          path: ${{ steps.release.outputs.archive }}
+          if-no-files-found: error
+      - name: Validate npm publication
+        env:
+          RELEASE_ARCHIVE: ${{ steps.release.outputs.archive }}
+          NPM_DIST_TAG: ${{ steps.release.outputs.dist_tag }}
+        run: npm publish "$RELEASE_ARCHIVE" --dry-run --access public --tag "$NPM_DIST_TAG" --ignore-scripts
+      - name: Verify npm authentication
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "::error::NPM_TOKEN must be available to this repository with publish access to @bloxwap/icons."
+            exit 1
+          fi
+          npm whoami --registry=https://registry.npmjs.org >/dev/null
+      - name: Publish with the organization npm token
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          RELEASE_ARCHIVE: ${{ steps.release.outputs.archive }}
+          NPM_DIST_TAG: ${{ steps.release.outputs.dist_tag }}
+        run: npm publish "$RELEASE_ARCHIVE" --access public --tag "$NPM_DIST_TAG" --ignore-scripts

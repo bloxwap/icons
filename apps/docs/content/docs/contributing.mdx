@@ -1,0 +1,53 @@
+---
+title: Contributing
+description: Keep geometry shared and the documentation in sync.
+---
+
+## Repository layout
+
+```text
+assets/             Brand, token, and platform images
+packages/icons/     UI catalog, renderers, and generated SVGs
+apps/docs/          Fumadocs website and content
+src/                Existing asset server
+```
+
+## Add or update an icon
+
+Edit `packages/icons/catalog.json`, the reviewed source of truth. Add icons when a consumer needs them, then regenerate all platform outputs together:
+
+```sh
+pnpm --filter @bloxwap/icons generate
+pnpm --filter @bloxwap/icons build
+pnpm --filter @bloxwap/icons check
+pnpm --filter @bloxwap/icons test
+```
+
+The landing page reads the generated manifest, SVGs, and consumer usage allowlist.
+Refresh the allowlist from the source repositories before adding a gallery icon:
+
+```sh
+node scripts/sync-consumer-icons.mjs ../monorepo ../chart-ts
+pnpm --filter @bloxwap/icons build
+```
+
+`../chart-ts` is the local checkout of `bloxwap/chart`. Normal builds use the
+committed snapshot and do not require either sibling checkout. Keep the package's licenses and source attribution intact.
+
+## Develop the website
+
+```sh
+pnpm docs:dev
+```
+
+Open `http://127.0.0.1:3909`. Documentation pages live in `apps/docs/content/docs`.
+
+## Check the Pages export
+
+```sh
+NEXT_PUBLIC_BASE_PATH=/icons pnpm docs:build
+NEXT_PUBLIC_BASE_PATH=/icons pnpm docs:preview
+pnpm docs:test
+```
+
+The static export is written to `apps/docs/out`. Its generated search index works without a server API. The GitHub Pages workflow builds and validates the export on pull requests and deploys changes from the repository's default branch.

@@ -1,0 +1,34 @@
+---
+title: Assets and SVG
+description: Use raw vectors and find the image collections.
+---
+
+## Raw SVG
+
+The package includes an SVG for each icon under `@bloxwap/icons/svg`. Your bundler decides whether an SVG import becomes a URL, source text, or a component. You can also use Download SVG in the [icon browser](/#icons).
+
+## Serialize a definition
+
+```ts
+import { toSvg } from '@bloxwap/icons';
+import { Wallet } from '@bloxwap/icons/definitions/wallet';
+
+const svg = toSvg(Wallet, {
+  color: '#00ff3f',
+  strokeWidth: 2,
+});
+```
+
+`toDataUri` returns the same geometry as a URI-encoded SVG suitable for an image source. Raw exports use a 24 × 24 view box; set display dimensions in the host layout.
+
+## Brand and token artwork
+
+The repository's `assets/` directory contains image collections such as `chains/`, `exchanges/`, `protocols/`, `crypto-cards/`, and `tokens/`. These are separate from the UI icon package and are not included in its archive.
+
+The documentation gallery focuses on the UI icons used in Bloxwap and its Pro chart library. It does not copy the image collections or require the asset server at runtime. The existing Express asset server remains a separate application at the repository root.
+
+## Attribution
+
+The UI package is distributed under `ISC AND MIT`. Interface artwork is derived from Lucide; Pro chart toolbar and drawing-tool artwork comes from Bloxwap Chart under MIT. Preserve the package's `LICENSE` and `NOTICE` with redistributed artwork; the generated site also provides copies alongside its SVG downloads.
+
+Third-party logos and brand marks remain the property of their respective owners. Their presence in an asset collection does not grant trademark rights or imply endorsement.

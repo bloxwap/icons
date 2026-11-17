@@ -1,0 +1,40 @@
+---
+title: React
+description: Small components with the SVG controls you already know.
+---
+
+## Import individual icons
+
+```tsx
+import { Check } from '@bloxwap/icons/react/check';
+
+<Check size={20} color="currentColor" />
+```
+
+Named imports from `@bloxwap/icons/react` also work with bundlers that support tree shaking. Individual entry points are useful when you want an explicit module boundary.
+
+## Set size and stroke
+
+```tsx
+import { Wallet } from '@bloxwap/icons/react/wallet';
+
+<Wallet size={32} strokeWidth={1.5} color="#00ff3f" />
+<Wallet size={32} strokeWidth={2} absoluteStrokeWidth />
+```
+
+| Prop | Default | Behavior |
+| --- | --- | --- |
+| `size` | `24` | Sets width and height; accepts a number or CSS size string |
+| `color` | `currentColor` | Sets the stroke color |
+| `strokeWidth` | `2` (Pro chart: `1.5`) | Stroke in the 24-unit coordinate system |
+| `absoluteStrokeWidth` | `false` | Uses non-scaling strokes when true |
+
+Standard SVG props, `className`, `style`, children, and a React 19 `ref` are supported. For two-color artwork, use `fill` and `color` deliberately; most catalog icons are outlines.
+
+## Make icons accessible
+
+```tsx
+<Wallet aria-label="Wallet" />
+```
+
+A standalone labeled icon gets `role="img"`. Without an accessible label, the SVG is hidden from assistive technology. See the [accessibility guide](/docs/accessibility) for controls and status messages.

@@ -1,0 +1,2660 @@
+{
+  "version": 1,
+  "grid": 24,
+  "strokeWidth": 2,
+  "icons": [
+    {
+      "name": "activity",
+      "symbol": "Activity",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8f1a123f9b4e79b3ae0e930d805bfbd01970f72d171a397906af8d00d57aabf4",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 321
+    },
+    {
+      "name": "archive",
+      "symbol": "Archive",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "707dd6fc920500e0688a9d97933199b9397d496b2997e1636e92394126707cb4",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 295
+    },
+    {
+      "name": "arrow-down",
+      "symbol": "ArrowDown",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "6453adddd41eb836c9c4d64ad7181d83a90b660b1ad659b5c43a188dcf0fde21",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 219
+    },
+    {
+      "name": "arrow-down-to-line",
+      "symbol": "ArrowDownToLine",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "58d606138ab9134a9d8d489f640c8269b7a299f8e6e91e565d87669b924fef73",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 227
+    },
+    {
+      "name": "arrow-left",
+      "symbol": "ArrowLeft",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "275cc3bfc0c92c389213f8884046ac86a3e88a39e05fcbe43b3d9aa4ded90e27",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 219
+    },
+    {
+      "name": "arrow-left-right",
+      "symbol": "ArrowLeftRight",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "67e21cc5d6b651b6487920846d62d002bc2f86a83056202cff66f594d909ce0a",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 238
+    },
+    {
+      "name": "arrow-right",
+      "symbol": "ArrowRight",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "4d50fd597af5e2acf05f7b9edef64c1380bf387bb3b05c2559fc4180e6cb559f",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 220
+    },
+    {
+      "name": "arrow-right-left",
+      "symbol": "ArrowRightLeft",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8bd5357ffa88213ddbbcfc8eb35a5ad4d65f6d4280e13a1d9186498d7c76fd6d",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 239
+    },
+    {
+      "name": "arrow-up",
+      "symbol": "ArrowUp",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "e10c90e600f0f378c2bbac05a09bcbc16288fca4525472d81fe26871df317f77",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 219
+    },
+    {
+      "name": "arrow-up-down",
+      "symbol": "ArrowUpDown",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "c49d7b3f6b50e2cb0e0f7d6d7cdb3d84a9e010d950ae4118c4d17e440d0a01cf",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 238
+    },
+    {
+      "name": "arrow-up-from-line",
+      "symbol": "ArrowUpFromLine",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "c47437d7172f01a34e15af4237c7fe9c43749024662f717bb8be6cc98754dcc6",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 227
+    },
+    {
+      "name": "arrow-up-right",
+      "symbol": "ArrowUpRight",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "e995f4c032083fba111edb3b31cf605f03d82a1cf190668c5610d1bae99232e3",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 219
+    },
+    {
+      "name": "audio-lines",
+      "symbol": "AudioLines",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "09de4de7a032260c59c2542858be3ff20f4ec88f4a86203b8b1404ee8b3d3eb4",
+      "nodes": 1,
+      "originalNodes": 6,
+      "bytes": 242
+    },
+    {
+      "name": "badge-check",
+      "symbol": "BadgeCheck",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "3f79f926b776b67cb9d47479e73ccc484e91cce510780e546824cb4ce3ffdd24",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 387
+    },
+    {
+      "name": "ban",
+      "symbol": "Ban",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "32490e563880989bd10fa0082891295008414f8925a8c4b9b75bd2b77dffb40e",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 256
+    },
+    {
+      "name": "banknote",
+      "symbol": "Banknote",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "a5c1b9f44d23917e9c9864d9158d6c56b3346709ed04351e073ac22a1555c669",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 298
+    },
+    {
+      "name": "bell",
+      "symbol": "Bell",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "fead9ef4daf9ffd5a042fe06c73829f30047d528c6363732a7297b95caedfe31",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 352
+    },
+    {
+      "name": "bitcoin",
+      "symbol": "Bitcoin",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7e974d0272092e0a0b2127012bf492a3ea293f2dde34b986ee27c603c6f9c16d",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 427
+    },
+    {
+      "name": "book-a",
+      "symbol": "BookA",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "d658f5242670042316d1c89c6202067c5949eb3d887e126a01bd5c7833a2d637",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 321
+    },
+    {
+      "name": "bot",
+      "symbol": "Bot",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "02275214621650aa48473862d0096fc39b9b519dd19f6eb7247076f49900f376",
+      "nodes": 3,
+      "originalNodes": 6,
+      "bytes": 297
+    },
+    {
+      "name": "box",
+      "symbol": "Box",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "dff22b99af8a94b5b02f436a3c37b207bd38f819994fc045db73520acd5ee920",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 356
+    },
+    {
+      "name": "braces",
+      "symbol": "Braces",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "d678432902a1b971cf0e241df5309e5883bd6696022d810760b33110bc40b5de",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 337
+    },
+    {
+      "name": "briefcase",
+      "symbol": "Briefcase",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "92e8e0576de72fbbd8465722b82b96f1d6538cf38384a63b8871fb95394a4151",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 290
+    },
+    {
+      "name": "chart-candlestick",
+      "symbol": "ChartCandlestick",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "cca9f68177a4fc2b9d7344f7d1f02f02df164cf0ac34fc695c779b30273044bd",
+      "nodes": 5,
+      "originalNodes": 7,
+      "bytes": 370
+    },
+    {
+      "name": "chart-column",
+      "symbol": "ChartColumn",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7f4e6da177e7aef1d55bf035ce4e039e0cf04acb681ab93ee6de425de5ce33dd",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 245
+    },
+    {
+      "name": "check",
+      "symbol": "Check",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "a31566909525d19b49526dd8d99a1ec6aa1acde7b21a37952b0c1abf185b2a7d",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 229
+    },
+    {
+      "name": "chevron-down",
+      "symbol": "ChevronDown",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "e93126a59aad94691131f016a87f80c8c5d6648ad97c7b3756626ea1b6ac642b",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 211
+    },
+    {
+      "name": "chevron-left",
+      "symbol": "ChevronLeft",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "5d768070982a48d37f439591d533115b15f6a06fe585d541cf089f94911dde98",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 213
+    },
+    {
+      "name": "chevron-right",
+      "symbol": "ChevronRight",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "611c1e6af61a2d30b3ade5200a69cff6633af60fa60eda925651f5ce293dbcc7",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 212
+    },
+    {
+      "name": "chevron-up",
+      "symbol": "ChevronUp",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "38a6310d26065ede9c4f1c74156e6d628daa9737631b2ae08a00ebbeee14234a",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 213
+    },
+    {
+      "name": "chevrons-up-down",
+      "symbol": "ChevronsUpDown",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "e1762b4e52102928d0f14c09e2619bde0e8214dc89d340dbd945537da6f604e2",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 224
+    },
+    {
+      "name": "circle-alert",
+      "symbol": "CircleAlert",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "35625c561461e7ffa5ebef8d19a73bbab6f01f026d2ee09984d1933dea42e9cd",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 299
+    },
+    {
+      "name": "circle-check",
+      "symbol": "CircleCheck",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "89924e7b0dcbe9eb098013b2b9a08d11046b3a0131197e4ed2704bccbfd7f050",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 249
+    },
+    {
+      "name": "circle-x",
+      "symbol": "CircleX",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "1d64e820a02cffd7be7d1bde936a8d87d331b5e0b04998adfa97cb73bf877cc0",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 248
+    },
+    {
+      "name": "clipboard-check",
+      "symbol": "ClipboardCheck",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "0bdb6480c283f54613da02ba8e5881b3b79cd07dce0373ed9bd72585e3aceff1",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 350
+    },
+    {
+      "name": "clock",
+      "symbol": "Clock",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "31e0ee3f3be917efca19d0b38896a8cb45a42ac3f2f3935c46b72ccf17d0fae1",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 242
+    },
+    {
+      "name": "code",
+      "symbol": "Code",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "685a156adfbdb4a685adcc15a91fe94b97db9f5f308066b42c204d3bc5a7b0c5",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 226
+    },
+    {
+      "name": "code-xml",
+      "symbol": "CodeXml",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "11309ce1775ed120a462b371f3d0e0527573a53313091e2ea11a5001b3fc6dce",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 238
+    },
+    {
+      "name": "coins",
+      "symbol": "Coins",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "009637982f467917cc2f19c7ab565d4920de8fa54eb284ad3a78e386f22d84e5",
+      "nodes": 3,
+      "originalNodes": 4,
+      "bytes": 312
+    },
+    {
+      "name": "copy",
+      "symbol": "Copy",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "86332260b25e537ae5345a49950fb0dd99935a06f54992f3202e18b549eb3dad",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 310
+    },
+    {
+      "name": "delete",
+      "symbol": "Delete",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "089efc9c845afa56ad4752d94bbdc49676264170b9c429c7bceeef2f83f734f2",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 332
+    },
+    {
+      "name": "download",
+      "symbol": "Download",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "91665947070cdf1f56868fa432baf95ee62e8fa2de6f3b41e0255edc2bbf9c15",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 272
+    },
+    {
+      "name": "droplet",
+      "symbol": "Droplet",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "03308f5acc871afb2a533d6fc2281cfcb92024a9f8d2fce0d52eeec75bb555de",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 292
+    },
+    {
+      "name": "ellipsis",
+      "symbol": "Ellipsis",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "419ca13fd6afcd2cabe613aaf827d267caebcb4a777d35d91c1c5ec512c7c43f",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 279
+    },
+    {
+      "name": "external-link",
+      "symbol": "ExternalLink",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "4a7e7bacdb72dc20b34a9f968cc0207a81cbf02ccd09477c103115af4357dc4d",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 275
+    },
+    {
+      "name": "eye",
+      "symbol": "Eye",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "9672c7967013628d4875fa529d8a2f0c73827fb760638bd2482e4d7da702bd15",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 331
+    },
+    {
+      "name": "figma",
+      "symbol": "Figma",
+      "source": "Lucide 0.x artwork retained by Bloxwap docs",
+      "strokeWidth": 2,
+      "sha256": "9ef6d93fbfbbf24e8b947cbb0035ea511f8cf49e7541d735b4bdbf5dc5af4064",
+      "nodes": 2,
+      "originalNodes": 5,
+      "bytes": 446
+    },
+    {
+      "name": "file",
+      "symbol": "File",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ea3995cacafd6f29ecb2212fff8bc2fd1f88e29dbeac564c8d2dd281483a7d65",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 344
+    },
+    {
+      "name": "file-text",
+      "symbol": "FileText",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "b18b1bf621ef3f23f076b28e53cd3adf82b7918579414352eeb9391f8a0ca2be",
+      "nodes": 2,
+      "originalNodes": 5,
+      "bytes": 363
+    },
+    {
+      "name": "flame",
+      "symbol": "Flame",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "aaa9818e8ae7640410f89b83a78f6cc60ca56822b13c8372937e7df80a0f6374",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 289
+    },
+    {
+      "name": "flask-conical",
+      "symbol": "FlaskConical",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "fae2c7d03d2a1855610483c6aae02e58a6ce1ec97ce6645daec5f20f55903e02",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 326
+    },
+    {
+      "name": "folder",
+      "symbol": "Folder",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "88048728e223570cc4ce25c7bc112db0390acdaa6c61d02d1bc66a2c0499b4a6",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 317
+    },
+    {
+      "name": "folder-open",
+      "symbol": "FolderOpen",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "737deb7d3536bdea6ce57f4b355a605a5ffb938afbcac04256ba22977948d329",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 376
+    },
+    {
+      "name": "folder-plus",
+      "symbol": "FolderPlus",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "cf490f49eed57f2fe67741185d81338b72013309a394d32baf2b9f892c1c871b",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 330
+    },
+    {
+      "name": "funnel",
+      "symbol": "Funnel",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "c7488ae919b7148ac549a4555c74d4a0bab535de09ffa9a6a6d874b3c6d3813d",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 345
+    },
+    {
+      "name": "gift",
+      "symbol": "Gift",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8cea5d89168cde5a24cadad032e980acadbc92ec4b8d5ac3b9cec69e32f0254b",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 364
+    },
+    {
+      "name": "github",
+      "symbol": "Github",
+      "source": "Lucide 0.x artwork retained by Bloxwap docs",
+      "strokeWidth": 2,
+      "sha256": "530a7fe8cf12fe7fb8636da83dc0b016d34f5949de28981e06951a5c38c33eae",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 468
+    },
+    {
+      "name": "globe",
+      "symbol": "Globe",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "68658bdf4c0b4786634d441f122efaaa0c1183235a2aa79a23b64dc0e1ab579b",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 286
+    },
+    {
+      "name": "handshake",
+      "symbol": "Handshake",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7bcd4629820dd102504f15c0d2434d363f1027beb00b26e7264a1aabefbaa649",
+      "nodes": 3,
+      "originalNodes": 5,
+      "bytes": 440
+    },
+    {
+      "name": "hourglass",
+      "symbol": "Hourglass",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "53dde4a3272a61139a7de7b5f8d33a24c400aea25fd95029e02a3e41591a7886",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 359
+    },
+    {
+      "name": "house",
+      "symbol": "House",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8a471b445495a751f5e59279ad0749033e347e721e5464a076a491f1aef2f401",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 354
+    },
+    {
+      "name": "image",
+      "symbol": "Image",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "2b2a2bfced36b2ed187eb2db141ee3f83ebe348d221c111f49ab553d6d24e519",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 325
+    },
+    {
+      "name": "image-off",
+      "symbol": "ImageOff",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "a8c0e89f41028458197ecb1d64127a3a68ece049bcdc958f10ba128c2b8a9471",
+      "nodes": 5,
+      "originalNodes": 6,
+      "bytes": 454
+    },
+    {
+      "name": "inbox",
+      "symbol": "Inbox",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "bccdc69be796aa5f6d140f8d0f0b4c6f28d3659645b92b0ecfb672f5ee3df348",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 358
+    },
+    {
+      "name": "info",
+      "symbol": "Info",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "d672af319f6386e60f1f656a3bdc6ee51a4a3dc01f365a4dc0db26bc951abeb9",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 248
+    },
+    {
+      "name": "key",
+      "symbol": "Key",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "4e8f2e37d19411452b127099d893179ce078ccbfb1ee9129fe9da8c90ebb2ffc",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 311
+    },
+    {
+      "name": "key-round",
+      "symbol": "KeyRound",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ff0b1a02ebd725a0c081d7cffe16bdd4c86e3181b150de594129cd1cc1fc3f73",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 424
+    },
+    {
+      "name": "landmark",
+      "symbol": "Landmark",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "c44982859116035983a8fb90a1ae4279495fa6695794c0b75c7c963c650ec7e8",
+      "nodes": 1,
+      "originalNodes": 6,
+      "bytes": 324
+    },
+    {
+      "name": "layers",
+      "symbol": "Layers",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "c63fd0320d416c93c784fbb760d3d501b20cdc200952bca050cfdb2cee450e15",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 477
+    },
+    {
+      "name": "layout-dashboard",
+      "symbol": "LayoutDashboard",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "276704daaeccbceba08547c84290adc77d43ed5a7bf501c31e2004d8ecabf13b",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 379
+    },
+    {
+      "name": "library",
+      "symbol": "Library",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "0747003709c7ed9117ad1354a2c767f1bed674557fcd4e249fca638eb0ff4c93",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 231
+    },
+    {
+      "name": "link",
+      "symbol": "Link",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "0e3d0bf110e717e49ac5af0b3d8ecaf1de8e4ac6761e5202870ab3d9b0d01805",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 330
+    },
+    {
+      "name": "list-checks",
+      "symbol": "ListChecks",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "525c37f4d039e61dc8b3f03dccfcccaad13f97de01dfab0ad2b6612b5decae1b",
+      "nodes": 1,
+      "originalNodes": 5,
+      "bytes": 245
+    },
+    {
+      "name": "loader-circle",
+      "symbol": "LoaderCircle",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "fdecfbd248de8b8cb29bcbf49d8a11067c421bfc8eac798a4ae8303b1c65f29a",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 226
+    },
+    {
+      "name": "lock",
+      "symbol": "Lock",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ac979e5aebf8e17655b2c75a1b723e6c2701004efc275feed50417ec139619bd",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 280
+    },
+    {
+      "name": "lock-keyhole",
+      "symbol": "LockKeyhole",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8eb8fe26478874951ec01b4ee623f629c17d13451e28f4416b019e4358f77ecc",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 304
+    },
+    {
+      "name": "log-out",
+      "symbol": "LogOut",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "5da070c1615a0960fd3b6c21c9ec183b472393d81b0a34c090a9ace099a84559",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 257
+    },
+    {
+      "name": "mail",
+      "symbol": "Mail",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ea716ca8114af75a24b4c4b6064aefa29f5175e341a194d95173cfea8a4a5734",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 287
+    },
+    {
+      "name": "maximize",
+      "symbol": "Maximize",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "eeeb8eb0094e13ea233bc474a52f583bb5692e38a1828ec14255d6ed4c101f1b",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 291
+    },
+    {
+      "name": "megaphone",
+      "symbol": "Megaphone",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "b960a1e6afe55bde10fbc737fc84b780f758d89d84362cbc6f24fba5cf9075f4",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 386
+    },
+    {
+      "name": "menu",
+      "symbol": "Menu",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ba473a38d2926f678cde6c5d1e6aa59b96932a9dd1fbfb123e938e65fc27c5e4",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 222
+    },
+    {
+      "name": "message-circle-question-mark",
+      "symbol": "MessageCircleQuestionMark",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "cadc827f56f6795caea53b5a0a1230db73f7db6d8f23f50fab7c134d3ed4ce80",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 380
+    },
+    {
+      "name": "minimize",
+      "symbol": "Minimize",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "0474c77e0753032420054a7d07d003e901a1ed2756ab1edb9a5e814aab5c3171",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 291
+    },
+    {
+      "name": "minus",
+      "symbol": "Minus",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "cf70b18f6b23a5b8c968198188faa24c1716a5015ff8383bbe6e774910f6efa1",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 207
+    },
+    {
+      "name": "monitor-smartphone",
+      "symbol": "MonitorSmartphone",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "92ecb6c59be08bc600bdfdf029bad76bc46f8adc8c8ea2143c44b26f6796ef84",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 327
+    },
+    {
+      "name": "newspaper",
+      "symbol": "Newspaper",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "cb2c4d41ccbd89547decb1b3de940551585f9954f94f62af4032ff4159684b52",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 353
+    },
+    {
+      "name": "orbit",
+      "symbol": "Orbit",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ff84a756f2ec7520a3786ed9b6d239c40fbe8c48b9a7308ab7b5f029ea2d13ec",
+      "nodes": 4,
+      "originalNodes": 5,
+      "bytes": 365
+    },
+    {
+      "name": "pen-line",
+      "symbol": "PenLine",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "a1cb628c9aafdce1eed4db4b111edbd9bbf92aceb019d7ad28e9dc168781e3fb",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 334
+    },
+    {
+      "name": "pencil",
+      "symbol": "Pencil",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "898c5e610e9f11d27211ac2bf4075fb8665e789087d83eee2b900b4a9c175063",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 336
+    },
+    {
+      "name": "pill",
+      "symbol": "Pill",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "85a3da965b85e044ae0642f4f1e371d4550346fb23e4f39483605cca379bcbb3",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 272
+    },
+    {
+      "name": "plus",
+      "symbol": "Plus",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7fa5c25bf585398f2fbe1d77a0f24efbc812db56279f8dc42c6d5729e8f4b0a2",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 215
+    },
+    {
+      "name": "pro-abcd",
+      "symbol": "ProAbcd",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/abcd.svg",
+      "strokeWidth": 1.5,
+      "sha256": "07adad9bb8d52c05f27320d2c7dec6b5cab22af5f239f19d086dc4b1df698eb2",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 266
+    },
+    {
+      "name": "pro-anchored-note",
+      "symbol": "ProAnchoredNote",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/anchored-note.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b419cebc52dcdb3dd0966fdec6aedd8b08478c47df9b7a17d2d457ec77a22470",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 312
+    },
+    {
+      "name": "pro-anchored-text",
+      "symbol": "ProAnchoredText",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/anchored-text.svg",
+      "strokeWidth": 1.5,
+      "sha256": "48a26c9ba2a3865d39311d5cf985d454553a1d476a2eb6db6d18ba0cfff3a13a",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 264
+    },
+    {
+      "name": "pro-anchored-vwap",
+      "symbol": "ProAnchoredVwap",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/anchored-vwap.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2276ea61237be273bd4c35e2391d667a2110aa339a757a7b30ee834b6b3b44af",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 276
+    },
+    {
+      "name": "pro-arc",
+      "symbol": "ProArc",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arc.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b2fb457330616327635910420121ff6a978387fa94cb05d231ebb8cca05ab3f1",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 266
+    },
+    {
+      "name": "pro-arrow",
+      "symbol": "ProArrow",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow.svg",
+      "strokeWidth": 1.5,
+      "sha256": "edf2360aef8439c602181258f98bcce59a3e0d9b2685506df6eafbf8283e964a",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 220
+    },
+    {
+      "name": "pro-arrow-down",
+      "symbol": "ProArrowDown",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow-down.svg",
+      "strokeWidth": 1.5,
+      "sha256": "3fe6930c70cfc451dbff0869dd7e3f3dea3493513cca5575c0b770b64a268f60",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 223
+    },
+    {
+      "name": "pro-arrow-marker",
+      "symbol": "ProArrowMarker",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow-marker.svg",
+      "strokeWidth": 1.5,
+      "sha256": "eb1dde7ce8f0ccbe06fa3c16c3cadb3188071efd26e9de37315c3c259d9e37ab",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 245
+    },
+    {
+      "name": "pro-arrow-up",
+      "symbol": "ProArrowUp",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/arrow-up.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c33a7b1e9376864134d04cc08617cb6387eb1c5bd0623b847f11ad24ea510787",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 223
+    },
+    {
+      "name": "pro-bars-pattern",
+      "symbol": "ProBarsPattern",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/bars-pattern.svg",
+      "strokeWidth": 1.5,
+      "sha256": "006a84f8538eb5854064e391f3cab7b35975333eacd12f88c8b22a374848a8cb",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 376
+    },
+    {
+      "name": "pro-brush",
+      "symbol": "ProBrush",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/brush.svg",
+      "strokeWidth": 1.5,
+      "sha256": "ad6ff2fc75c2deb41081f67d1ed428cb8aaa05b1b0960590c4836a13ddd95d7d",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 324
+    },
+    {
+      "name": "pro-callout",
+      "symbol": "ProCallout",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/callout.svg",
+      "strokeWidth": 1.5,
+      "sha256": "82e2b2d85bd62642a05290291d62aaa59877db8649251edf567786a65d8e7f84",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 282
+    },
+    {
+      "name": "pro-chart-area",
+      "symbol": "ProChartArea",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-area.svg",
+      "strokeWidth": 1.5,
+      "sha256": "243762d000b124589d0bf2301a2571b7f465bd5630de7600d76576226375f604",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 260
+    },
+    {
+      "name": "pro-chart-bar",
+      "symbol": "ProChartBar",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-bar.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b23ad6f887c6dba7957aa239558509b92509faa882c61556aa5fa290b6fc4b63",
+      "nodes": 1,
+      "originalNodes": 7,
+      "bytes": 262
+    },
+    {
+      "name": "pro-chart-candlestick",
+      "symbol": "ProChartCandlestick",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-candlestick.svg",
+      "strokeWidth": 1.5,
+      "sha256": "321200c5ea1968f7cc62fee26cba6be5f264b506e75f082774e32574024247af",
+      "nodes": 5,
+      "originalNodes": 6,
+      "bytes": 348
+    },
+    {
+      "name": "pro-chart-heikin-ashi",
+      "symbol": "ProChartHeikinAshi",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-heikin-ashi.svg",
+      "strokeWidth": 1.5,
+      "sha256": "ffe6c60cd85799c563f220689bb64ce096cee4dd0e0c43fb6c128174cd139fc6",
+      "nodes": 6,
+      "originalNodes": 7,
+      "bytes": 405
+    },
+    {
+      "name": "pro-chart-histogram",
+      "symbol": "ProChartHistogram",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-histogram.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a4a4db5de1a5480dbe3e3aacc40c6780aa05c130221b823e183f268c6873629c",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 247
+    },
+    {
+      "name": "pro-chart-hollow-candlestick",
+      "symbol": "ProChartHollowCandlestick",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-hollow-candlestick.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2fc4aa74a1db324abe91665ec97bc4ee6cae1783755993a9d59a362cf5590bd9",
+      "nodes": 5,
+      "originalNodes": 6,
+      "bytes": 368
+    },
+    {
+      "name": "pro-chart-line",
+      "symbol": "ProChartLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chart-line.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b62509abad192a39cf2409ec76ca2dbe1c0ef3b094109ce0ba0d767da8d56ce5",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 254
+    },
+    {
+      "name": "pro-check",
+      "symbol": "ProCheck",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/check.svg",
+      "strokeWidth": 1.5,
+      "sha256": "3ab73eeaf5477b2fd4997a5ef41c2d53aafd04e4c27803071b91b14ac511bcce",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 216
+    },
+    {
+      "name": "pro-chevron-down",
+      "symbol": "ProChevronDown",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chevron-down.svg",
+      "strokeWidth": 1.5,
+      "sha256": "e93126a59aad94691131f016a87f80c8c5d6648ad97c7b3756626ea1b6ac642b",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 213
+    },
+    {
+      "name": "pro-chevron-left",
+      "symbol": "ProChevronLeft",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chevron-left.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2528eeea6d5faac65dc13519176eef7a2d48445b1e9c93150eb82cfec542296e",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 214
+    },
+    {
+      "name": "pro-chevron-right",
+      "symbol": "ProChevronRight",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/chevron-right.svg",
+      "strokeWidth": 1.5,
+      "sha256": "5ff131861bf4d2565b4edbc98b07f4e2863f4aa8b2cd3d8ee1afb2083e68a801",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 214
+    },
+    {
+      "name": "pro-circle",
+      "symbol": "ProCircle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/circle.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c0150a3625b1cad84e0ebe4ad97905b5deaa9525a686b0ae55f00ee08e88bb65",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 220
+    },
+    {
+      "name": "pro-comment",
+      "symbol": "ProComment",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/comment.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a6e19e4b2ec474085330fddba204fe03f5a2a1bfcd76e9601270e4c0043053e2",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 262
+    },
+    {
+      "name": "pro-copy",
+      "symbol": "ProCopy",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/copy.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f2a93c34c375ab760181ff0317f4be5169ef2420819bba01e104d42c2e90b408",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 297
+    },
+    {
+      "name": "pro-cross-line",
+      "symbol": "ProCrossLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cross-line.svg",
+      "strokeWidth": 1.5,
+      "sha256": "61ec3bf304eba45df6a4c7acba045d6524de9e5f4871317a69b9ace655facfd2",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 258
+    },
+    {
+      "name": "pro-crosshair",
+      "symbol": "ProCrosshair",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/crosshair.svg",
+      "strokeWidth": 1.5,
+      "sha256": "8ffe8945263877c588f8026a9ab7b2b4e6ef015defea4443baba59f4d5e7808b",
+      "nodes": 2,
+      "originalNodes": 5,
+      "bytes": 260
+    },
+    {
+      "name": "pro-cursor-arrow",
+      "symbol": "ProCursorArrow",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-arrow.svg",
+      "strokeWidth": 1.5,
+      "sha256": "beaa850cbc3fe7d77cfecfdc35390c16ea21e99d854baed403befedeb0e8be7e",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 299
+    },
+    {
+      "name": "pro-cursor-cross",
+      "symbol": "ProCursorCross",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-cross.svg",
+      "strokeWidth": 1.5,
+      "sha256": "5bc5be2c307878f5aa9d594f65f6d3dad4dff7322c45e3788ef42cc2a1c77c93",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 227
+    },
+    {
+      "name": "pro-cursor-demonstration",
+      "symbol": "ProCursorDemonstration",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-demonstration.svg",
+      "strokeWidth": 1.5,
+      "sha256": "0afc0a2852d617d6d245e0b0e5332df11310c20caa158ba94280bb939b145429",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 313
+    },
+    {
+      "name": "pro-cursor-dot",
+      "symbol": "ProCursorDot",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cursor-dot.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c5cd79a61671d08aefad06fe087ae4608c8b08529d13e52177968831d276925d",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 296
+    },
+    {
+      "name": "pro-curve",
+      "symbol": "ProCurve",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/curve.svg",
+      "strokeWidth": 1.5,
+      "sha256": "d2e86f22f945589a6146783e5a3afe57b38f5384ac086e1cbb4516ab076273ce",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 220
+    },
+    {
+      "name": "pro-cyclic-lines",
+      "symbol": "ProCyclicLines",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cyclic-lines.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a3b3a410e8babf0c82bffddb3630330fa0a167fc33d2ad11991d190c72e27f86",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 268
+    },
+    {
+      "name": "pro-cypher",
+      "symbol": "ProCypher",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/cypher.svg",
+      "strokeWidth": 1.5,
+      "sha256": "dcc6667d350ca96a757b7d7fcc7b2fde2e360bb3699a53bd81198541e8354e98",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 270
+    },
+    {
+      "name": "pro-date-price-range",
+      "symbol": "ProDatePriceRange",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/date-price-range.svg",
+      "strokeWidth": 1.5,
+      "sha256": "ac3484222e6d4172fa538fc87372ba965db6212ba3eeabee2dc8752ded87b3a7",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 266
+    },
+    {
+      "name": "pro-date-range",
+      "symbol": "ProDateRange",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/date-range.svg",
+      "strokeWidth": 1.5,
+      "sha256": "4e4668bc151a88bc59755b04a9fb74b4f95c0b3a04b4161d68d4ed5ce8905507",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 250
+    },
+    {
+      "name": "pro-disjoint-channel",
+      "symbol": "ProDisjointChannel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/disjoint-channel.svg",
+      "strokeWidth": 1.5,
+      "sha256": "bd55fb827033fbdcce212abe2bb06e1874cd07e3ad4cb359baa5950762e7285f",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 220
+    },
+    {
+      "name": "pro-double-curve",
+      "symbol": "ProDoubleCurve",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/double-curve.svg",
+      "strokeWidth": 1.5,
+      "sha256": "53b05fe59f06663606a5fd1e923d0c24b40c42f69bf2cd1f0180ea0479dad647",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 228
+    },
+    {
+      "name": "pro-elliott-correction",
+      "symbol": "ProElliottCorrection",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-correction.svg",
+      "strokeWidth": 1.5,
+      "sha256": "5b34b39ce7189cce8dd7409072663fcb311badf1043cbfbc43f6e895cc653158",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 218
+    },
+    {
+      "name": "pro-elliott-double-combo",
+      "symbol": "ProElliottDoubleCombo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-double-combo.svg",
+      "strokeWidth": 1.5,
+      "sha256": "abf85060209daafc1ae2fbfff19ea11b7b3116b33ec8e623e0fbac6730664659",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 283
+    },
+    {
+      "name": "pro-elliott-impulse",
+      "symbol": "ProElliottImpulse",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-impulse.svg",
+      "strokeWidth": 1.5,
+      "sha256": "7571af6d686384561717cc2dc7de0b7051e75e3bb013d4a992e2be958772f0e9",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 227
+    },
+    {
+      "name": "pro-elliott-triangle",
+      "symbol": "ProElliottTriangle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-triangle.svg",
+      "strokeWidth": 1.5,
+      "sha256": "17133b133573e923e9080efe318be0b8ecf7d3956674a5d4874cc372df6854dd",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 230
+    },
+    {
+      "name": "pro-elliott-triple-combo",
+      "symbol": "ProElliottTripleCombo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/elliott-triple-combo.svg",
+      "strokeWidth": 1.5,
+      "sha256": "fb27391f818d49c38e1890dbdcb6892f3077c972fe361039e3bc259fd2c09edc",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 225
+    },
+    {
+      "name": "pro-ellipse",
+      "symbol": "ProEllipse",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ellipse.svg",
+      "strokeWidth": 1.5,
+      "sha256": "d877022cb23472d4f5f30450750eeb5c91997e00ffd96761fd86bb877e759b48",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 230
+    },
+    {
+      "name": "pro-emoji",
+      "symbol": "ProEmoji",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/emoji.svg",
+      "strokeWidth": 1.5,
+      "sha256": "13761f64d85a6e313ae4282e369ae06f4cb68d6efe9807cb56c67facc44e8e1a",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 357
+    },
+    {
+      "name": "pro-eraser",
+      "symbol": "ProEraser",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/eraser.svg",
+      "strokeWidth": 1.5,
+      "sha256": "ee225d25b4fcba232bac54d960c9d71c7a817abc12b337bd411085f8d3c547f9",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 302
+    },
+    {
+      "name": "pro-extended-line",
+      "symbol": "ProExtendedLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/extended-line.svg",
+      "strokeWidth": 1.5,
+      "sha256": "21f5371e317053ab05db7b378077bbca816ca71dc44329007e4a4c2a11d99ef4",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 291
+    },
+    {
+      "name": "pro-eye",
+      "symbol": "ProEye",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/eye.svg",
+      "strokeWidth": 1.5,
+      "sha256": "534ad4741a8dd084725211126d97f01b7d766212b25b0c742c0a65b9e5d0bd2b",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 275
+    },
+    {
+      "name": "pro-eye-off",
+      "symbol": "ProEyeOff",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/eye-off.svg",
+      "strokeWidth": 1.5,
+      "sha256": "0f4352c2444f37fcb249b8dad52ab1fee691819cb2e0f3e9ea22a01db048d999",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 316
+    },
+    {
+      "name": "pro-fib",
+      "symbol": "ProFib",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib.svg",
+      "strokeWidth": 1.5,
+      "sha256": "4a5af572208aa0365323d5248a538ca4fbd3f57dba0be449b8ae16ec1765ba2a",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 278
+    },
+    {
+      "name": "pro-fib-channel",
+      "symbol": "ProFibChannel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-channel.svg",
+      "strokeWidth": 1.5,
+      "sha256": "111dafa8be5cea8e51a8296d5663e6c7ee1721cdede2b5f7a99fb3ca2387d08f",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 230
+    },
+    {
+      "name": "pro-fib-circles",
+      "symbol": "ProFibCircles",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-circles.svg",
+      "strokeWidth": 1.5,
+      "sha256": "7d8ec3706123fb5091e5d1f4c3e34714df791637df8e91b067cc538442df5ebe",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 284
+    },
+    {
+      "name": "pro-fib-extension",
+      "symbol": "ProFibExtension",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-extension.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2fbf477f27c8679499becbe104dba1bfcd10e27aed18d54083c4c2ae7eae1885",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 242
+    },
+    {
+      "name": "pro-fib-speed-arcs",
+      "symbol": "ProFibSpeedArcs",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-speed-arcs.svg",
+      "strokeWidth": 1.5,
+      "sha256": "8c903804507da706f6b667925c325dc67cec3b8d7a340c97bff771acc79595a3",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 268
+    },
+    {
+      "name": "pro-fib-speed-fan",
+      "symbol": "ProFibSpeedFan",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-speed-fan.svg",
+      "strokeWidth": 1.5,
+      "sha256": "25eb203264d49ebc529da1d45e957eeff34b9a8973fc07ee180c58aab29a1635",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 242
+    },
+    {
+      "name": "pro-fib-spiral",
+      "symbol": "ProFibSpiral",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-spiral.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c62958e9beff4b7d0e855f6414c0e7d884e29bc5880b856801c39743a65f8c58",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 283
+    },
+    {
+      "name": "pro-fib-time",
+      "symbol": "ProFibTime",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-time.svg",
+      "strokeWidth": 1.5,
+      "sha256": "51c75180dcddffc32f068133ce70235683735418b73e91e4548723ae31fc0137",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 238
+    },
+    {
+      "name": "pro-fib-time-zone",
+      "symbol": "ProFibTimeZone",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-time-zone.svg",
+      "strokeWidth": 1.5,
+      "sha256": "65502c58b4381349cb66f800946d0b9d32f7cd28066480cee3f3aa47910a1e64",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 238
+    },
+    {
+      "name": "pro-fib-wedge",
+      "symbol": "ProFibWedge",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/fib-wedge.svg",
+      "strokeWidth": 1.5,
+      "sha256": "44aa76d0276e5d5cfeab7e5613b36c4321965d2bca5e16c495aa419f9b5ea7e8",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 267
+    },
+    {
+      "name": "pro-flag-mark",
+      "symbol": "ProFlagMark",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/flag-mark.svg",
+      "strokeWidth": 1.5,
+      "sha256": "ceb5effba39ca8e1531b6374d8fcd45e3197f02d5cdb6045f02ff05034d6bec4",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 346
+    },
+    {
+      "name": "pro-flat-top-bottom",
+      "symbol": "ProFlatTopBottom",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/flat-top-bottom.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f8122ec76df32a062ffadc7f4e74e26361e842e80cc43a408ad4688b9437a381",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 218
+    },
+    {
+      "name": "pro-forecast",
+      "symbol": "ProForecast",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/forecast.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f705b85bfefeb96bff95cdae33d5a30c8bb794659edda4c92d91dc5d61e4ef27",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 324
+    },
+    {
+      "name": "pro-function-square",
+      "symbol": "ProFunctionSquare",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/function-square.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f69012adf08d6cdabbb2de51ff7674ff71d3ecc9803e0f774c59a8eee92a479c",
+      "nodes": 2,
+      "originalNodes": 5,
+      "bytes": 312
+    },
+    {
+      "name": "pro-gann-box",
+      "symbol": "ProGannBox",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-box.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c5352e97c8ca6a452a62d17dd6e9222ce2332398d13faf569470cadc1edff15b",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 280
+    },
+    {
+      "name": "pro-gann-fan",
+      "symbol": "ProGannFan",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-fan.svg",
+      "strokeWidth": 1.5,
+      "sha256": "481fbec65eb630773b1a14aed9019d0d6f5fc785162902607b37c395e833d6ea",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 250
+    },
+    {
+      "name": "pro-gann-square",
+      "symbol": "ProGannSquare",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-square.svg",
+      "strokeWidth": 1.5,
+      "sha256": "eed71d136ccff81beffdf767af7ca887e301b0ea1c57db4b56bb020f009fc7e2",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 291
+    },
+    {
+      "name": "pro-gann-square-fixed",
+      "symbol": "ProGannSquareFixed",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/gann-square-fixed.svg",
+      "strokeWidth": 1.5,
+      "sha256": "fced5f2d67eff1e0d3715dce82826e4e6b36dd2d9f09428ddbac9573417ed07f",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 280
+    },
+    {
+      "name": "pro-ghost-feed",
+      "symbol": "ProGhostFeed",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ghost-feed.svg",
+      "strokeWidth": 1.5,
+      "sha256": "651a342edb65a2a2146cef315ca69a21cd96c4baf5e3d5bd609794950b112488",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 399
+    },
+    {
+      "name": "pro-head-shoulders",
+      "symbol": "ProHeadShoulders",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/head-shoulders.svg",
+      "strokeWidth": 1.5,
+      "sha256": "107d99d061b533b92a05c1ba25198b4240470c12925eed9c6ff3bdaeb1c9a963",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 277
+    },
+    {
+      "name": "pro-highlighter",
+      "symbol": "ProHighlighter",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/highlighter.svg",
+      "strokeWidth": 1.5,
+      "sha256": "802a6deeb145c06e3740a55535ee5f5ddd73e24c17cb437d614134b27317ce99",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 279
+    },
+    {
+      "name": "pro-hline",
+      "symbol": "ProHline",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/hline.svg",
+      "strokeWidth": 1.5,
+      "sha256": "7fc0f549d12f26ff4f64219be83b04440125f2c8eb25f319714e6992b8fd03fc",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 245
+    },
+    {
+      "name": "pro-horizontal-ray",
+      "symbol": "ProHorizontalRay",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/horizontal-ray.svg",
+      "strokeWidth": 1.5,
+      "sha256": "06fb7c1add7a0477004206413ec8e8d1d9bf0dcff32d0c2a68b5d2df1b5924b3",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 239
+    },
+    {
+      "name": "pro-icon",
+      "symbol": "ProIcon",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/icon.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2b532553fb7de4d11d844eb5c71edbf22f0d42759cb8d9a012057f0fbba5126b",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 273
+    },
+    {
+      "name": "pro-image",
+      "symbol": "ProImage",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/image.svg",
+      "strokeWidth": 1.5,
+      "sha256": "49537e15df6d9550d1889198e0f2e8a2832fe061a258f4ab09cf7b4c3e32c74e",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 308
+    },
+    {
+      "name": "pro-info-line",
+      "symbol": "ProInfoLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/info-line.svg",
+      "strokeWidth": 1.5,
+      "sha256": "9b76bb5182958f8b03ee8e3818e7c5f51b3984aee1c8f7a6259111d42b4dc661",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 323
+    },
+    {
+      "name": "pro-inside-pitchfork",
+      "symbol": "ProInsidePitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/inside-pitchfork.svg",
+      "strokeWidth": 1.5,
+      "sha256": "309c92ea175fe77d0c80c2288ea6dc73c650ae1958ef28706ca4330f813e99dc",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 275
+    },
+    {
+      "name": "pro-lock",
+      "symbol": "ProLock",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/lock.svg",
+      "strokeWidth": 1.5,
+      "sha256": "cec6e47da79674c65a7691108a18b46818ad2e57a7daef7ab6f211c9e2303944",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 273
+    },
+    {
+      "name": "pro-long-position",
+      "symbol": "ProLongPosition",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/long-position.svg",
+      "strokeWidth": 1.5,
+      "sha256": "90b6e2479a022fa9a7833654457ddd9c30a1bf8d51fa5c5e7955efa2dfe82eca",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 270
+    },
+    {
+      "name": "pro-magnet",
+      "symbol": "ProMagnet",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/magnet.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c0cef54e8728da029bc58ca6961e19b9371b6be7e9f1c98ae1d7e259dd4cc432",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 260
+    },
+    {
+      "name": "pro-magnet-strong",
+      "symbol": "ProMagnetStrong",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/magnet-strong.svg",
+      "strokeWidth": 1.5,
+      "sha256": "df6ca4ded2b36d716f1cce729e72e3aeb82337b899fa6a48a33ac3b8408d9bc6",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 306
+    },
+    {
+      "name": "pro-modified-schiff-pitchfork",
+      "symbol": "ProModifiedSchiffPitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/modified-schiff-pitchfork.svg",
+      "strokeWidth": 1.5,
+      "sha256": "171ba15dc3b436a9b437827b11a5244cf2eedb860b80706fa3db20ee395b118d",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 242
+    },
+    {
+      "name": "pro-monitor",
+      "symbol": "ProMonitor",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/monitor.svg",
+      "strokeWidth": 1.5,
+      "sha256": "1e9b01fe26bfbcf39d1325de143cedbcb974d3d17057d03961c1377bcffec51e",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 264
+    },
+    {
+      "name": "pro-moon",
+      "symbol": "ProMoon",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/moon.svg",
+      "strokeWidth": 1.5,
+      "sha256": "1f346b5810c792c6ade0d55d9e76587bb5d4a884c4fabf425d5d1046343f7108",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 247
+    },
+    {
+      "name": "pro-note",
+      "symbol": "ProNote",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/note.svg",
+      "strokeWidth": 1.5,
+      "sha256": "5417e0ae7f8b1d9ce1ab46aa7bb40453838a05fdb4c6fec4138d9c083e84add5",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 299
+    },
+    {
+      "name": "pro-order-book",
+      "symbol": "ProOrderBook",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/order-book.svg",
+      "strokeWidth": 1.5,
+      "sha256": "1b956baee97353940d259cb5ae24d15aaaaae69ec97f9476a89ea7058c70a4b9",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 245
+    },
+    {
+      "name": "pro-palette",
+      "symbol": "ProPalette",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/palette.svg",
+      "strokeWidth": 1.5,
+      "sha256": "954d61e1fc17f77b9e1297b475e1465dabc1726e1c208ce7cc3ff599ae2bac2b",
+      "nodes": 5,
+      "originalNodes": 5,
+      "bytes": 576
+    },
+    {
+      "name": "pro-panel-left-close",
+      "symbol": "ProPanelLeftClose",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/panel-left-close.svg",
+      "strokeWidth": 1.5,
+      "sha256": "0be8c21fd295171840de2087365468fb044b961947086cb9f636ef01b7e1c423",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 272
+    },
+    {
+      "name": "pro-panel-left-open",
+      "symbol": "ProPanelLeftOpen",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/panel-left-open.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f3dbb449da3c6f0c2ef2f387cc4e6ad5dde335a784a07f5c29d543e4ccaa3dc8",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 272
+    },
+    {
+      "name": "pro-parallel-channel",
+      "symbol": "ProParallelChannel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/parallel-channel.svg",
+      "strokeWidth": 1.5,
+      "sha256": "9dd1b5f72064f3f183627b855685636a56259fe9e8bfbf8d45d8712844928c12",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 270
+    },
+    {
+      "name": "pro-path",
+      "symbol": "ProPath",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/path.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b4a8a954d966492e272ca028d46fc30d44e93590c6dc5f0ce0ace1d1078b92d4",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 240
+    },
+    {
+      "name": "pro-pause",
+      "symbol": "ProPause",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pause.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2ed2a88f21eed46fe9791c3159fb32839c9ec2b84de02b9ab385e6fa5e284894",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 298
+    },
+    {
+      "name": "pro-pencil",
+      "symbol": "ProPencil",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pencil.svg",
+      "strokeWidth": 1.5,
+      "sha256": "3bfc65b0d92f8a0eb7cc6bf9b5d9fbc1656361f8fabf382233c95a284786fc5b",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 252
+    },
+    {
+      "name": "pro-pencil-lock",
+      "symbol": "ProPencilLock",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pencil-lock.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b3d4c841d19c4412af97f48e6e324be426803bd5428f78f26e3d6a0daf0d1996",
+      "nodes": 3,
+      "originalNodes": 4,
+      "bytes": 347
+    },
+    {
+      "name": "pro-pin",
+      "symbol": "ProPin",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pin.svg",
+      "strokeWidth": 1.5,
+      "sha256": "57ce06de68762b3d30517c6dfa927a36acbb7200a6dc565d22c0b68eecffe41b",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 311
+    },
+    {
+      "name": "pro-pitchfan",
+      "symbol": "ProPitchfan",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pitchfan.svg",
+      "strokeWidth": 1.5,
+      "sha256": "417dd9f255f99c1f6ef58bd758b7c175edb58cec0f81e4f904e5647a7a78acaf",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 274
+    },
+    {
+      "name": "pro-pitchfork",
+      "symbol": "ProPitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/pitchfork.svg",
+      "strokeWidth": 1.5,
+      "sha256": "1e21c9b619c1fcde3661b353da7fec950a2f6e95053d9c427f8382b56471b787",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 241
+    },
+    {
+      "name": "pro-play",
+      "symbol": "ProPlay",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/play.svg",
+      "strokeWidth": 1.5,
+      "sha256": "3630513542d97aa4a13f4cd7b5c43e6c8ced9d5d551d165849295798d8528139",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 288
+    },
+    {
+      "name": "pro-polyline",
+      "symbol": "ProPolyline",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/polyline.svg",
+      "strokeWidth": 1.5,
+      "sha256": "72a29ad0d575ffeeb4ef610534e8325f50b42bffbe5bc19d55c4cc9e43f95855",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 225
+    },
+    {
+      "name": "pro-price-label",
+      "symbol": "ProPriceLabel",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/price-label.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b016c38f3431874d80cb7fc45ee1194d6f37e02f8749a4aef707ab0197408b5b",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 308
+    },
+    {
+      "name": "pro-price-note",
+      "symbol": "ProPriceNote",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/price-note.svg",
+      "strokeWidth": 1.5,
+      "sha256": "20063abb1350da6f45da9c897fa1c1375626811ebca35c4aa2e58757bd2b5237",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 295
+    },
+    {
+      "name": "pro-price-range",
+      "symbol": "ProPriceRange",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/price-range.svg",
+      "strokeWidth": 1.5,
+      "sha256": "4a3697d941e6841ad62c377677682d9fe8464e4111d4959c83aa4f3938a44d02",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 249
+    },
+    {
+      "name": "pro-projection",
+      "symbol": "ProProjection",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/projection.svg",
+      "strokeWidth": 1.5,
+      "sha256": "0e72d983a63c591397bd19b4edad3e534f74f623eb6215a9d7dfac641e9ae2d0",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 276
+    },
+    {
+      "name": "pro-range-profile",
+      "symbol": "ProRangeProfile",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/range-profile.svg",
+      "strokeWidth": 1.5,
+      "sha256": "19b4f3b9f81e1f5241b230fc051a1d022bd194ac00d0a1db2104bbfd3e387e90",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 245
+    },
+    {
+      "name": "pro-ray",
+      "symbol": "ProRay",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ray.svg",
+      "strokeWidth": 1.5,
+      "sha256": "c246c99a07b2f8fea20b46e77ebdef3b1d3769ebd284be7e62ecb339825e101c",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 295
+    },
+    {
+      "name": "pro-rect",
+      "symbol": "ProRect",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/rect.svg",
+      "strokeWidth": 1.5,
+      "sha256": "5e12e74e1912fc20e553b1da33b9e0c436e83b94997d05a7b7cc84084269f23b",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 238
+    },
+    {
+      "name": "pro-redo",
+      "symbol": "ProRedo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/redo.svg",
+      "strokeWidth": 1.5,
+      "sha256": "83207830c15703a4288a1a3ace39c59da0f983cd2b2113d5ff61a5ca6c952c58",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 250
+    },
+    {
+      "name": "pro-regression-trend",
+      "symbol": "ProRegressionTrend",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/regression-trend.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a88d638f271a3af4d097783b8ae0f37e595d1426481d801dd719fe2eaa2ff63d",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 269
+    },
+    {
+      "name": "pro-rotated-rect",
+      "symbol": "ProRotatedRect",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/rotated-rect.svg",
+      "strokeWidth": 1.5,
+      "sha256": "cdfc7d807366aad538a72f38dd99677de3e9037fcdf65ece0bf1003231a22315",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 220
+    },
+    {
+      "name": "pro-ruler",
+      "symbol": "ProRuler",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/ruler.svg",
+      "strokeWidth": 1.5,
+      "sha256": "8b1f9306029f8996b61c902c5708e5767452cb12bd0b451f64c7adff28cba80e",
+      "nodes": 1,
+      "originalNodes": 4,
+      "bytes": 341
+    },
+    {
+      "name": "pro-schiff-pitchfork",
+      "symbol": "ProSchiffPitchfork",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/schiff-pitchfork.svg",
+      "strokeWidth": 1.5,
+      "sha256": "2c96a4da65bf77469c2b601266f3b5507e77f5747fbb3111429843269faee4dd",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 243
+    },
+    {
+      "name": "pro-settings",
+      "symbol": "ProSettings",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/settings.svg",
+      "strokeWidth": 1.5,
+      "sha256": "bc8854b040154a1012840a368cc91601b3f1ebbdf3cc38c5f390b6c9a90d4b6b",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 452
+    },
+    {
+      "name": "pro-short-position",
+      "symbol": "ProShortPosition",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/short-position.svg",
+      "strokeWidth": 1.5,
+      "sha256": "cdaa58086f5bffcce56809d8f4aaae2884f42852db2a8f17ed6674aecd0301ff",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 271
+    },
+    {
+      "name": "pro-signpost",
+      "symbol": "ProSignpost",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/signpost.svg",
+      "strokeWidth": 1.5,
+      "sha256": "64d8e46fb6ccc58e9f1494c29796872592c4223e850839df8a53fb3887bd6454",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 357
+    },
+    {
+      "name": "pro-sine-line",
+      "symbol": "ProSineLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/sine-line.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a965ca2b6ebb5f0aef13240c8283678a4a77d61474143530baed348f80d7b437",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 242
+    },
+    {
+      "name": "pro-smile",
+      "symbol": "ProSmile",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/smile.svg",
+      "strokeWidth": 1.5,
+      "sha256": "e266ecafc66a6878ed3f17158d1d858b25095e7065a6eb88a089ffaa7ca5a1d3",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 364
+    },
+    {
+      "name": "pro-star",
+      "symbol": "ProStar",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/star.svg",
+      "strokeWidth": 1.5,
+      "aliasOf": "pro-icon",
+      "sha256": "2b532553fb7de4d11d844eb5c71edbf22f0d42759cb8d9a012057f0fbba5126b",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 273
+    },
+    {
+      "name": "pro-star-filled",
+      "symbol": "ProStarFilled",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/star-filled.svg",
+      "strokeWidth": 1.5,
+      "sha256": "34afad2c24db0ae34ac86ece50dfc5902bf1868250db4a643619f2a74e0e8832",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 293
+    },
+    {
+      "name": "pro-sticker",
+      "symbol": "ProSticker",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/sticker.svg",
+      "strokeWidth": 1.5,
+      "sha256": "300ecf373236e417fe1b80645ef519f5d4c404996f3096deaf34c6e540aebfde",
+      "nodes": 5,
+      "originalNodes": 5,
+      "bytes": 435
+    },
+    {
+      "name": "pro-sun",
+      "symbol": "ProSun",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/sun.svg",
+      "strokeWidth": 1.5,
+      "sha256": "fce85ad9ee8d7e98007039a15b2160c0d461aad49645e0b42ff559ab852437ad",
+      "nodes": 2,
+      "originalNodes": 9,
+      "bytes": 309
+    },
+    {
+      "name": "pro-table",
+      "symbol": "ProTable",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/table.svg",
+      "strokeWidth": 1.5,
+      "sha256": "ad3db023ace4a8c8c27e2de17e2ab8c5a12da72e34191e45db14d6818d813ad1",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 273
+    },
+    {
+      "name": "pro-text",
+      "symbol": "ProText",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/text.svg",
+      "strokeWidth": 1.5,
+      "sha256": "b4cce6411bd2663de4e02410340cc1463034a7208567c05e292cb91e2d6820af",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 223
+    },
+    {
+      "name": "pro-three-drives",
+      "symbol": "ProThreeDrives",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/three-drives.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a101be25b616130c24537e8f5a10168a1115056e1c3e309bb4d0fc6161376e35",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 226
+    },
+    {
+      "name": "pro-time-cycles",
+      "symbol": "ProTimeCycles",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/time-cycles.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f1d795fec4994093e7995b972d7682248dfac011a3d317a859c549d5e12c9297",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 244
+    },
+    {
+      "name": "pro-trash",
+      "symbol": "ProTrash",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/trash.svg",
+      "strokeWidth": 1.5,
+      "sha256": "f01996b9b30c5bdc9c972b40d7c958bdb846089acc747df527c5f31b06af979f",
+      "nodes": 1,
+      "originalNodes": 5,
+      "bytes": 303
+    },
+    {
+      "name": "pro-trend-angle",
+      "symbol": "ProTrendAngle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/trend-angle.svg",
+      "strokeWidth": 1.5,
+      "sha256": "70d6b98422bb025bea4e0162f80d300b940815723b6211342adbb008337cf1f1",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 277
+    },
+    {
+      "name": "pro-trendline",
+      "symbol": "ProTrendline",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/trendline.svg",
+      "strokeWidth": 1.5,
+      "sha256": "18fbe5084748f15f5fb6278d81615f92cc27775a98df465fd94e289ad43d3ae6",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 276
+    },
+    {
+      "name": "pro-triangle",
+      "symbol": "ProTriangle",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/triangle.svg",
+      "strokeWidth": 1.5,
+      "sha256": "e01e7c396d79a64254f4118a6537b518169f8e837834e3a481fddb989575f151",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 214
+    },
+    {
+      "name": "pro-triangle-pattern",
+      "symbol": "ProTrianglePattern",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/triangle-pattern.svg",
+      "strokeWidth": 1.5,
+      "sha256": "08a827c709493107dcfc372fcf5d8e2f28e8330bd0938361c72cdf88eb404588",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 278
+    },
+    {
+      "name": "pro-undo",
+      "symbol": "ProUndo",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/undo.svg",
+      "strokeWidth": 1.5,
+      "sha256": "a3c4fcc57d23b872befda05839b9cf47fdf95170cf24cb2bc3197350c9628f6e",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 249
+    },
+    {
+      "name": "pro-unlock",
+      "symbol": "ProUnlock",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/unlock.svg",
+      "strokeWidth": 1.5,
+      "sha256": "51cb1de60f1316f7cc33233e1a819f02c25cfce690c42b01e21dc1b477e8c37a",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 273
+    },
+    {
+      "name": "pro-vertical-line",
+      "symbol": "ProVerticalLine",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/vertical-line.svg",
+      "strokeWidth": 1.5,
+      "sha256": "42b0142cdbc7f9ee02fd87e7b391fda89037bb224ca765c3813d0a054bcc5259",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 245
+    },
+    {
+      "name": "pro-volume-profile",
+      "symbol": "ProVolumeProfile",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/volume-profile.svg",
+      "strokeWidth": 1.5,
+      "sha256": "1ed2f12345190e21e66cd0cd8828ed11cdb8374ac41769f48aad0cf7e59c20f6",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 243
+    },
+    {
+      "name": "pro-x",
+      "symbol": "ProX",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/x.svg",
+      "strokeWidth": 1.5,
+      "sha256": "0acbbbf12bb83c086b62acb7067ad8fa181a7bbb7968141622e3d11deb489d61",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 221
+    },
+    {
+      "name": "pro-xabcd",
+      "symbol": "ProXabcd",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/xabcd.svg",
+      "strokeWidth": 1.5,
+      "sha256": "d70cc22b593f4c1e36a8e5a882ae47e99bfabf94900a452bd518d3e68dc8504c",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 274
+    },
+    {
+      "name": "pro-zoom-in",
+      "symbol": "ProZoomIn",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/zoom-in.svg",
+      "strokeWidth": 1.5,
+      "sha256": "0568056336acfad2aa76e6ef5f56f95eb5cdbab2c91df609f9d8bae0c1cc1f2c",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 270
+    },
+    {
+      "name": "pro-zoom-out",
+      "symbol": "ProZoomOut",
+      "source": "bloxwap/chart@7e81abcfaeb7b1f1c46ba07b8f21027e4a1fa987:packages/chart/assets/icons/zoom-out.svg",
+      "strokeWidth": 1.5,
+      "sha256": "be6c199c1e6bd1a7d432bfbb4a4303f33f59cb67dd225c80e2736b12ed832880",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 261
+    },
+    {
+      "name": "qr-code",
+      "symbol": "QrCode",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8beaa8db9e9a8c068351408911b84862b0329dc0eb54a2b991a6c852216d6581",
+      "nodes": 4,
+      "originalNodes": 12,
+      "bytes": 451
+    },
+    {
+      "name": "receipt",
+      "symbol": "Receipt",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8eab0acb235b7ca2ec39554a49c1328a8d91952c17c3dc78ac3b4c38a1e1f34c",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 695
+    },
+    {
+      "name": "refresh-cw",
+      "symbol": "RefreshCw",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7b04bb388b11b6e2c31bf4295b96ed80287716c82a326fca6dd5171dd59b0f9d",
+      "nodes": 3,
+      "originalNodes": 4,
+      "bytes": 341
+    },
+    {
+      "name": "repeat",
+      "symbol": "Repeat",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "21b43201def89e45aa6855ff369670e947b48db3ebe0a091118db6b83b0ad85e",
+      "nodes": 3,
+      "originalNodes": 4,
+      "bytes": 299
+    },
+    {
+      "name": "rotate-ccw",
+      "symbol": "RotateCcw",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "340931897be57b9745c648d9d82c6a979e2783f2760a7c3e41f3d3b8dfccb93f",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 268
+    },
+    {
+      "name": "scale",
+      "symbol": "Scale",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "f80ddf8b332f027329a820fda34b61ec746c16cb025c5414114e5a679aa08224",
+      "nodes": 2,
+      "originalNodes": 5,
+      "bytes": 318
+    },
+    {
+      "name": "scan-line",
+      "symbol": "ScanLine",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "41ce71abd9ec7345e7afb057473c85ac93d31c246b96a4f73707653c8c00efbc",
+      "nodes": 1,
+      "originalNodes": 5,
+      "bytes": 299
+    },
+    {
+      "name": "scan-qr-code",
+      "symbol": "ScanQrCode",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "61ca1ef9328cfbb829929e1ea19f5c9cda2047e7945a3ff0f7b4cb0951dd2160",
+      "nodes": 2,
+      "originalNodes": 8,
+      "bytes": 380
+    },
+    {
+      "name": "search",
+      "symbol": "Search",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "b4d29558ba461d34769568f05aa2d1ab36a713e88b9e843c9671240b7d0ea9ac",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 246
+    },
+    {
+      "name": "server",
+      "symbol": "Server",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "b5a0b7bfa917d8813116424a6956ad74b24c52b6b7ddf4774919a65c831eeb5d",
+      "nodes": 4,
+      "originalNodes": 4,
+      "bytes": 376
+    },
+    {
+      "name": "settings",
+      "symbol": "Settings",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "8b2021f272cba67b5a418b09211932f1b1c86c83637e5ff63086d8efa45d952d",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 557
+    },
+    {
+      "name": "share",
+      "symbol": "Share",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "3e6488d1b87e3bf616470de134ac4fdd2d30f34c38c949796cbfff2f23c36c9a",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 260
+    },
+    {
+      "name": "shield",
+      "symbol": "Shield",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "d7c72905bbc0692508c6977195d072997d57916ad41159a91923058d390ac2a8",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 361
+    },
+    {
+      "name": "shield-alert",
+      "symbol": "ShieldAlert",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "353054feefaf69289774e595ef6f60f8e7952365057b0452157eb9dcd471965f",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 376
+    },
+    {
+      "name": "shield-check",
+      "symbol": "ShieldCheck",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "5a7ac4b23e46ef16f76131d9df0b59026a2a5524a808ffc233293477d9028483",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 386
+    },
+    {
+      "name": "signal",
+      "symbol": "Signal",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "9bfbf6ad1a2296f45aa438fc08d1bc3ef1f2a31251bec30db63d6f64891ec4b0",
+      "nodes": 1,
+      "originalNodes": 5,
+      "bytes": 236
+    },
+    {
+      "name": "sliders-horizontal",
+      "symbol": "SlidersHorizontal",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "4d9c5de391cc8bba61862a029e24584fba040c506f991e9551d74ed8b0696742",
+      "nodes": 1,
+      "originalNodes": 9,
+      "bytes": 262
+    },
+    {
+      "name": "star",
+      "symbol": "Star",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "ffd3e38aff8f2242e2f7218450b4bee2ab1d9b06072d5830b0250602487ea279",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 553
+    },
+    {
+      "name": "terminal",
+      "symbol": "Terminal",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "254b608b422cc8741f6db476c4fda4e90682c3eb5d36071c2e65c977b65f884f",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 220
+    },
+    {
+      "name": "timer",
+      "symbol": "Timer",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "325a0478a813e3540dd9342f129e9cf4726e83dc335154d5d2c6be34c9680cd7",
+      "nodes": 3,
+      "originalNodes": 3,
+      "bytes": 294
+    },
+    {
+      "name": "trash",
+      "symbol": "Trash",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "734020d0494a0d0138b7f75f19d19f5921519490d3849353652bb84793635e81",
+      "nodes": 1,
+      "originalNodes": 5,
+      "bytes": 298
+    },
+    {
+      "name": "trending-down",
+      "symbol": "TrendingDown",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "109ec5335ec7300f2869347f2eb7d36adcb41432060c44207b698c1a0d07a64d",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 244
+    },
+    {
+      "name": "trending-up",
+      "symbol": "TrendingUp",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "e1d70f65888512132f7a10c5b2b765159e0037e159db6380698a03bb1ce5badb",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 242
+    },
+    {
+      "name": "triangle-alert",
+      "symbol": "TriangleAlert",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "aa4b3bcbb592b5fb761db34ba834eb274a5faf66f3a5819aa19ef08fdff131d1",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 286
+    },
+    {
+      "name": "trophy",
+      "symbol": "Trophy",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "44b9aa4fa407ce7d9dc1078cea9199d209ba646d48cf890563174ccc33ce3191",
+      "nodes": 3,
+      "originalNodes": 6,
+      "bytes": 469
+    },
+    {
+      "name": "type",
+      "symbol": "Type",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "95d358d8b7a27a04eb491d81239628c0a06a58b83a0fd73ca87e38300c1d9d75",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 253
+    },
+    {
+      "name": "upload",
+      "symbol": "Upload",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "b458a7f899aea24ed767becb9dcdfa59a63098cb7b1026a8ed856e2180bb4339",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 259
+    },
+    {
+      "name": "users",
+      "symbol": "Users",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "62ea3df4a2026c64e7e70d78d436927752500bb4d12df776f4dbcd6e264a4289",
+      "nodes": 2,
+      "originalNodes": 4,
+      "bytes": 322
+    },
+    {
+      "name": "vibrate",
+      "symbol": "Vibrate",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "f10708e521f562dbf21550ea8440099e14c6fa04b7781cb27c7f3506a7acd5ef",
+      "nodes": 2,
+      "originalNodes": 3,
+      "bytes": 288
+    },
+    {
+      "name": "vibrate-off",
+      "symbol": "VibrateOff",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7d5171ccb284d926c82cb75306b6b0525e03e5a0eb9cd685be8aa0846f57bd84",
+      "nodes": 2,
+      "originalNodes": 5,
+      "bytes": 351
+    },
+    {
+      "name": "volume-1",
+      "symbol": "Volume1",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "181d26fabc8a0b17de307c96a7a94c6307d67c9e21a8188b5ee4c07f2bc5647b",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 386
+    },
+    {
+      "name": "volume-2",
+      "symbol": "Volume2",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "6dd2ed80c54edaf3b89cc10c19e503108c75afa2fd0639cb82149c4df7b04c15",
+      "nodes": 1,
+      "originalNodes": 3,
+      "bytes": 417
+    },
+    {
+      "name": "volume-off",
+      "symbol": "VolumeOff",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "fcedac657666771f93ca148787e1b80ab23b099f7613c5d353270a0b4e59d2f5",
+      "nodes": 1,
+      "originalNodes": 5,
+      "bytes": 445
+    },
+    {
+      "name": "wallet",
+      "symbol": "Wallet",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "a3c387e1baceed715d1ec92f1aab706779df39db44a49b05062c929b732a4ce4",
+      "nodes": 2,
+      "originalNodes": 2,
+      "bytes": 358
+    },
+    {
+      "name": "x",
+      "symbol": "X",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "0bbcabfbf10ae8cfc0be57cef8705a8065867717a8a395b13be8da0d3df2d776",
+      "nodes": 1,
+      "originalNodes": 2,
+      "bytes": 219
+    },
+    {
+      "name": "zap",
+      "symbol": "Zap",
+      "source": "lucide-react@1.61.0",
+      "strokeWidth": 2,
+      "sha256": "7ac538cd05532c29a381add1b7f1d46dfdca19825f020e7d4265631a6d463321",
+      "nodes": 1,
+      "originalNodes": 1,
+      "bytes": 375
+    }
+  ],
+  "aliases": {
+    "AlertTriangle": "TriangleAlert",
+    "CheckCircle2": "CircleCheck",
+    "CheckIcon": "Check",
+    "ChevronDownIcon": "ChevronDown",
+    "ChevronUpIcon": "ChevronUp",
+    "Code2": "CodeXml",
+    "Filter": "Funnel",
+    "Loader2": "LoaderCircle",
+    "Trash2": "Trash",
+    "XIcon": "X"
+  }
+}

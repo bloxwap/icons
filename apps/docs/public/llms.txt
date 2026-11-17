@@ -1,0 +1,22 @@
+# Bloxwap Icons
+
+A curated vector icon catalog for React, React Native, and SVG.
+The UI package is in packages/icons. Brand and token images are in assets.
+Install @bloxwap/icons@0.1.0 from npm. React, React Native, Pro chart icons, and SVGs ship in one package.
+
+## Documentation
+- [Overview](https://bloxwap.github.io/icons/docs/)
+- [Getting started](https://bloxwap.github.io/icons/docs/getting-started/)
+- [React](https://bloxwap.github.io/icons/docs/react/)
+- [React Native](https://bloxwap.github.io/icons/docs/react-native/)
+- [Accessibility](https://bloxwap.github.io/icons/docs/accessibility/)
+- [Assets and SVG](https://bloxwap.github.io/icons/docs/assets/)
+- [Contributing](https://bloxwap.github.io/icons/docs/contributing/)
+
+## Source
+- [Repository](https://github.com/bloxwap/icons)
+- [UI package](https://github.com/bloxwap/icons/tree/v2/packages/icons)
+
+The gallery is limited to the Bloxwap monorepo usage inventory and Pro chart SVG collection.
+Interface artwork derives from Lucide; chart artwork is from Bloxwap Chart (MIT). Preserve LICENSE and NOTICE when redistributing it.
+Third-party brand marks remain the property of their respective owners.
