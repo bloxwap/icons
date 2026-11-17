@@ -3,7 +3,7 @@ on:
   pull_request:
     paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', '.github/workflows/publish_npm.yml', 'scripts/pack-ui-icons.mjs', 'scripts/release-ui-icons.mjs', 'tests/ui-icons-release.test.mjs']
   push:
-    branches: [v2]
+    branches: [main]
     paths: ['packages/icons/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/ui-icons.yml', '.github/workflows/publish_npm.yml', 'scripts/pack-ui-icons.mjs', 'scripts/release-ui-icons.mjs', 'tests/ui-icons-release.test.mjs']
 permissions:
   contents: read

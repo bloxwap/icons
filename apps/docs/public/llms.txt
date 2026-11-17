@@ -15,7 +15,7 @@ Install @bloxwap/icons@0.1.0 from npm. React, React Native, Pro chart icons, and
 
 ## Source
 - [Repository](https://github.com/bloxwap/icons)
-- [UI package](https://github.com/bloxwap/icons/tree/v2/packages/icons)
+- [UI package](https://github.com/bloxwap/icons/tree/main/packages/icons)
 
 The gallery is limited to the Bloxwap monorepo usage inventory and Pro chart SVG collection.
 Interface artwork derives from Lucide; chart artwork is from Bloxwap Chart (MIT). Preserve LICENSE and NOTICE when redistributing it.

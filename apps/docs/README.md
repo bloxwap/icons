@@ -59,7 +59,7 @@ compatibility but do not appear in the gallery. The image collections stay in
 
 `.github/workflows/icons.yml` replaces the legacy protocol-image publisher.
 It validates pull requests and uploads/deploys `apps/docs/out` from the default
-branch (currently `v2`; it also supports a future `main`). It uses `/icons` as
+branch, `main`. It uses `/icons` as
 the base path and `https://bloxwap.github.io` as the site origin.
 
 In GitHub Settings → Pages, select **GitHub Actions** as the source and clear

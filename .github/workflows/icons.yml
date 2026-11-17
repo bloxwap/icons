@@ -2,7 +2,7 @@ name: Documentation
 
 on:
   push:
-    branches: [v2, main]
+    branches: [main]
     paths: ['apps/docs/**', 'packages/icons/**', 'assets/**', 'vendor/**', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/icons.yml']
   pull_request:
     paths: ['apps/docs/**', 'packages/icons/**', 'assets/**', 'vendor/**', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.github/workflows/icons.yml']

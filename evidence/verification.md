@@ -138,6 +138,7 @@ subpaths resolved, chart defaults retained their 1.5 stroke, and the lockfile
 integrity matched. Optional native peers were not installed for the web consumer.
 Native runtime verification remains the fixture results above.
 
-The future tag-triggered CI release workflow is prepared locally and its release
-guard tests and actionlint checks pass. It still needs to be committed to GitHub
-and connected to an npm trusted publisher before the first CI release.
+The tag-triggered CI release workflow's release guard tests and actionlint checks
+pass. The later self-hosted Mac runner configuration uses the organization
+`NPM_TOKEN` instead of trusted publishing. Before a CI release, ensure a matching
+runner is available and the token has publish access, as described in the README.
