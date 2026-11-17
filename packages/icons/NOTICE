@@ -1,0 +1,5 @@
+Initial UI icon geometry is curated from lucide-react 1.61.0.
+Lucide artwork: ISC license; Feather-derived artwork: MIT license.
+The full upstream attribution and license texts are included in LICENSE.
+Github and Figma use the Lucide 0.x artwork already maintained in Bloxwap docs.
+Bloxwap packaging, adapters, and build tooling: Copyright (c) 2026 Bloxwap, ISC.

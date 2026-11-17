@@ -1,0 +1,1658 @@
+{
+  "roots": [
+    "monorepo",
+    "hig"
+  ],
+  "symbols": [
+    "Activity",
+    "AlertTriangle",
+    "Archive",
+    "ArrowDown",
+    "ArrowDownToLine",
+    "ArrowLeft",
+    "ArrowLeftRight",
+    "ArrowRight",
+    "ArrowUp",
+    "ArrowUpDown",
+    "ArrowUpFromLine",
+    "ArrowUpRight",
+    "BadgeCheck",
+    "Ban",
+    "Banknote",
+    "Briefcase",
+    "Check",
+    "CheckCircle2",
+    "CheckIcon",
+    "ChevronDown",
+    "ChevronDownIcon",
+    "ChevronLeft",
+    "ChevronRight",
+    "ChevronUpIcon",
+    "ChevronsUpDown",
+    "CircleAlert",
+    "Clock",
+    "Code",
+    "Copy",
+    "Delete",
+    "Download",
+    "Droplet",
+    "Ellipsis",
+    "ExternalLink",
+    "Eye",
+    "File",
+    "FileText",
+    "Filter",
+    "Flame",
+    "Folder",
+    "FolderOpen",
+    "FolderPlus",
+    "Gift",
+    "Globe",
+    "Hourglass",
+    "Image",
+    "ImageOff",
+    "Inbox",
+    "Info",
+    "KeyRound",
+    "Landmark",
+    "Layers",
+    "LayoutDashboard",
+    "Link",
+    "Loader2",
+    "LoaderCircle",
+    "Lock",
+    "LockKeyhole",
+    "LogOut",
+    "LucideIcon",
+    "Mail",
+    "Maximize",
+    "Menu",
+    "Minimize",
+    "Minus",
+    "MonitorSmartphone",
+    "Orbit",
+    "PenLine",
+    "Pencil",
+    "Plus",
+    "QrCode",
+    "Receipt",
+    "RefreshCw",
+    "Repeat",
+    "RotateCcw",
+    "Scale",
+    "ScanQrCode",
+    "Search",
+    "Settings",
+    "Share",
+    "Shield",
+    "ShieldCheck",
+    "Signal",
+    "Star",
+    "Trash2",
+    "TrendingDown",
+    "TrendingUp",
+    "TriangleAlert",
+    "Trophy",
+    "Upload",
+    "Users",
+    "Vibrate",
+    "VibrateOff",
+    "Volume1",
+    "Volume2",
+    "VolumeOff",
+    "Wallet",
+    "X",
+    "XIcon",
+    "Zap",
+    "createLucideIcon",
+    "icons"
+  ],
+  "contentIcons": [
+    "AudioLines",
+    "BadgeCheck",
+    "Banknote",
+    "Bell",
+    "Bitcoin",
+    "BookA",
+    "Bot",
+    "Box",
+    "ChartCandlestick",
+    "ClipboardCheck",
+    "Code",
+    "CodeXml",
+    "Coins",
+    "Figma",
+    "Handshake",
+    "House",
+    "Key",
+    "Library",
+    "Link",
+    "ListChecks",
+    "Megaphone",
+    "MessageCircleQuestionMark",
+    "Newspaper",
+    "Pill",
+    "Receipt",
+    "Scale",
+    "Server",
+    "Shield",
+    "ShieldAlert",
+    "Terminal",
+    "Trophy",
+    "Type",
+    "Users",
+    "Vibrate",
+    "Zap"
+  ],
+  "imports": [
+    {
+      "root": "monorepo",
+      "file": "apps/analytics/src/components/chart-frame.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Code",
+        "Download",
+        "Image"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/analytics/src/components/data-table.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "ChevronsUpDown",
+        "Inbox"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/analytics/src/components/sidebar.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Activity",
+        "Filter",
+        "Flame",
+        "Layers",
+        "LayoutDashboard",
+        "Menu",
+        "Receipt",
+        "Repeat",
+        "ShieldCheck",
+        "TrendingUp",
+        "Users",
+        "Wallet",
+        "X",
+        "LucideIcon"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/analytics/src/components/ui.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Inbox",
+        "TriangleAlert"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/app/not-found.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/analytics-feedback.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/geo-banner.tsx",
+      "module": "lucide-react",
+      "names": [
+        "TriangleAlert"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/hig/dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/hig/drawer.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronLeft",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/privy-load-guard.tsx",
+      "module": "lucide-react",
+      "names": [
+        "RefreshCw"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/providers.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Zap"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/referral-prompt.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/session-expired-banner.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/swing-signal-subscriber.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/tournament-drawer-content.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeft",
+        "ArrowRight",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/tournament-join-modal.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/deposit-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "AlertTriangle",
+        "Check",
+        "ChevronRight",
+        "Loader2",
+        "Search",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/leaderboard-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Copy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/position-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/profile-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "AlertTriangle",
+        "Check",
+        "KeyRound",
+        "Loader2",
+        "Pencil"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/referral-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight",
+        "Gift",
+        "ScanQrCode",
+        "Trophy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/send-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "AlertTriangle",
+        "Check",
+        "Delete",
+        "ScanQrCode",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/setting-rows.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Check",
+        "ChevronRight",
+        "ExternalLink",
+        "Loader2",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/settings-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Check",
+        "Eye",
+        "TrendingDown",
+        "TrendingUp",
+        "Vibrate",
+        "VibrateOff",
+        "Volume1",
+        "Volume2",
+        "VolumeOff",
+        "LucideIcon"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/sim-funding-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeftRight",
+        "Droplet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/sweepstakes-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ExternalLink"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/use-send-controller.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/use-withdraw-controller.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet/withdraw-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/account-sheet.tsx",
+      "module": "lucide-react",
+      "names": [
+        "QrCode",
+        "Share"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/activity-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight",
+        "Loader2",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/agent-task-dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/bloxwap-burn-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Flame",
+        "Lock"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/bloxwap-send-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Delete",
+        "Loader2",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/bottom-controls.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Loader2",
+        "Plus"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/builder-task-dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/close-payout-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/conversion-pill.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowUpDown"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/crypto-address.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Copy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/deposit-method-rows.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight",
+        "QrCode"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/history-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "ChevronRight",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/hype-staking-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Landmark"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/leaderboard-cta.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/live-activity-feed.tsx",
+      "module": "lucide-react",
+      "names": [
+        "TrendingDown",
+        "TrendingUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/login-drawer.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronDown",
+        "Mail",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/market-picker.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Eye",
+        "TrendingDown",
+        "TrendingUp",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/onboarding-hint.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/papertrade/amount-pad.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Delete"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/papertrade/deposit-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "CheckCircle2",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/papertrade/market-banner.tsx",
+      "module": "lucide-react",
+      "names": [
+        "AlertTriangle",
+        "Info"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/papertrade/queue-notice.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Hourglass"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/papertrade/stake-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Landmark"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/position-list-row.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "ChevronRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/positions-bulk-close.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/seam-arrow.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDown"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/size-lev-picker.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Banknote",
+        "Briefcase",
+        "ChevronRight",
+        "Delete",
+        "Receipt",
+        "Scale"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/sl-tp-cards.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight",
+        "Delete"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/solana-sol-send-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Delete",
+        "Loader2",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/solana-usdc-send-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronRight",
+        "Delete",
+        "Loader2",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/swap/keypad.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Delete"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/swing-signal-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "TrendingDown",
+        "TrendingUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/trade-detail-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDown",
+        "ArrowUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/trade-screen.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/trade-share-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Copy",
+        "ImageOff",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/trading/unified-send-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/ui/drawer.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronLeft",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/ui/genesis-badge-check.tsx",
+      "module": "lucide-react",
+      "names": [
+        "BadgeCheck"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/ui/notification-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "AlertTriangle",
+        "Check",
+        "Info",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/components/ui/signal-strength.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Signal"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/hooks/use-market-open-countdown-toast.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Clock"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/app/src/hooks/use-tournament-start-toast.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Trophy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/blog/src/app/not-found.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeft"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/blog/src/app/page.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/blog/src/components/article-header.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeft"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/blog/src/components/blog-shell.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowUpRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/blog/src/components/post-list.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowUpRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/blog/src/components/search-pill.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Search"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/deck/src/app/deck.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronLeft",
+        "ChevronRight",
+        "Maximize",
+        "Minimize"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/deck/src/app/download-deck.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Download",
+        "LoaderCircle"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/deck/src/app/gate-form.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight",
+        "Lock"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/deck/src/app/slide-view.tsx",
+      "module": "lucide-react",
+      "names": [
+        "LockKeyhole"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/app/(docs)/layout.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowUpRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/app/not-found.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeft"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/brand-colors.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Check",
+        "Copy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/brand-livestream-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Download"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/brand-logos.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Download"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/brand-messaging.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Check",
+        "Copy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/cluster/cluster-explorer.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Layers",
+        "Minus",
+        "Plus",
+        "RotateCcw",
+        "Orbit"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/cluster/cluster-guide.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowUpRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/contract-address.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Check",
+        "Copy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/link-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight",
+        "ArrowUpRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/lucide-brand-icons.ts",
+      "module": "lucide-react",
+      "names": [
+        "createLucideIcon"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/referral-leaderboard.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeft",
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/season01-leaderboard.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowRight",
+        "BadgeCheck"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/components/team.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Globe"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/docs/src/lib/icons.ts",
+      "module": "lucide-react",
+      "names": [
+        "icons"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/__tests__/position-rail.test.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Banknote",
+        "Receipt",
+        "Scale"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/__tests__/trade-history.test.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowDown",
+        "ArrowUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/app/trade/[asset].tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/position-card-renderers.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "ChevronRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-amount-entry.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowDown"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-deck.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronLeft",
+        "QrCode"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-deposit-renderers.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check",
+        "ChevronRight",
+        "Copy",
+        "Search",
+        "Wallet",
+        "Droplet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-icons.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Landmark"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-primitives.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Delete",
+        "TriangleAlert"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-send-composer-renderers.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronRight",
+        "ScanQrCode",
+        "TriangleAlert",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-send-renderers.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-staking-renderers.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Flame"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/account/wallet-card-withdraw-renderers.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowLeftRight",
+        "Check",
+        "ChevronRight",
+        "ScanQrCode",
+        "TriangleAlert",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/asset-pill.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Eye",
+        "TrendingDown",
+        "TrendingUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/live-activity-feed.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "TrendingDown",
+        "TrendingUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/login-drawer.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/market-picker.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check",
+        "Eye",
+        "Search",
+        "TrendingDown",
+        "TrendingUp",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/not-found-screen.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/onboarding-hint.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/position-list-row.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "ChevronRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/position-rail.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Banknote",
+        "Briefcase",
+        "Receipt",
+        "Scale"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/size-lev-risk-composer.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronRight",
+        "Delete"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/size-lev-sheet.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronLeft",
+        "ChevronRight",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/tap-controls.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Plus"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/components/trade-history.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowDown",
+        "ArrowUp",
+        "ChevronRight"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/hig/language-picker.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/advanced-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowRight",
+        "Check",
+        "LoaderCircle",
+        "TriangleAlert",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/choose-avatar-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/demo-account-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Droplet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/export-wallet-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "KeyRound"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/referral-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronRight",
+        "ScanQrCode"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/referral-leaderboard-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Trophy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/referrals-list-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Gift"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/signals-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "BadgeCheck",
+        "Eye",
+        "TrendingDown",
+        "TrendingUp",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/signing-account-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/sweepstakes-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ExternalLink"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/cards/trade-detail-card.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ArrowDown",
+        "ArrowUp"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/genesis-badge.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "BadgeCheck"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/profile-sheet-body.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronLeft",
+        "QrCode",
+        "Share",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/root-menu.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "PenLine",
+        "Vibrate",
+        "Volume2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/mobile/src/profile/rows.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "ChevronRight",
+        "ExternalLink"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/account/account-summary.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDownToLine",
+        "ArrowUpFromLine",
+        "RefreshCw",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/account/deposit-dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "AlertTriangle",
+        "ArrowLeft",
+        "Check",
+        "ChevronRight",
+        "Copy",
+        "Loader2",
+        "Search"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/account/withdraw-dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowLeft",
+        "ChevronRight",
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/analytics-feedback.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/bottom-panel/data-table.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Inbox"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/chrome/geo-banner.tsx",
+      "module": "lucide-react",
+      "names": [
+        "TriangleAlert"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/command-bar/command-bar.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Star"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/command-bar/page-filters.ts",
+      "module": "lucide-react",
+      "names": [
+        "Settings",
+        "TrendingUp",
+        "Trophy",
+        "Wallet",
+        "LucideIcon"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/hig/dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/hig/market-row.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Star"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/layout/mobile-fallback.tsx",
+      "module": "lucide-react",
+      "names": [
+        "MonitorSmartphone"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/leaderboard/leaderboard-view.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ChevronLeft",
+        "ChevronRight",
+        "Trophy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/nav/connect-wallet-button.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDownToLine",
+        "ChevronsUpDown",
+        "LogOut"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/nav/top-bar.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Search"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/nav/wallet-address-card.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Check",
+        "Copy"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/order-ticket/chase-runner.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Loader2"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/order-ticket/order-ticket.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Loader2",
+        "ChevronDown",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "apps/pro/src/components/portfolio/portfolio-view.tsx",
+      "module": "lucide-react",
+      "names": [
+        "ArrowDownToLine",
+        "ArrowUpFromLine",
+        "Wallet"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "packages/ui/src/components/dialog.tsx",
+      "module": "lucide-react",
+      "names": [
+        "XIcon"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "packages/ui/src/components/select.tsx",
+      "module": "lucide-react",
+      "names": [
+        "CheckIcon",
+        "ChevronDownIcon",
+        "ChevronUpIcon"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "packages/ui-native/src/components/signal-strength.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Signal"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "packages/ui-native/src/components/toast.tsx",
+      "module": "lucide-react-native",
+      "names": [
+        "Check",
+        "Info",
+        "TrendingDown",
+        "TrendingUp",
+        "TriangleAlert",
+        "X"
+      ]
+    },
+    {
+      "root": "monorepo",
+      "file": "tooling/hig/toasts/main.tsx",
+      "module": "lucide-react",
+      "names": [
+        "Copy",
+        "Loader2",
+        "Trophy"
+      ]
+    }
+  ],
+  "plainIcons": [
+    "archive",
+    "ban",
+    "check",
+    "chevron-down",
+    "chevron-left",
+    "chevron-right",
+    "circle-alert",
+    "clock",
+    "copy",
+    "download",
+    "ellipsis",
+    "eye",
+    "file",
+    "file-text",
+    "folder",
+    "folder-open",
+    "folder-plus",
+    "inbox",
+    "link",
+    "loader-circle",
+    "lock",
+    "log-out",
+    "pencil",
+    "plus",
+    "shield",
+    "trash-2",
+    "upload",
+    "x"
+  ]
+}
